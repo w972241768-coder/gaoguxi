@@ -26,8 +26,8 @@ h2{font-size:18.5px;margin:0 0 6px;padding-bottom:10px;border-bottom:2px solid v
 h2 .no{font-size:11px;color:#fff;background:var(--pri);border-radius:6px;padding:2px 8px;font-weight:600}
 h3{font-size:15px;margin:19px 0 8px;color:#16306b}
 p{margin:9px 0}.lead{color:var(--mut);font-size:13px;margin:0 0 13px}
-table{width:100%;border-collapse:collapse;font-size:12.5px;margin:10px 0}
-th,td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+table{width:100%;border-collapse:collapse;font-size:12.5px;margin:10px 0;table-layout:auto}
+th,td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top;overflow-wrap:anywhere;word-break:break-word}
 th{background:#f8fafc;font-weight:600;color:#334155;font-size:12px}
 tbody tr:nth-child(even){background:#fcfdff}
 td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
@@ -68,16 +68,102 @@ td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 ul,ol{margin:8px 0;padding-left:22px}li{margin:4px 0}
 footer{color:var(--mut);font-size:11.5px;text-align:center;padding:20px 0 0;border-top:1px solid var(--line);margin-top:24px}
 .srcline{border-top:1px dashed var(--line);margin-top:14px;padding-top:9px;font-size:11.5px;color:var(--mut)}
+
+/* ===== 桌面：宽表独立横向滚动、首列固定、最小宽度防"细长" ===== */
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:8px;margin:10px 0}
+.tw table{margin:0;border:0}
+.tw.wide table{min-width:1060px}
+.tw table thead th{position:sticky;top:0;z-index:2;background:#f1f5f9}
+.scroll table{min-width:980px}
+.tw table td:first-child,.scroll table td:first-child{position:sticky;left:0;z-index:1;background:#fff}
+.tw table thead th:first-child,.scroll table thead th:first-child{left:0;z-index:3;background:#f1f5f9}
+.scroll table tbody tr:nth-child(even) td:first-child{background:#fcfdff}
+
+/* ===== 手机：所有表格 → 紧凑卡片，根治溢出与细长 ===== */
+@media(max-width:720px){
+ .wrap{padding:0 12px 48px}
+ .hero{padding:22px 0 18px}
+ .hero h1{font-size:21px}
+ .hero p{font-size:12.5px}
+ .stamp span{font-size:10.5px;padding:2px 9px}
+ nav{padding:8px 0;margin-bottom:13px}
+ nav a{font-size:12px;padding:4px 10px}
+ nav .right{display:none}
+ .card{padding:14px 12px;border-radius:10px;margin-bottom:13px}
+ h2{font-size:16px;padding-bottom:8px}
+ h3{font-size:14px}
+ .kpi{grid-template-columns:repeat(2,1fr);gap:8px}
+ .kpi b{font-size:19px}
+ .tiles{grid-template-columns:1fr;gap:9px}
+ .co{padding:10px 12px;font-size:13px}
+ .toolbar input{width:100%}
+ .grid2{grid-template-columns:1fr}
+ .scroll{max-height:none;overflow:visible;border:0;border-radius:0}
+ .tw{border:0;border-radius:0;margin:8px 0;overflow:visible}
+ table,table thead,table tbody,table tr,table th,table td{display:block;width:auto!important;min-width:0!important}
+ table,.tw table,.scroll table{margin:0;background:none;border:0;font-size:13px}
+ thead{display:none!important}
+ tbody tr,.scroll tbody tr,.tw tbody tr{display:grid;grid-template-columns:1fr 1fr;
+   border:1px solid var(--line);border-radius:10px;background:#fff!important;
+   margin:0 0 10px;padding:5px 6px;box-shadow:0 1px 2px rgba(16,24,40,.05)}
+ tbody tr.hl{background:#fffbeb!important;border-color:#f0dca4}
+ td,.scroll table td,.tw table td{position:static!important;border:0!important;
+   border-bottom:1px dashed #edf0f4!important;padding:4px 9px!important;min-width:0;
+   text-align:left!important;white-space:normal;font-size:12.5px;
+   display:flex;flex-direction:column;gap:1px;background:none!important;
+   font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+ td::before{content:attr(data-label);font-size:10.5px;line-height:1.35;color:var(--mut);font-weight:500}
+ td:not([data-label])::before{content:''}
+ td:first-child{grid-column:1/-1;background:#f3f6fb!important;border-radius:6px;
+   border-bottom:1px solid #e3e9f3!important;margin-bottom:3px;font-size:13.5px}
+ td.long{grid-column:1/-1}
+ td:last-child{border-bottom:0!important}
+ .tag{font-size:10.5px}
+ footer{font-size:11px;overflow-wrap:anywhere}
+}
 @media print{nav{display:none}.card{break-inside:avoid}body{background:#fff}}
-</style><script>var D={"core": 8, "satellite": 9, "watch": 9, "new": 64, "market": {"nature_total": 5565, "soe": 1377, "dividend_stocks": 4582, "pass_A": 1366, "cand_soe_A": 324, "cand_with_price": 300, "yield_ge4": 68, "new_ge4": 64}, "asof": "2026-11-12", "cross": ["中国平安", "格力电器", "华润江中", "有友食品"]};</script></head><body>
+</style><script>
+function paintTables(){
+ var tabs=document.querySelectorAll('table');
+ Array.prototype.forEach.call(tabs,function(t){
+  var hs=[];
+  Array.prototype.forEach.call(t.querySelectorAll('thead th'),function(x){hs.push(x.textContent.trim());});
+  Array.prototype.forEach.call(t.querySelectorAll('tbody tr'),function(tr){
+   Array.prototype.forEach.call(tr.cells,function(td,i){
+    if(hs[i]!=null&&!td.hasAttribute('data-label'))td.setAttribute('data-label',hs[i]);
+    var txt=(td.textContent||'').trim();
+    if(txt.length>22)td.classList.add('long');
+   });
+  });
+ });
+}
+</script><script>var D={"core": 8, "satellite": 9, "watch": 9, "new": 64, "market": {"nature_total": 5565, "soe": 1377, "dividend_stocks": 4582, "pass_A": 1366, "cand_soe_A": 324, "cand_with_price": 300, "yield_ge4": 68, "new_ge4": 64}, "asof": "2026-11-12", "cross": ["中国平安", "格力电器", "华润江中", "有友食品"]};</script></head><body>
 <div class="hero"><div class="wrap"><div class="kick">High Dividend Research · Crocodile School</div>
 <h1>总览</h1><p>攒股本、让股息覆盖生活支出 —— 用真实分红/年报/周线数据构建的可审阅研究站</p>
 <div class="stamp"><span>数据截至 2026-11-12 收盘</span><span>分红窗口 2021–2026</span><span>周线 66 周</span><span>数据源 pandadata</span></div>
 </div></div>
 <nav><div class="wrap"><a href="index.html" class="on">总览</a><a href="research.html">研究框架</a><a href="pool.html">选定池子</a><a href="watch.html">观察清单</a><span class="right">数据快照 · 非实时行情</span></div></nav>
 <div class="wrap">
-<section class="card"><h2><span class="no">00</span>这站在讲什么</h2>
-<p class="lead">把「鳄鱼派」高股息理念落成可执行规则，并用真实分红、年报财务、原生周线数据对其点名标的逐只体检；同时做全市场扫描，列出池外可关注的公司。</p>
+<section class="card" id="mainpool"><h2><span class="no">01</span>主池子 · 核心池 8 只（底仓）</h2>
+<p class="lead">进来先看这里：8 只核心标的的全部关键参数。章程/承诺型央企国企 ∩ 分红质量 A 筛通过；
+中国移动、中国电信为「条件通过」（A 股上市不足 5 年，已用上市日期核验）。<b>手机端自动切换为每只一张的卡片视图</b>。</p>
+<div class="tw wide"><table><thead><tr><th>标的</th><th>企业性质</th><th>收盘价</th><th>中位票息%</th><th>最新财年%</th><th>TTM票息%</th><th>连续年</th><th>CV</th><th>周MA60</th><th>偏离%</th><th>买点</th><th>派息率%</th><th>FCF覆盖</th></tr></thead><tbody><tr><td><b>中国神华</b><br><span class="small">601088.SH</span></td><td class="small"><span class="small">中央国有企业</span></td><td class="n">48.65</td><td class="n">5.22</td><td class="n"><b>4.13</b></td><td class="n">4.13</td><td class="n">5</td><td class="n">0.19</td><td class="n">44.26</td><td class="n">9.67</td><td><span class="tag">线上·不追</span></td><td class="n">79.1</td><td class="n">0.64</td></tr><tr class="hl"><td><b>中国平安</b><br><span class="small">601318.SH</span></td><td class="small"><span class="small">公众企业</span></td><td class="n">53.25</td><td class="n">4.56</td><td class="n"><b>5.13</b></td><td class="n">5.13</td><td class="n">5</td><td class="n">0.04</td><td class="n">57.54</td><td class="n">-5.28</td><td><span class="tag t">线下·符合买点</span></td><td class="n">36.3</td><td class="n">13.30</td></tr><tr><td><b>中国移动</b><br><span class="small">600941.SH</span></td><td class="small"><span class="small">中央国有企业</span></td><td class="n">98.23</td><td class="n">4.46</td><td class="n"><b>4.80</b></td><td class="n">4.80</td><td class="n">4</td><td class="n">0.07</td><td class="n">98.74</td><td class="n">4.81</td><td><span class="tag">线上·不追</span></td><td class="n">74.3</td><td class="n">0.75</td></tr><tr><td><b>招商银行</b><br><span class="small">600036.SH</span></td><td class="small"><span class="small">公众企业</span></td><td class="n">42.46</td><td class="n">4.09</td><td class="n"><b>4.75</b></td><td class="n">4.75</td><td class="n">5</td><td class="n">0.17</td><td class="n">40.08</td><td class="n">6.99</td><td><span class="tag">线上·不追</span></td><td class="n">33.9</td><td class="n">8.33</td></tr><tr><td><b>中国电信</b><br><span class="small">601728.SH</span></td><td class="small"><span class="small">中央国有企业</span></td><td class="n">6.61</td><td class="n">4.02</td><td class="n"><b>3.80</b></td><td class="n">3.80</td><td class="n">4</td><td class="n">0.10</td><td class="n">6.29</td><td class="n">9.81</td><td><span class="tag">线上·不追</span></td><td class="n">75.0</td><td class="n">2.06</td></tr><tr><td><b>中国石油</b><br><span class="small">601857.SH</span></td><td class="small"><span class="small">中央国有企业</span></td><td class="n">12.00</td><td class="n">3.58</td><td class="n"><b>4.25</b></td><td class="n">4.25</td><td class="n">5</td><td class="n">0.26</td><td class="n">10.59</td><td class="n">19.94</td><td><span class="tag">线上·不追</span></td><td class="n">54.7</td><td class="n">1.39</td></tr><tr><td><b>工商银行</b><br><span class="small">601398.SH</span></td><td class="small"><span class="small">中央国有企业</span></td><td class="n">8.60</td><td class="n">3.53</td><td class="n"><b>3.72</b></td><td class="n">5.37</td><td class="n">5</td><td class="n">0.20</td><td class="n">7.66</td><td class="n">10.18</td><td><span class="tag">线上·不追</span></td><td class="n">30.0</td><td class="n">16.75</td></tr><tr><td><b>长江电力</b><br><span class="small">600900.SH</span></td><td class="small"><span class="small">中央国有企业</span></td><td class="n">29.51</td><td class="n">2.78</td><td class="n"><b>3.39</b></td><td class="n">3.39</td><td class="n">5</td><td class="n">0.09</td><td class="n">27.68</td><td class="n">8.04</td><td><span class="tag">线上·不追</span></td><td class="n">70.9</td><td class="n">1.72</td></tr></tbody></table></div>
+<div class="co teal"><b>怎么读这张表：</b><b>最新财年票息</b>与 <b>TTM 票息</b> 是当下真实到手水平，
+<b>中位票息</b> 只是「假设回到历史水平」的参考值，三者背离本身就是信号；
+<b>买点</b> 绿标＝最新周收盘在周 K 60 线以下，可按 S3 分批，其余应停止买入、等回落；
+<b>FCF 覆盖</b>＜1 表示自由现金流不足以覆盖分红（银行/保险口径失真，需单独看）。全部票息<b>税前</b>。</div>
+<p class="small">卫星池 9 只、待核隔离区 9 只与完整字段说明 → <a href="pool.html">选定池子</a>；
+池外 64 只可关注清单 → <a href="watch.html">观察清单</a>。</p>
+</section>
+
+<section class="card"><h2><span class="no">02</span>现在同时满足买点的 4 只（定池 ∩ 周 K 60 线下）</h2>
+<p class="lead">点名池 26 只里只有 7 只在周 K 60 线以下；叠加分红质量合格，只剩这 4 只既过 S1/S2 又过 S3。</p>
+<div class="tw"><table><thead><tr><th>标的</th><th>层级</th><th class="n">偏离MA60%</th><th class="n">最新财年票息%</th><th class="n">派息率%</th><th>判断</th></tr></thead><tbody><tr class="hl"><td><b>中国平安</b><br><span class="small">601318.SH</span></td><td>核心池(底仓)</td><td class="n">-5.28</td><td class="n">5.13</td><td class="n">36.3</td><td class="small">定池通过 + 周K60线下，可按 S3 三段式首笔试错</td></tr><tr class="hl"><td><b>格力电器</b><br><span class="small">000651.SZ</span></td><td>卫星池(活动仓)</td><td class="n">-0.62</td><td class="n">7.71</td><td class="n">57.9</td><td class="small">定池通过 + 周K60线下，可按 S3 三段式首笔试错</td></tr><tr class="hl"><td><b>华润江中</b><br><span class="small">600750.SH</span></td><td>卫星池(活动仓)</td><td class="n">-2.13</td><td class="n">6.10</td><td class="n">96.7</td><td class="small">定池通过 + 周K60线下，可按 S3 三段式首笔试错</td></tr><tr class="hl"><td><b>有友食品</b><br><span class="small">603697.SH</span></td><td>卫星池(活动仓)</td><td class="n">-11.11</td><td class="n">4.74</td><td class="n">96.8</td><td class="small">定池通过 + 周K60线下，可按 S3 三段式首笔试错</td></tr></tbody></table></div>
+<div class="co warn"><b>注意：</b>另外 3 只虽在周 K 60 线以下（同仁堂 −10.25%、大秦铁路 −6.04%、双汇发展 −4.14%），
+但都因分红数据问题留在待核隔离区 —— <b>便宜不等于能进底仓</b>，这正是「先质量、后买点」顺序的意义。</div>
+</section>
+
+<section class="card"><h2><span class="no">03</span>全站速览</h2>
 <div class="kpi">
 <div><b>8 只</b><span>核心池 · 底仓</span></div>
 <div><b>9 只</b><span>卫星池 · 活动仓</span></div>
@@ -95,7 +181,7 @@ footer{color:var(--mut);font-size:11.5px;text-align:center;padding:20px 0 0;bord
 <a class="tile" href="watch.html"><b>观察清单 →</b><span>点名但未入池 9 只 · 全市场新增候选 · 周线买点状态</span></a>
 </div></section>
 
-<section class="card"><h2><span class="no">01</span>目前最值得记住的五个结论</h2>
+<section class="card"><h2><span class="no">04</span>目前最值得记住的五个结论</h2>
 <div class="co dan"><b>① 大秦铁路的「10% 股息率」是幻觉。</b>用五年中位每股股息 0.48 除当前价得 10.04%，
 但公司 2025 年起每股分红降到 0.22，<b>近 12 个月实际到手票息只有 4.64%</b>；
 2025 年报显示其自由现金流覆盖 −5.01（经营现金流 49.9 亿 vs 资本开支 271.8 亿），分红腰斩是现金流所迫。已在待核区。</div>
@@ -110,7 +196,7 @@ footer{color:var(--mut);font-size:11.5px;text-align:center;padding:20px 0 0;bord
 <b>严格股票主体交集 = 0</b>——长电、神华、工行、移动等从未进过「破 60 日线 + 低 PB」扫描池。这不是漏筛，是目标函数不同。</div>
 </section>
 
-<section class="card"><h2><span class="no">02</span>数据口径速查</h2>
+<section class="card"><h2><span class="no">05</span>数据口径速查</h2>
 <table><thead><tr><th style="width:22%">项</th><th>口径</th></tr></thead><tbody>
 <tr><td>每股股息</td><td><code>div_cash_gross ÷ round_lot(通常10)</code>，按 <b>ex_date 除权年度</b>聚合；窗口内两次 10→14 送转已按 /1.4 复权对齐</td></tr>
 <tr><td>三种票息</td><td><b>中位</b>＝近5年年度每股股息中位÷收盘价（假设回到历史水平）；<b>最新财年</b>＝2025财年每股股息÷收盘价；<b>TTM</b>＝近12个月实际除权股息÷收盘价。均为<b>税前</b></td></tr>
@@ -121,7 +207,7 @@ footer{color:var(--mut);font-size:11.5px;text-align:center;padding:20px 0 0;bord
 <p class="srcline">数据来源：pandadata Connector（get_stock_cash_dividend / get_stock_dividend_amount / get_stock_split /
 get_stock_daily / get_stock_weekly / get_stock_detail / get_stock_equity_nature / get_fina_reports）。
 所有派生指标均为本地计算，可复现脚本与原始数据表见仓库 <code>data/</code>。</p>
-</section>
+</section><script>paintTables();</script>
 <footer>高股息研究站 · 数据截至 2026-11-12 · 仅为方法论研究与数据整理，不构成投资建议、不承诺收益<br>
 仓库 <a href="https://github.com/w972241768-coder/gaoguxi">w972241768-coder/gaoguxi</a> · 全部数据来自 pandadata Connector 真实返回</footer>
 </div></body></html>

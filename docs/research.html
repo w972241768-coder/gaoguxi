@@ -26,8 +26,8 @@ h2{font-size:18.5px;margin:0 0 6px;padding-bottom:10px;border-bottom:2px solid v
 h2 .no{font-size:11px;color:#fff;background:var(--pri);border-radius:6px;padding:2px 8px;font-weight:600}
 h3{font-size:15px;margin:19px 0 8px;color:#16306b}
 p{margin:9px 0}.lead{color:var(--mut);font-size:13px;margin:0 0 13px}
-table{width:100%;border-collapse:collapse;font-size:12.5px;margin:10px 0}
-th,td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+table{width:100%;border-collapse:collapse;font-size:12.5px;margin:10px 0;table-layout:auto}
+th,td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top;overflow-wrap:anywhere;word-break:break-word}
 th{background:#f8fafc;font-weight:600;color:#334155;font-size:12px}
 tbody tr:nth-child(even){background:#fcfdff}
 td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
@@ -68,8 +68,76 @@ td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 ul,ol{margin:8px 0;padding-left:22px}li{margin:4px 0}
 footer{color:var(--mut);font-size:11.5px;text-align:center;padding:20px 0 0;border-top:1px solid var(--line);margin-top:24px}
 .srcline{border-top:1px dashed var(--line);margin-top:14px;padding-top:9px;font-size:11.5px;color:var(--mut)}
+
+/* ===== 桌面：宽表独立横向滚动、首列固定、最小宽度防"细长" ===== */
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:8px;margin:10px 0}
+.tw table{margin:0;border:0}
+.tw.wide table{min-width:1060px}
+.tw table thead th{position:sticky;top:0;z-index:2;background:#f1f5f9}
+.scroll table{min-width:980px}
+.tw table td:first-child,.scroll table td:first-child{position:sticky;left:0;z-index:1;background:#fff}
+.tw table thead th:first-child,.scroll table thead th:first-child{left:0;z-index:3;background:#f1f5f9}
+.scroll table tbody tr:nth-child(even) td:first-child{background:#fcfdff}
+
+/* ===== 手机：所有表格 → 紧凑卡片，根治溢出与细长 ===== */
+@media(max-width:720px){
+ .wrap{padding:0 12px 48px}
+ .hero{padding:22px 0 18px}
+ .hero h1{font-size:21px}
+ .hero p{font-size:12.5px}
+ .stamp span{font-size:10.5px;padding:2px 9px}
+ nav{padding:8px 0;margin-bottom:13px}
+ nav a{font-size:12px;padding:4px 10px}
+ nav .right{display:none}
+ .card{padding:14px 12px;border-radius:10px;margin-bottom:13px}
+ h2{font-size:16px;padding-bottom:8px}
+ h3{font-size:14px}
+ .kpi{grid-template-columns:repeat(2,1fr);gap:8px}
+ .kpi b{font-size:19px}
+ .tiles{grid-template-columns:1fr;gap:9px}
+ .co{padding:10px 12px;font-size:13px}
+ .toolbar input{width:100%}
+ .grid2{grid-template-columns:1fr}
+ .scroll{max-height:none;overflow:visible;border:0;border-radius:0}
+ .tw{border:0;border-radius:0;margin:8px 0;overflow:visible}
+ table,table thead,table tbody,table tr,table th,table td{display:block;width:auto!important;min-width:0!important}
+ table,.tw table,.scroll table{margin:0;background:none;border:0;font-size:13px}
+ thead{display:none!important}
+ tbody tr,.scroll tbody tr,.tw tbody tr{display:grid;grid-template-columns:1fr 1fr;
+   border:1px solid var(--line);border-radius:10px;background:#fff!important;
+   margin:0 0 10px;padding:5px 6px;box-shadow:0 1px 2px rgba(16,24,40,.05)}
+ tbody tr.hl{background:#fffbeb!important;border-color:#f0dca4}
+ td,.scroll table td,.tw table td{position:static!important;border:0!important;
+   border-bottom:1px dashed #edf0f4!important;padding:4px 9px!important;min-width:0;
+   text-align:left!important;white-space:normal;font-size:12.5px;
+   display:flex;flex-direction:column;gap:1px;background:none!important;
+   font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+ td::before{content:attr(data-label);font-size:10.5px;line-height:1.35;color:var(--mut);font-weight:500}
+ td:not([data-label])::before{content:''}
+ td:first-child{grid-column:1/-1;background:#f3f6fb!important;border-radius:6px;
+   border-bottom:1px solid #e3e9f3!important;margin-bottom:3px;font-size:13.5px}
+ td.long{grid-column:1/-1}
+ td:last-child{border-bottom:0!important}
+ .tag{font-size:10.5px}
+ footer{font-size:11px;overflow-wrap:anywhere}
+}
 @media print{nav{display:none}.card{break-inside:avoid}body{background:#fff}}
-</style><script>var D={"market": {"nature_total": 5565, "soe": 1377, "dividend_stocks": 4582, "pass_A": 1366, "cand_soe_A": 324, "cand_with_price": 300, "yield_ge4": 68, "new_ge4": 64}};</script></head><body>
+</style><script>
+function paintTables(){
+ var tabs=document.querySelectorAll('table');
+ Array.prototype.forEach.call(tabs,function(t){
+  var hs=[];
+  Array.prototype.forEach.call(t.querySelectorAll('thead th'),function(x){hs.push(x.textContent.trim());});
+  Array.prototype.forEach.call(t.querySelectorAll('tbody tr'),function(tr){
+   Array.prototype.forEach.call(tr.cells,function(td,i){
+    if(hs[i]!=null&&!td.hasAttribute('data-label'))td.setAttribute('data-label',hs[i]);
+    var txt=(td.textContent||'').trim();
+    if(txt.length>22)td.classList.add('long');
+   });
+  });
+ });
+}
+</script><script>var D={"market": {"nature_total": 5565, "soe": 1377, "dividend_stocks": 4582, "pass_A": 1366, "cand_soe_A": 324, "cand_with_price": 300, "yield_ge4": 68, "new_ge4": 64}};</script></head><body>
 <div class="hero"><div class="wrap"><div class="kick">High Dividend Research · Crocodile School</div>
 <h1>研究框架</h1><p>攒股本、让股息覆盖生活支出 —— 用真实分红/年报/周线数据构建的可审阅研究站</p>
 <div class="stamp"><span>数据截至 2026-11-12 收盘</span><span>分红窗口 2021–2026</span><span>周线 66 周</span><span>数据源 pandadata</span></div>
@@ -144,7 +212,7 @@ footer{color:var(--mut);font-size:11.5px;text-align:center;padding:20px 0 0;bord
 真正收紧名单的是企业性质 + 最新财年不偏离 + 股息率。章程承诺、FCF 质量、高管兑现记录仍需人工核验。</div>
 </section>
 <script>var m=D.market,ids=['nature_total','soe','dividend_stocks','pass_A','cand_soe_A','cand_with_price','yield_ge4','new_ge4'];
-ids.forEach(function(k,i){document.getElementById('k'+(i+1)).textContent=m[k];});</script>
+ids.forEach(function(k,i){document.getElementById('k'+(i+1)).textContent=m[k];});</script><script>paintTables();</script>
 <footer>高股息研究站 · 数据截至 2026-11-12 · 仅为方法论研究与数据整理，不构成投资建议、不承诺收益<br>
 仓库 <a href="https://github.com/w972241768-coder/gaoguxi">w972241768-coder/gaoguxi</a> · 全部数据来自 pandadata Connector 真实返回</footer>
 </div></body></html>

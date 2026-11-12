@@ -1,0 +1,6 @@
+# 本地校验临时产物
+_check.js
+_chk_*.js
+_err_*.txt
+__pycache__/
+*.pyc
