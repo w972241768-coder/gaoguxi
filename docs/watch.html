@@ -1,0 +1,141 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#1d4ed8">
+<link rel="manifest" href="manifest.json">
+<title>观察清单 · 高股息研究</title><style>
+:root{--bg:#f5f6f8;--card:#fff;--tx:#1f2937;--mut:#6b7280;--line:#e5e7eb;--pri:#1d4ed8;
+--pri-l:#eff4ff;--teal:#0f766e;--teal-l:#ecfdf5;--warn:#b45309;--warn-l:#fffbeb;
+--dan:#b91c1c;--dan-l:#fef2f2;--red:#c62828}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:14px/1.72 system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px 70px}
+.hero{background:linear-gradient(120deg,#16306b 0%,#1d4ed8 62%,#2f6fd0 100%);color:#fff;padding:34px 0 28px}
+.hero .wrap{padding-bottom:0}
+.kick{font-size:11px;letter-spacing:2px;opacity:.8;text-transform:uppercase}
+.hero h1{margin:7px 0 8px;font-size:27px;line-height:1.3}
+.hero p{margin:0;opacity:.92;font-size:13.5px}
+.stamp{margin-top:13px;display:flex;gap:8px;flex-wrap:wrap}
+.stamp span{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.28);border-radius:18px;padding:2px 12px;font-size:11.5px}
+nav{position:sticky;top:0;z-index:9;background:rgba(245,246,248,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:10px 0;margin-bottom:20px}
+nav .wrap{display:flex;gap:7px;flex-wrap:wrap;padding-top:0;padding-bottom:0;align-items:center}
+nav a{color:var(--pri);background:#fff;border:1px solid #dbe4f7;border-radius:17px;padding:4px 13px;font-size:12.5px;text-decoration:none;white-space:nowrap}
+nav a.on{background:var(--pri);color:#fff;border-color:var(--pri)}
+nav .right{margin-left:auto;font-size:11.5px;color:var(--mut)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:21px 24px;margin:0 0 18px;box-shadow:0 1px 3px rgba(16,24,40,.04)}
+h2{font-size:18.5px;margin:0 0 6px;padding-bottom:10px;border-bottom:2px solid var(--pri);display:flex;align-items:baseline;gap:9px}
+h2 .no{font-size:11px;color:#fff;background:var(--pri);border-radius:6px;padding:2px 8px;font-weight:600}
+h3{font-size:15px;margin:19px 0 8px;color:#16306b}
+p{margin:9px 0}.lead{color:var(--mut);font-size:13px;margin:0 0 13px}
+table{width:100%;border-collapse:collapse;font-size:12.5px;margin:10px 0}
+th,td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+th{background:#f8fafc;font-weight:600;color:#334155;font-size:12px}
+tbody tr:nth-child(even){background:#fcfdff}
+td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.small{font-size:11.5px;color:var(--mut)}
+.kpi{display:grid;grid-template-columns:repeat(auto-fit,minmax(135px,1fr));gap:10px;margin:14px 0}
+.kpi div{background:var(--pri-l);border:1px solid #dbe4f7;border-radius:10px;padding:11px 13px}
+.kpi b{display:block;font-size:22px;color:var(--pri);line-height:1.2;font-variant-numeric:tabular-nums}
+.kpi span{font-size:11.5px;color:var(--mut)}
+.co{border-left:4px solid var(--pri);background:var(--pri-l);padding:11px 16px;border-radius:0 8px 8px 0;margin:12px 0}
+.co.warn{border-color:var(--warn);background:var(--warn-l)}
+.co.dan{border-color:var(--dan);background:var(--dan-l)}
+.co.teal{border-color:var(--teal);background:var(--teal-l)}
+.co b{color:#16306b}.co.dan b{color:var(--dan)}.co.warn b{color:var(--warn)}.co.teal b{color:var(--teal)}
+.tag{display:inline-block;font-size:11px;padding:1px 8px;border-radius:11px;border:1px solid var(--line);background:#f8fafc;color:var(--mut);white-space:nowrap}
+.tag.t{background:var(--teal-l);border-color:#a7f3d0;color:var(--teal)}
+.tag.a{background:var(--dan-l);border-color:#fecaca;color:var(--dan)}
+.tag.b{background:var(--warn-l);border-color:#fde68a;color:var(--warn)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+@media(max-width:820px){.grid2{grid-template-columns:1fr}}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:13px;margin:14px 0}
+.tile{display:block;background:#fff;border:1px solid var(--line);border-radius:11px;padding:16px 18px;text-decoration:none;color:inherit;transition:.15s}
+.tile:hover{border-color:var(--pri);box-shadow:0 3px 12px rgba(29,78,216,.12);transform:translateY(-1px)}
+.tile b{display:block;font-size:15.5px;color:#16306b;margin-bottom:4px}
+.tile span{font-size:12px;color:var(--mut)}
+.scroll{max-height:560px;overflow:auto;border:1px solid var(--line);border-radius:8px}
+.scroll table{margin:0;border:0}
+.scroll th{position:sticky;top:0;background:#f1f5f9;z-index:2}
+.hl{background:#fff8e1!important}
+.toolbar{display:flex;gap:7px;flex-wrap:wrap;margin:11px 0 7px}
+.toolbar button{font:inherit;font-size:12px;padding:5px 12px;border-radius:16px;border:1px solid #dbe4f7;background:#fff;color:var(--pri);cursor:pointer}
+.toolbar button.on{background:var(--pri);color:#fff;border-color:var(--pri)}
+.toolbar input{font:inherit;font-size:12px;padding:5px 11px;border:1px solid var(--line);border-radius:16px;width:170px;outline:none}
+.step{border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin:9px 0;background:#fff}
+.step h4{margin:0 0 5px;font-size:14px;color:#16306b}
+.side{float:right;font-size:11px;padding:2px 9px;border-radius:11px;font-weight:600}
+.side.auto{background:var(--teal-l);color:var(--teal)}
+.side.man{background:var(--warn-l);color:var(--warn)}
+ul,ol{margin:8px 0;padding-left:22px}li{margin:4px 0}
+footer{color:var(--mut);font-size:11.5px;text-align:center;padding:20px 0 0;border-top:1px solid var(--line);margin-top:24px}
+.srcline{border-top:1px dashed var(--line);margin-top:14px;padding-top:9px;font-size:11.5px;color:var(--mut)}
+@media print{nav{display:none}.card{break-inside:avoid}body{background:#fff}}
+</style><script>var D={"watch": [{"代码": "601006.SH", "名称": "大秦铁路", "层级": "待核隔离区", "企业性质": "中央国有企业", "原文分类": "章程承诺型央企", "收盘价": 4.78, "中位票息": 10.04, "最新财年票息": 4.64, "TTM票息": 4.64, "连续年数": 5, "CV": 0.248, "最新": 0.46, "周MA60": 5.19, "最新周收盘": 4.88, "偏离": -6.04, "买点": "线下·符合买点", "派息率": 75.0, "FCF覆盖": -5.01, "年度分红亿": 44.26, "状态": "未通过", "否决原因": "最新财年分红偏离历史中位", "备注": ""}, {"代码": "000895.SZ", "名称": "双汇发展", "层级": "待核隔离区", "企业性质": "外资企业", "原文分类": "消费现金奶牛", "收盘价": 24.24, "中位票息": 6.93, "最新财年票息": 3.3, "TTM票息": 3.3, "连续年数": 5, "CV": 0.128, "最新": 0.48, "周MA60": 25.58, "最新周收盘": 24.52, "偏离": -4.14, "买点": "线下·符合买点", "派息率": 98.4, "FCF覆盖": 1.28, "年度分红亿": 50.24, "状态": "未通过", "否决原因": "最新财年分红偏离历史中位", "备注": ""}, {"代码": "600028.SH", "名称": "中国石化", "层级": "待核隔离区", "企业性质": "中央国有企业", "原文分类": "承诺型央企", "收盘价": 5.62, "中位票息": 6.05, "最新财年票息": 3.86, "TTM票息": 3.86, "连续年数": 5, "CV": 0.238, "最新": 0.64, "周MA60": 5.55, "最新周收盘": 5.8, "偏离": 4.58, "买点": "线上·不追", "派息率": 76.1, "FCF覆盖": 1.19, "年度分红亿": 242.06, "状态": "未通过", "否决原因": "最新财年分红偏离历史中位", "备注": ""}, {"代码": "600566.SH", "名称": "济川药业", "层级": "待核隔离区", "企业性质": "民营企业", "原文分类": "中药防御", "收盘价": 29.69, "中位票息": 2.96, "最新财年票息": 5.86, "TTM票息": 5.86, "连续年数": 5, "CV": 0.534, "最新": 1.98, "周MA60": 26.25, "最新周收盘": 29.28, "偏离": 11.55, "买点": "线上·不追", "派息率": 90.0, "FCF覆盖": 0.69, "年度分红亿": 16.0, "状态": "未通过", "否决原因": "疑似一次性/多期叠加派发", "备注": ""}, {"代码": "600795.SH", "名称": "国电电力", "层级": "待核隔离区", "企业性质": "中央国有企业", "原文分类": "承诺型央企", "收盘价": 5.31, "中位票息": 2.92, "最新财年票息": 2.66, "TTM票息": 2.66, "连续年数": 4, "CV": 0.443, "最新": 0.91, "周MA60": 5.09, "最新周收盘": 5.37, "偏离": 5.5, "买点": "线上·不追", "派息率": 60.0, "FCF覆盖": 1.83, "年度分红亿": 42.98, "状态": "未通过", "否决原因": "连续分红年限不足", "备注": ""}, {"代码": "600329.SH", "名称": "达仁堂", "层级": "待核隔离区", "企业性质": "地方国有企业", "原文分类": "中药防御", "收盘价": 39.9, "中位票息": 2.81, "最新财年票息": 12.01, "TTM票息": 12.01, "连续年数": 5, "CV": 0.462, "最新": 4.28, "周MA60": 41.55, "最新周收盘": 42.12, "偏离": 1.37, "买点": "线上·不追", "派息率": 173.1, "FCF覆盖": 0.09, "年度分红亿": 36.89, "状态": "未通过", "否决原因": "疑似一次性/多期叠加派发", "备注": ""}, {"代码": "601107.SH", "名称": "四川成渝", "层级": "待核隔离区", "企业性质": "地方国有企业", "原文分类": "民企/冷门", "收盘价": 7.11, "中位票息": 1.55, "最新财年票息": 4.18, "TTM票息": 4.18, "连续年数": 5, "CV": 0.515, "最新": 2.7, "周MA60": 5.98, "最新周收盘": 7.1, "偏离": 18.72, "买点": "线上·不追", "派息率": 60.0, "FCF覆盖": 0.97, "年度分红亿": 9.08, "状态": "未通过", "否决原因": "单年股息突增；疑似一次性/多期叠加派发", "备注": ""}, {"代码": "600803.SH", "名称": "新奥股份", "层级": "待核隔离区", "企业性质": "民营企业", "原文分类": "民企/冷门", "收盘价": 20.69, "中位票息": 1.49, "最新财年票息": 4.64, "TTM票息": 4.64, "连续年数": 5, "CV": 0.647, "最新": 3.12, "周MA60": 19.5, "最新周收盘": 21.31, "偏离": 9.31, "买点": "线上·不追", "派息率": 75.3, "FCF覆盖": 1.71, "年度分红亿": 35.26, "状态": "未通过", "否决原因": "年度股息波动过大；单年股息突增；疑似一次性/多期叠加派发", "备注": ""}, {"代码": "600085.SH", "名称": "同仁堂", "层级": "待核隔离区", "企业性质": "地方国有企业", "原文分类": "中药防御", "收盘价": 24.28, "中位票息": 1.32, "最新财年票息": 2.06, "TTM票息": 2.06, "连续年数": 5, "CV": 0.577, "最新": 1.56, "周MA60": 28.56, "最新周收盘": 25.63, "偏离": -10.25, "买点": "线下·符合买点", "派息率": 57.7, "FCF覆盖": 3.41, "年度分红亿": 6.86, "状态": "未通过", "否决原因": "单年股息突增", "备注": ""}], "news": [{"代码": "600153.SH", "名称": "建发股份", "企业性质": "地方国有企业", "收盘价": 8.48, "TTM票息": 8.25, "中位票息": 8.25, "连续年数": 5, "CV": 0.155, "周MA60": 9.32, "偏离": -6.17, "买点": "线下·符合买点", "最新": 1.0}, {"代码": "000568.SZ", "名称": "泸州老窖", "企业性质": "地方国有企业", "收盘价": 77.37, "TTM票息": 7.46, "中位票息": 5.46, "连续年数": 5, "CV": 0.339, "周MA60": 102.51, "偏离": -20.82, "买点": "线下·符合买点", "最新": 1.37}, {"代码": "300770.SZ", "名称": "新媒股份", "企业性质": "地方国有企业", "收盘价": 39.99, "TTM票息": 7.0, "中位票息": 5.4, "连续年数": 5, "CV": 0.45, "周MA60": 39.92, "偏离": 1.61, "买点": "线上·不追", "最新": 0.79}, {"代码": "600502.SH", "名称": "安徽建工", "企业性质": "地方国有企业", "收盘价": 4.03, "TTM票息": 6.7, "中位票息": 6.2, "连续年数": 5, "CV": 0.098, "周MA60": 4.73, "偏离": -12.0, "买点": "线下·符合买点", "最新": 1.08}, {"代码": "600015.SH", "名称": "华夏银行", "企业性质": "地方国有企业", "收盘价": 6.56, "TTM票息": 6.4, "中位票息": 5.84, "连续年数": 5, "CV": 0.104, "周MA60": 6.74, "偏离": -2.67, "买点": "线下·符合买点", "最新": 1.1}, {"代码": "601229.SH", "名称": "上海银行", "企业性质": "地方国有企业", "收盘价": 8.26, "TTM票息": 6.3, "中位票息": 4.84, "连续年数": 5, "CV": 0.269, "周MA60": 9.49, "偏离": -13.73, "买点": "线下·符合买点", "最新": 1.3}, {"代码": "600970.SH", "名称": "中材国际", "企业性质": "中央国有企业", "收盘价": 7.79, "TTM票息": 6.16, "中位票息": 3.85, "连续年数": 5, "CV": 0.277, "周MA60": 9.06, "偏离": -11.5, "买点": "线下·符合买点", "最新": 1.6}, {"代码": "600741.SH", "名称": "华域汽车", "企业性质": "地方国有企业", "收盘价": 16.46, "TTM票息": 6.08, "中位票息": 4.86, "连续年数": 5, "CV": 0.065, "周MA60": 18.15, "偏离": -8.33, "买点": "线下·符合买点", "最新": 1.25}, {"代码": "601668.SH", "名称": "中国建筑", "企业性质": "中央国有企业", "收盘价": 4.57, "TTM票息": 5.95, "中位票息": 5.53, "连续年数": 5, "CV": 0.082, "周MA60": 4.92, "偏离": -4.21, "买点": "线下·符合买点", "最新": 1.08}, {"代码": "600582.SH", "名称": "天地科技", "企业性质": "中央国有企业", "收盘价": 5.23, "TTM票息": 5.74, "中位票息": 3.82, "连续年数": 5, "CV": 0.279, "周MA60": 5.51, "偏离": -3.52, "买点": "线下·符合买点", "最新": 1.5}, {"代码": "600039.SH", "名称": "四川路桥", "企业性质": "地方国有企业", "收盘价": 8.77, "TTM票息": 5.66, "中位票息": 5.36, "连续年数": 5, "CV": 0.423, "周MA60": 9.05, "偏离": -2.38, "买点": "线下·符合买点", "最新": 1.06}, {"代码": "600461.SH", "名称": "洪城环境", "企业性质": "地方国有企业", "收盘价": 8.31, "TTM票息": 5.62, "中位票息": 5.3, "连续年数": 5, "CV": 0.061, "周MA60": 9.38, "偏离": -8.78, "买点": "线下·符合买点", "最新": 1.06}, {"代码": "601818.SH", "名称": "光大银行", "企业性质": "中央国有企业", "收盘价": 3.14, "TTM票息": 5.57, "中位票息": 6.05, "连续年数": 5, "CV": 0.065, "周MA60": 3.24, "偏离": -2.55, "买点": "线下·符合买点", "最新": 0.92}, {"代码": "601166.SH", "名称": "兴业银行", "企业性质": "地方国有企业", "收盘价": 19.42, "TTM票息": 5.49, "中位票息": 5.36, "连续年数": 5, "CV": 0.122, "周MA60": 19.03, "偏离": 3.69, "买点": "线上·不追", "最新": 1.02}, {"代码": "601928.SH", "名称": "凤凰传媒", "企业性质": "地方国有企业", "收盘价": 9.13, "TTM票息": 5.48, "中位票息": 5.48, "连续年数": 5, "CV": 0.126, "周MA60": 9.58, "偏离": -1.48, "买点": "线下·符合买点", "最新": 1.0}, {"代码": "601390.SH", "名称": "中国中铁", "企业性质": "中央国有企业", "收盘价": 4.24, "TTM票息": 5.46, "中位票息": 4.72, "连续年数": 5, "CV": 0.13, "周MA60": 5.05, "偏离": -12.9, "买点": "线下·符合买点", "最新": 0.75}, {"代码": "601766.SH", "名称": "中国中车", "企业性质": "中央国有企业", "收盘价": 6.27, "TTM票息": 5.42, "中位票息": 3.19, "连续年数": 5, "CV": 0.244, "周MA60": 6.48, "偏离": 1.12, "买点": "线上·不追", "最新": 1.15}, {"代码": "000404.SZ", "名称": "长虹华意", "企业性质": "地方国有企业", "收盘价": 6.28, "TTM票息": 5.25, "中位票息": 3.18, "连续年数": 5, "CV": 0.354, "周MA60": 7.27, "偏离": -12.74, "买点": "线下·符合买点", "最新": 1.65}, {"代码": "601288.SH", "名称": "农业银行", "企业性质": "中央国有企业", "收盘价": 7.25, "TTM票息": 5.23, "中位票息": 3.06, "连续年数": 5, "CV": 0.257, "周MA60": 6.98, "偏离": 4.34, "买点": "线上·不追", "最新": 1.17}, {"代码": "000708.SZ", "名称": "中信特钢", "企业性质": "中央国有企业", "收盘价": 12.36, "TTM票息": 5.22, "中位票息": 5.66, "连续年数": 5, "CV": 0.108, "周MA60": 14.59, "偏离": -13.79, "买点": "线下·符合买点", "最新": 0.92}, {"代码": "600098.SH", "名称": "广州发展", "企业性质": "地方国有企业", "收盘价": 6.75, "TTM票息": 5.19, "中位票息": 2.96, "连续年数": 5, "CV": 0.414, "周MA60": 6.79, "偏离": 1.46, "买点": "线上·不追", "最新": 1.25}, {"代码": "600019.SH", "名称": "宝钢股份", "企业性质": "中央国有企业", "收盘价": 6.05, "TTM票息": 5.12, "中位票息": 5.12, "连续年数": 5, "CV": 0.449, "周MA60": 6.51, "偏离": -6.21, "买点": "线下·符合买点", "最新": 1.0}, {"代码": "601186.SH", "名称": "中国铁建", "企业性质": "中央国有企业", "收盘价": 5.87, "TTM票息": 5.11, "中位票息": 4.77, "连续年数": 5, "CV": 0.15, "周MA60": 6.95, "偏离": -13.78, "买点": "线下·符合买点", "最新": 1.07}, {"代码": "601997.SH", "名称": "贵阳银行", "企业性质": "地方国有企业", "收盘价": 5.92, "TTM票息": 5.07, "中位票息": 5.07, "连续年数": 5, "CV": 0.017, "周MA60": 5.78, "偏离": 1.04, "买点": "线上·不追", "最新": 1.0}, {"代码": "600642.SH", "名称": "申能股份", "企业性质": "地方国有企业", "收盘价": 9.11, "TTM票息": 5.05, "中位票息": 3.07, "连续年数": 5, "CV": 0.375, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.64}, {"代码": "600742.SH", "名称": "富维股份", "企业性质": "中央国有企业", "收盘价": 7.88, "TTM票息": 4.95, "中位票息": 3.81, "连续年数": 5, "CV": 0.415, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.3}, {"代码": "601825.SH", "名称": "沪农商行", "企业性质": "地方国有企业", "收盘价": 9.12, "TTM票息": 4.87, "中位票息": 3.75, "连续年数": 5, "CV": 0.326, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.3}, {"代码": "600612.SH", "名称": "老凤祥", "企业性质": "地方国有企业", "收盘价": 31.42, "TTM票息": 4.84, "中位票息": 4.65, "连续年数": 5, "CV": 0.191, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.04}, {"代码": "000828.SZ", "名称": "东莞控股", "企业性质": "地方国有企业", "收盘价": 9.87, "TTM票息": 4.81, "中位票息": 2.74, "连续年数": 5, "CV": 0.312, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.76}, {"代码": "000719.SZ", "名称": "中原传媒", "企业性质": "地方国有企业", "收盘价": 13.87, "TTM票息": 4.76, "中位票息": 2.74, "连续年数": 5, "CV": 0.253, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.74}, {"代码": "002014.SZ", "名称": "永新股份", "企业性质": "地方国有企业", "收盘价": 11.52, "TTM票息": 4.69, "中位票息": 4.34, "连续年数": 5, "CV": 0.302, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.08}, {"代码": "600757.SH", "名称": "长江传媒", "企业性质": "地方国有企业", "收盘价": 8.78, "TTM票息": 4.67, "中位票息": 4.21, "连续年数": 5, "CV": 0.089, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.11}, {"代码": "601169.SH", "名称": "北京银行", "企业性质": "地方国有企业", "收盘价": 5.96, "TTM票息": 4.66, "中位票息": 5.2, "连续年数": 5, "CV": 0.026, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 0.9}, {"代码": "600197.SH", "名称": "伊力特", "企业性质": "地方国有企业", "收盘价": 9.27, "TTM票息": 4.64, "中位票息": 4.42, "连续年数": 5, "CV": 0.048, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.05}, {"代码": "002060.SZ", "名称": "广东建工", "企业性质": "地方国有企业", "收盘价": 3.06, "TTM票息": 4.58, "中位票息": 4.58, "连续年数": 5, "CV": 0.325, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.0}, {"代码": "000987.SZ", "名称": "越秀资本", "企业性质": "地方国有企业", "收盘价": 6.83, "TTM票息": 4.54, "中位票息": 2.93, "连续年数": 5, "CV": 0.183, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.55}, {"代码": "603689.SH", "名称": "皖天然气", "企业性质": "地方国有企业", "收盘价": 7.73, "TTM票息": 4.53, "中位票息": 2.59, "连续年数": 5, "CV": 0.34, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.75}, {"代码": "601577.SH", "名称": "长沙银行", "企业性质": "地方国有企业", "收盘价": 10.01, "TTM票息": 4.5, "中位票息": 3.5, "连续年数": 5, "CV": 0.271, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.29}, {"代码": "000900.SZ", "名称": "现代投资", "企业性质": "地方国有企业", "收盘价": 3.56, "TTM票息": 4.49, "中位票息": 4.21, "连续年数": 5, "CV": 0.156, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.07}, {"代码": "000429.SZ", "名称": "粤高速A", "企业性质": "地方国有企业", "收盘价": 13.51, "TTM票息": 4.47, "中位票息": 3.87, "连续年数": 5, "CV": 0.217, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.15}, {"代码": "601077.SH", "名称": "渝农商行", "企业性质": "地方国有企业", "收盘价": 7.22, "TTM票息": 4.44, "中位票息": 3.76, "连续年数": 5, "CV": 0.107, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.18}, {"代码": "002758.SZ", "名称": "浙农股份", "企业性质": "集体企业", "收盘价": 7.46, "TTM票息": 4.42, "中位票息": 4.02, "连续年数": 5, "CV": 0.174, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.1}, {"代码": "600919.SH", "名称": "江苏银行", "企业性质": "地方国有企业", "收盘价": 12.87, "TTM票息": 4.38, "中位票息": 3.65, "连续年数": 5, "CV": 0.167, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.2}, {"代码": "600704.SH", "名称": "物产中大", "企业性质": "地方国有企业", "收盘价": 5.04, "TTM票息": 4.37, "中位票息": 3.97, "连续年数": 5, "CV": 0.139, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.1}, {"代码": "600008.SH", "名称": "首创环保", "企业性质": "地方国有企业", "收盘价": 2.76, "TTM票息": 4.35, "中位票息": 3.62, "连续年数": 5, "CV": 0.297, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.2}, {"代码": "600018.SH", "名称": "上港集团", "企业性质": "地方国有企业", "收盘价": 5.66, "TTM票息": 4.33, "中位票息": 2.56, "连续年数": 5, "CV": 0.215, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.69}, {"代码": "600639.SH", "名称": "浦东金桥", "企业性质": "地方国有企业", "收盘价": 9.25, "TTM票息": 4.32, "中位票息": 5.41, "连续年数": 5, "CV": 0.244, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 0.8}, {"代码": "603128.SH", "名称": "华贸物流", "企业性质": "中央国有企业", "收盘价": 5.21, "TTM票息": 4.3, "中位票息": 4.74, "连续年数": 5, "CV": 0.334, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 0.91}, {"代码": "600690.SH", "名称": "海尔智家", "企业性质": "集体企业", "收盘价": 20.81, "TTM票息": 4.28, "中位票息": 2.72, "连续年数": 5, "CV": 0.452, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.57}, {"代码": "601688.SH", "名称": "华泰证券", "企业性质": "地方国有企业", "收盘价": 17.18, "TTM票息": 4.25, "中位票息": 2.62, "连续年数": 5, "CV": 0.131, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.29}, {"代码": "600269.SH", "名称": "赣粤高速", "企业性质": "地方国有企业", "收盘价": 4.0, "TTM票息": 4.25, "中位票息": 4.0, "连续年数": 5, "CV": 0.239, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.06}, {"代码": "600863.SH", "名称": "华能蒙电", "企业性质": "中央国有企业", "收盘价": 5.2, "TTM票息": 4.23, "中位票息": 3.15, "连续年数": 5, "CV": 0.267, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.34}, {"代码": "600064.SH", "名称": "南京高科", "企业性质": "地方国有企业", "收盘价": 7.58, "TTM票息": 4.22, "中位票息": 5.54, "连续年数": 5, "CV": 0.287, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 0.76}, {"代码": "600035.SH", "名称": "楚天高速", "企业性质": "地方国有企业", "收盘价": 3.8, "TTM票息": 4.21, "中位票息": 3.68, "连续年数": 5, "CV": 0.287, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.14}, {"代码": "000786.SZ", "名称": "北新建材", "企业性质": "中央国有企业", "收盘价": 16.48, "TTM票息": 4.16, "中位票息": 3.97, "连续年数": 5, "CV": 0.168, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.05}, {"代码": "601598.SH", "名称": "中国外运", "企业性质": "中央国有企业", "收盘价": 7.09, "TTM票息": 4.16, "中位票息": 3.95, "连续年数": 5, "CV": 0.264, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.05}, {"代码": "600598.SH", "名称": "北大荒", "企业性质": "中央国有企业", "收盘价": 13.34, "TTM票息": 4.12, "中位票息": 3.15, "连续年数": 5, "CV": 0.127, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.31}, {"代码": "600000.SH", "名称": "浦发银行", "企业性质": "地方国有企业", "收盘价": 10.19, "TTM票息": 4.12, "中位票息": 4.02, "连续年数": 5, "CV": 0.157, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.02}, {"代码": "601000.SH", "名称": "唐山港", "企业性质": "地方国有企业", "收盘价": 4.87, "TTM票息": 4.11, "中位票息": 4.11, "连续年数": 5, "CV": 0.261, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.0}, {"代码": "601211.SH", "名称": "国泰海通", "企业性质": "地方国有企业", "收盘价": 16.01, "TTM票息": 4.06, "中位票息": 3.44, "连续年数": 5, "CV": 0.145, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.18}, {"代码": "601098.SH", "名称": "中南传媒", "企业性质": "地方国有企业", "收盘价": 11.14, "TTM票息": 4.04, "中位票息": 5.66, "连续年数": 5, "CV": 0.061, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 0.71}, {"代码": "600761.SH", "名称": "安徽合力", "企业性质": "地方国有企业", "收盘价": 14.96, "TTM票息": 4.01, "中位票息": 2.67, "连续年数": 5, "CV": 0.299, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.5}, {"代码": "601963.SH", "名称": "重庆银行", "企业性质": "地方国有企业", "收盘价": 11.19, "TTM票息": 4.0, "中位票息": 3.53, "连续年数": 5, "CV": 0.036, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.13}, {"代码": "002911.SZ", "名称": "佛燃能源", "企业性质": "地方国有企业", "收盘价": 13.01, "TTM票息": 4.0, "中位票息": 3.69, "连续年数": 5, "CV": 0.135, "周MA60": null, "偏离": null, "买点": "数据不足", "最新": 1.08}]};</script></head><body>
+<div class="hero"><div class="wrap"><div class="kick">High Dividend Research · Crocodile School</div>
+<h1>观察清单</h1><p>攒股本、让股息覆盖生活支出 —— 用真实分红/年报/周线数据构建的可审阅研究站</p>
+<div class="stamp"><span>数据截至 2026-11-12 收盘</span><span>分红窗口 2021–2026</span><span>周线 66 周</span><span>数据源 pandadata</span></div>
+</div></div>
+<nav><div class="wrap"><a href="index.html">总览</a><a href="research.html">研究框架</a><a href="pool.html">选定池子</a><a href="watch.html" class="on">观察清单</a><span class="right">数据快照 · 非实时行情</span></div></nav>
+<div class="wrap">
+<section class="card"><h2><span class="no">01</span>A 类 · 点名但未入池（9 只）</h2>
+<p class="lead">博主点名的 26 只里被真实分红数据拦下的 9 只。只跟踪、不建仓，核实年报分红方案后再决定进池或剔除。</p>
+<div id="wa"></div>
+<div class="co dan"><b>三个典型否决案例：</b><br>
+① <b>大秦铁路</b>：2021–2024 年每股 0.48，2025 年 0.22、2026 年 0.2218；2025 年报 FCF 覆盖 −5.01，分红腰斩是现金流所迫。<br>
+② <b>达仁堂</b>：2025 派息率 173.1%（分红超过当年净利）、FCF 覆盖 0.09，典型一次性/超额派发。<br>
+③ <b>国电电力</b>：1997 年上市、2022 年 0 分红，是真实中断；与中国移动/电信「上市晚导致样本不足」必须区别对待。</div>
+</section>
+
+<section class="card"><h2><span class="no">02</span>B 类 · 全市场池外新增候选</h2>
+<p class="lead">企业性质（国企）∩ 分红质量 A 筛 ∩ 最新财年不偏离，且 TTM 股息率 ≥4%，剔除点名池已覆盖者。按股息率降序。</p>
+<div class="toolbar" id="tb"></div>
+<div class="toolbar"><input id="q" placeholder="搜代码 / 名称"><span class="small" id="cnt"></span></div>
+<div class="scroll" id="wb"></div>
+<div class="co warn"><b>不要直接把这批并入核心池。</b>它们没有经过「章程/承诺分红」核验，且集中在银行、基建、钢铁、白酒等顺周期板块；
+鳄鱼派强调「先熟面孔、央企国企背书、自由现金流稳定」，这批只是<b>数据驱动的第二层观察池</b>。
+若要纳入，应逐只补三件事：近 5 年分红公告与承诺、FCF 覆盖、最新财年分红是否含一次性。</div>
+</section>
+
+<section class="card"><h2><span class="no">03</span>完整候选清单与下载</h2>
+<p>全市场「国企 ∩ 分红质量 A ∩ 最新财年不偏离」共 <b>324 只</b>，完整字段（含是否已在点名池、收盘价、两种票息）见仓库
+<a href="data/soe_candidates.csv"><code>data/soe_candidates.csv</code></a>；
+结构化数据见 <code>data/watch.json</code>。</p>
+<p class="small">周线 MA60 仅对股息率最高的前 24 只做了计算（18 只在周 K 60 线以下），其余标注「未计算」，需本地 TDX 或补取周线。</p>
+</section>
+<script>
+function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+function n(v,d){return (v==null||v==='')?'—':Number(v).toFixed(d===undefined?2:d)}
+function tagPos(p){if(!p)return '<span class="tag">未计算</span>';
+ return p.indexOf('线下')>=0?'<span class="tag t">'+esc(p)+'</span>':'<span class="tag">'+esc(p)+'</span>'}
+// A 类
+var h='<div class="scroll"><table><thead><tr><th>代码</th><th>名称</th><th>企业性质</th><th class="n">收盘价</th><th class="n">中位票息%</th><th class="n">TTM%</th><th class="n">偏离MA60%</th><th>买点</th><th>否决原因</th></tr></thead><tbody>';
+D.watch.forEach(function(r){h+='<tr><td>'+esc(r['代码'])+'</td><td><b>'+esc(r['名称'])+'</b></td><td class="small">'+esc(r['企业性质'])+'</td>'+
+'<td class="n">'+n(r['收盘价'])+'</td><td class="n">'+n(r['中位票息'])+'</td><td class="n">'+n(r['TTM票息'])+'</td>'+
+'<td class="n">'+n(r['偏离'])+'</td><td>'+tagPos(r['买点'])+'</td><td class="small">'+esc(r['否决原因'])+'</td></tr>';});
+document.getElementById('wa').innerHTML=h+'</tbody></table></div>';
+// B 类
+var f='all',q='';
+function draw(){
+ var rows=D.news.filter(function(r){
+  if(f==='below'&&!(r['买点']&&r['买点'].indexOf('线下')>=0))return false;
+  if(f==='ma'&&r['周MA60']==null)return false;
+  if(q&&(r['代码']+r['名称']).toLowerCase().indexOf(q)<0)return false;
+  return true;});
+ var t='<table><thead><tr><th>代码</th><th>名称</th><th>企业性质</th><th class="n">收盘价</th><th class="n">TTM票息%</th><th class="n">中位票息%</th><th class="n">连续</th><th class="n">CV</th><th class="n">周MA60</th><th class="n">偏离%</th><th>买点</th></tr></thead><tbody>';
+ rows.forEach(function(r){t+='<tr'+(r['买点']&&r['买点'].indexOf('线下')>=0?' class="hl"':'')+'><td>'+esc(r['代码'])+'</td><td><b>'+esc(r['名称'])+'</b></td>'+
+ '<td class="small">'+esc(r['企业性质'])+'</td><td class="n">'+n(r['收盘价'])+'</td><td class="n"><b>'+n(r['TTM票息'])+'</b></td>'+
+ '<td class="n">'+n(r['中位票息'])+'</td><td class="n">'+esc(r['连续年数'])+'</td><td class="n">'+n(r['CV'])+'</td>'+
+ '<td class="n">'+n(r['周MA60'])+'</td><td class="n">'+n(r['偏离'])+'</td><td>'+tagPos(r['买点'])+'</td></tr>';});
+ document.getElementById('wb').innerHTML=t+'</tbody></table>';
+ document.getElementById('cnt').textContent='显示 '+rows.length+' / '+D.news.length+' 只';
+}
+var items=[['all','全部池外 ≥4%'],['ma','已算周线买点'],['below','周K60线下']];
+var tb='';items.forEach(function(it,i){tb+='<button data-f="'+it[0]+'"'+(i===0?' class="on"':'')+'>'+it[1]+'</button>'});
+var el=document.getElementById('tb');el.innerHTML=tb;
+el.querySelectorAll('button').forEach(function(b){b.onclick=function(){
+ el.querySelectorAll('button').forEach(function(x){x.classList.remove('on')});b.classList.add('on');f=b.dataset.f;draw();};});
+document.getElementById('q').oninput=function(){q=this.value.trim().toLowerCase();draw()};
+draw();
+</script>
+<footer>高股息研究站 · 数据截至 2026-11-12 · 仅为方法论研究与数据整理，不构成投资建议、不承诺收益<br>
+仓库 <a href="https://github.com/w972241768-coder/gaoguxi">w972241768-coder/gaoguxi</a> · 全部数据来自 pandadata Connector 真实返回</footer>
+</div></body></html>

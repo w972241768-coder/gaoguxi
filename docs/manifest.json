@@ -1,0 +1,17 @@
+{
+ "name": "高股息研究站",
+ "short_name": "高股息",
+ "start_url": "./",
+ "display": "standalone",
+ "background_color": "#f5f6f8",
+ "theme_color": "#1d4ed8",
+ "description": "鳄鱼派高股息研究框架、选定池子与观察清单",
+ "icons": [
+  {
+   "src": "icon.svg",
+   "sizes": "any",
+   "type": "image/svg+xml",
+   "purpose": "any"
+  }
+ ]
+}

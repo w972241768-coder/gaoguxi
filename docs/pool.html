@@ -1,0 +1,131 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#1d4ed8">
+<link rel="manifest" href="manifest.json">
+<title>选定池子 · 高股息研究</title><style>
+:root{--bg:#f5f6f8;--card:#fff;--tx:#1f2937;--mut:#6b7280;--line:#e5e7eb;--pri:#1d4ed8;
+--pri-l:#eff4ff;--teal:#0f766e;--teal-l:#ecfdf5;--warn:#b45309;--warn-l:#fffbeb;
+--dan:#b91c1c;--dan-l:#fef2f2;--red:#c62828}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:14px/1.72 system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px 70px}
+.hero{background:linear-gradient(120deg,#16306b 0%,#1d4ed8 62%,#2f6fd0 100%);color:#fff;padding:34px 0 28px}
+.hero .wrap{padding-bottom:0}
+.kick{font-size:11px;letter-spacing:2px;opacity:.8;text-transform:uppercase}
+.hero h1{margin:7px 0 8px;font-size:27px;line-height:1.3}
+.hero p{margin:0;opacity:.92;font-size:13.5px}
+.stamp{margin-top:13px;display:flex;gap:8px;flex-wrap:wrap}
+.stamp span{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.28);border-radius:18px;padding:2px 12px;font-size:11.5px}
+nav{position:sticky;top:0;z-index:9;background:rgba(245,246,248,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:10px 0;margin-bottom:20px}
+nav .wrap{display:flex;gap:7px;flex-wrap:wrap;padding-top:0;padding-bottom:0;align-items:center}
+nav a{color:var(--pri);background:#fff;border:1px solid #dbe4f7;border-radius:17px;padding:4px 13px;font-size:12.5px;text-decoration:none;white-space:nowrap}
+nav a.on{background:var(--pri);color:#fff;border-color:var(--pri)}
+nav .right{margin-left:auto;font-size:11.5px;color:var(--mut)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:21px 24px;margin:0 0 18px;box-shadow:0 1px 3px rgba(16,24,40,.04)}
+h2{font-size:18.5px;margin:0 0 6px;padding-bottom:10px;border-bottom:2px solid var(--pri);display:flex;align-items:baseline;gap:9px}
+h2 .no{font-size:11px;color:#fff;background:var(--pri);border-radius:6px;padding:2px 8px;font-weight:600}
+h3{font-size:15px;margin:19px 0 8px;color:#16306b}
+p{margin:9px 0}.lead{color:var(--mut);font-size:13px;margin:0 0 13px}
+table{width:100%;border-collapse:collapse;font-size:12.5px;margin:10px 0}
+th,td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+th{background:#f8fafc;font-weight:600;color:#334155;font-size:12px}
+tbody tr:nth-child(even){background:#fcfdff}
+td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.small{font-size:11.5px;color:var(--mut)}
+.kpi{display:grid;grid-template-columns:repeat(auto-fit,minmax(135px,1fr));gap:10px;margin:14px 0}
+.kpi div{background:var(--pri-l);border:1px solid #dbe4f7;border-radius:10px;padding:11px 13px}
+.kpi b{display:block;font-size:22px;color:var(--pri);line-height:1.2;font-variant-numeric:tabular-nums}
+.kpi span{font-size:11.5px;color:var(--mut)}
+.co{border-left:4px solid var(--pri);background:var(--pri-l);padding:11px 16px;border-radius:0 8px 8px 0;margin:12px 0}
+.co.warn{border-color:var(--warn);background:var(--warn-l)}
+.co.dan{border-color:var(--dan);background:var(--dan-l)}
+.co.teal{border-color:var(--teal);background:var(--teal-l)}
+.co b{color:#16306b}.co.dan b{color:var(--dan)}.co.warn b{color:var(--warn)}.co.teal b{color:var(--teal)}
+.tag{display:inline-block;font-size:11px;padding:1px 8px;border-radius:11px;border:1px solid var(--line);background:#f8fafc;color:var(--mut);white-space:nowrap}
+.tag.t{background:var(--teal-l);border-color:#a7f3d0;color:var(--teal)}
+.tag.a{background:var(--dan-l);border-color:#fecaca;color:var(--dan)}
+.tag.b{background:var(--warn-l);border-color:#fde68a;color:var(--warn)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+@media(max-width:820px){.grid2{grid-template-columns:1fr}}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:13px;margin:14px 0}
+.tile{display:block;background:#fff;border:1px solid var(--line);border-radius:11px;padding:16px 18px;text-decoration:none;color:inherit;transition:.15s}
+.tile:hover{border-color:var(--pri);box-shadow:0 3px 12px rgba(29,78,216,.12);transform:translateY(-1px)}
+.tile b{display:block;font-size:15.5px;color:#16306b;margin-bottom:4px}
+.tile span{font-size:12px;color:var(--mut)}
+.scroll{max-height:560px;overflow:auto;border:1px solid var(--line);border-radius:8px}
+.scroll table{margin:0;border:0}
+.scroll th{position:sticky;top:0;background:#f1f5f9;z-index:2}
+.hl{background:#fff8e1!important}
+.toolbar{display:flex;gap:7px;flex-wrap:wrap;margin:11px 0 7px}
+.toolbar button{font:inherit;font-size:12px;padding:5px 12px;border-radius:16px;border:1px solid #dbe4f7;background:#fff;color:var(--pri);cursor:pointer}
+.toolbar button.on{background:var(--pri);color:#fff;border-color:var(--pri)}
+.toolbar input{font:inherit;font-size:12px;padding:5px 11px;border:1px solid var(--line);border-radius:16px;width:170px;outline:none}
+.step{border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin:9px 0;background:#fff}
+.step h4{margin:0 0 5px;font-size:14px;color:#16306b}
+.side{float:right;font-size:11px;padding:2px 9px;border-radius:11px;font-weight:600}
+.side.auto{background:var(--teal-l);color:var(--teal)}
+.side.man{background:var(--warn-l);color:var(--warn)}
+ul,ol{margin:8px 0;padding-left:22px}li{margin:4px 0}
+footer{color:var(--mut);font-size:11.5px;text-align:center;padding:20px 0 0;border-top:1px solid var(--line);margin-top:24px}
+.srcline{border-top:1px dashed var(--line);margin-top:14px;padding-top:9px;font-size:11.5px;color:var(--mut)}
+@media print{nav{display:none}.card{break-inside:avoid}body{background:#fff}}
+</style><script>var D={"core": [{"代码": "601088.SH", "名称": "中国神华", "层级": "核心池(底仓)", "企业性质": "中央国有企业", "原文分类": "章程承诺型央企", "收盘价": 48.65, "中位票息": 5.22, "最新财年票息": 4.13, "TTM票息": 4.13, "连续年数": 5, "CV": 0.188, "最新": 0.79, "周MA60": 44.26, "最新周收盘": 48.54, "偏离": 9.67, "买点": "线上·不追", "派息率": 79.1, "FCF覆盖": 0.64, "年度分红亿": 418.11, "状态": "通过", "否决原因": "", "备注": ""}, {"代码": "601318.SH", "名称": "中国平安", "层级": "核心池(底仓)", "企业性质": "公众企业", "原文分类": "章程承诺型央企", "收盘价": 53.25, "中位票息": 4.56, "最新财年票息": 5.13, "TTM票息": 5.13, "连续年数": 5, "CV": 0.038, "最新": 1.12, "周MA60": 57.54, "最新周收盘": 54.5, "偏离": -5.28, "买点": "线下·符合买点", "派息率": 36.3, "FCF覆盖": 13.3, "年度分红亿": 488.91, "状态": "通过", "否决原因": "", "备注": ""}, {"代码": "600941.SH", "名称": "中国移动", "层级": "核心池(底仓)", "企业性质": "中央国有企业", "原文分类": "承诺型央企", "收盘价": 98.23, "中位票息": 4.46, "最新财年票息": 4.8, "TTM票息": 4.8, "连续年数": 4, "CV": 0.071, "最新": 1.07, "周MA60": 98.74, "最新周收盘": 103.49, "偏离": 4.81, "买点": "线上·不追", "派息率": 74.3, "FCF覆盖": 0.75, "年度分红亿": 1018.27, "状态": "条件通过·上市年限不足5年", "否决原因": "", "备注": "A股2022-01上市，2021年无除权属样本起点问题"}, {"代码": "600036.SH", "名称": "招商银行", "层级": "核心池(底仓)", "企业性质": "公众企业", "原文分类": "章程承诺型央企", "收盘价": 42.46, "中位票息": 4.09, "最新财年票息": 4.75, "TTM票息": 4.75, "连续年数": 5, "CV": 0.166, "最新": 1.16, "周MA60": 40.08, "最新周收盘": 42.88, "偏离": 6.99, "买点": "线上·不追", "派息率": 33.9, "FCF覆盖": 8.33, "年度分红亿": 508.43, "状态": "通过", "否决原因": "", "备注": ""}, {"代码": "601728.SH", "名称": "中国电信", "层级": "核心池(底仓)", "企业性质": "中央国有企业", "原文分类": "承诺型央企", "收盘价": 6.61, "中位票息": 4.02, "最新财年票息": 3.8, "TTM票息": 3.8, "连续年数": 4, "CV": 0.101, "最新": 0.95, "周MA60": 6.29, "最新周收盘": 6.91, "偏离": 9.81, "买点": "线上·不追", "派息率": 75.0, "FCF覆盖": 2.06, "年度分红亿": 248.9, "状态": "条件通过·上市年限不足5年", "否决原因": "", "备注": "A股2021-08上市，2021年无除权属样本起点问题"}, {"代码": "601857.SH", "名称": "中国石油", "层级": "核心池(底仓)", "企业性质": "中央国有企业", "原文分类": "承诺型央企", "收盘价": 12.0, "中位票息": 3.58, "最新财年票息": 4.25, "TTM票息": 4.25, "连续年数": 5, "CV": 0.263, "最新": 1.19, "周MA60": 10.59, "最新周收盘": 12.7, "偏离": 19.94, "买点": "线上·不追", "派息率": 54.7, "FCF覆盖": 1.39, "年度分红亿": 860.2, "状态": "通过", "否决原因": "", "备注": ""}, {"代码": "601398.SH", "名称": "工商银行", "层级": "核心池(底仓)", "企业性质": "中央国有企业", "原文分类": "章程承诺型央企", "收盘价": 8.6, "中位票息": 3.53, "最新财年票息": 3.72, "TTM票息": 5.37, "连续年数": 5, "CV": 0.199, "最新": 1.05, "周MA60": 7.66, "最新周收盘": 8.44, "偏离": 10.18, "买点": "线上·不追", "派息率": 30.0, "FCF覆盖": 16.75, "年度分红亿": 1105.93, "状态": "通过", "否决原因": "", "备注": ""}, {"代码": "600900.SH", "名称": "长江电力", "层级": "核心池(底仓)", "企业性质": "中央国有企业", "原文分类": "章程承诺型央企", "收盘价": 29.51, "中位票息": 2.78, "最新财年票息": 3.39, "TTM票息": 3.39, "连续年数": 5, "CV": 0.094, "最新": 1.22, "周MA60": 27.68, "最新周收盘": 29.91, "偏离": 8.04, "买点": "线上·不追", "派息率": 70.9, "FCF覆盖": 1.72, "年度分红亿": 244.68, "状态": "通过", "否决原因": "", "备注": ""}], "sate": [{"代码": "000651.SZ", "名称": "格力电器", "层级": "卫星池(活动仓)", "企业性质": "公众企业", "原文分类": "消费现金奶牛", "收盘价": 38.91, "中位票息": 7.71, "最新财年票息": 7.71, "TTM票息": 7.71, "连续年数": 5, "CV": 0.155, "最新": 1.0, "周MA60": 39.26, "最新周收盘": 39.02, "偏离": -0.62, "买点": "线下·符合买点", "派息率": 57.9, "FCF覆盖": 2.66, "年度分红亿": 167.87, "状态": "通过", "否决原因": "", "备注": ""}, {"代码": "600398.SH", "名称": "海澜之家", "层级": "卫星池(活动仓)", "企业性质": "民营企业", "原文分类": "民企/冷门", "收盘价": 6.06, "中位票息": 7.1, "最新财年票息": 11.22, "TTM票息": 11.22, "连续年数": 5, "CV": 0.494, "最新": 1.58, "周MA60": 6.13, "最新周收盘": 6.2, "偏离": 1.22, "买点": "线上·不追", "派息率": 90.9, "FCF覆盖": 2.06, "年度分红亿": 19.69, "状态": "通过", "否决原因": "", "备注": ""}, {"代码": "600177.SH", "名称": "雅戈尔", "层级": "卫星池(活动仓)", "企业性质": "民营企业", "原文分类": "民企/冷门", "收盘价": 8.35, "中位票息": 5.99, "最新财年票息": 5.75, "TTM票息": 6.71, "连续年数": 5, "CV": 0.161, "最新": 0.96, "周MA60": 7.67, "最新周收盘": 8.43, "偏离": 9.91, "买点": "线上·不追", "派息率": 82.5, "FCF覆盖": 0.43, "年度分红亿": 20.2, "状态": "通过", "否决原因": "", "备注": ""}, {"代码": "600750.SH", "名称": "华润江中", "层级": "卫星池(活动仓)", "企业性质": "中央国有企业", "原文分类": "中药防御", "收盘价": 22.62, "中位票息": 5.31, "最新财年票息": 6.1, "TTM票息": 6.1, "连续年数": 5, "CV": 0.27, "最新": 1.15, "周MA60": 23.71, "最新周收盘": 23.21, "偏离": -2.13, "买点": "线下·符合买点", "派息率": 96.7, "FCF覆盖": 0.79, "年度分红亿": 8.77, "状态": "通过", "否决原因": "", "备注": ""}, {"代码": "002293.SZ", "名称": "罗莱生活", "层级": "卫星池(活动仓)", "企业性质": "民营企业", "原文分类": "民企/冷门", "收盘价": 12.38, "中位票息": 4.85, "最新财年票息": 5.65, "TTM票息": 5.65, "连续年数": 5, "CV": 0.333, "最新": 1.17, "周MA60": 10.25, "最新周收盘": 12.35, "偏离": 20.53, "买点": "线上·不追", "派息率": 99.5, "FCF覆盖": 1.65, "年度分红亿": 5.17, "状态": "通过", "否决原因": "", "备注": ""}, {"代码": "603697.SH", "名称": "有友食品", "层级": "卫星池(活动仓)", "企业性质": "民营企业", "原文分类": "民企/冷门", "收盘价": 9.7, "中位票息": 4.74, "最新财年票息": 4.74, "TTM票息": 4.74, "连续年数": 5, "CV": 0.235, "最新": 1.0, "周MA60": 11.09, "最新周收盘": 9.86, "偏离": -11.11, "买点": "线下·符合买点", "派息率": 96.8, "FCF覆盖": 2.01, "年度分红亿": 1.8, "状态": "通过", "否决原因": "", "备注": ""}, {"代码": "000538.SZ", "名称": "云南白药", "层级": "卫星池(活动仓)", "企业性质": "公众企业", "原文分类": "中药防御", "收盘价": 54.58, "中位票息": 4.04, "最新财年票息": 4.8, "TTM票息": 4.8, "连续年数": 5, "CV": 0.299, "最新": 1.19, "周MA60": 53.79, "最新周收盘": 55.14, "偏离": 2.52, "买点": "线上·不追", "派息率": 90.1, "FCF覆盖": 0.89, "年度分红亿": 46.43, "状态": "通过", "否决原因": "", "备注": ""}, {"代码": "600887.SH", "名称": "伊利股份", "层级": "卫星池(活动仓)", "企业性质": "公众企业", "原文分类": "消费现金奶牛", "收盘价": 30.88, "中位票息": 3.37, "最新财年票息": 2.91, "TTM票息": 4.47, "连续年数": 5, "CV": 0.266, "最新": 0.87, "周MA60": 27.07, "最新周收盘": 31.45, "偏离": 16.18, "买点": "线上·不追", "派息率": 75.5, "FCF覆盖": 1.3, "年度分红亿": 87.29, "状态": "通过", "否决原因": "", "备注": ""}, {"代码": "000333.SZ", "名称": "美的集团", "层级": "卫星池(活动仓)", "企业性质": "民营企业", "原文分类": "消费现金奶牛", "收盘价": 87.34, "中位票息": 2.86, "最新财年票息": 4.35, "TTM票息": 4.92, "连续年数": 5, "CV": 0.346, "最新": 1.52, "周MA60": 79.94, "最新周收盘": 89.6, "偏离": 12.08, "买点": "线上·不追", "派息率": 73.2, "FCF覆盖": 1.31, "年度分红亿": 321.63, "状态": "通过", "否决原因": "", "备注": ""}], "cross": [{"代码": "601318.SH", "名称": "中国平安", "层级": "核心池(底仓)", "企业性质": "公众企业", "原文分类": "章程承诺型央企", "收盘价": 53.25, "中位票息": 4.56, "最新财年票息": 5.13, "TTM票息": 5.13, "连续年数": 5, "CV": 0.038, "最新": 1.12, "周MA60": 57.54, "最新周收盘": 54.5, "偏离": -5.28, "买点": "线下·符合买点", "派息率": 36.3, "FCF覆盖": 13.3, "年度分红亿": 488.91, "状态": "通过", "否决原因": "", "备注": ""}, {"代码": "000651.SZ", "名称": "格力电器", "层级": "卫星池(活动仓)", "企业性质": "公众企业", "原文分类": "消费现金奶牛", "收盘价": 38.91, "中位票息": 7.71, "最新财年票息": 7.71, "TTM票息": 7.71, "连续年数": 5, "CV": 0.155, "最新": 1.0, "周MA60": 39.26, "最新周收盘": 39.02, "偏离": -0.62, "买点": "线下·符合买点", "派息率": 57.9, "FCF覆盖": 2.66, "年度分红亿": 167.87, "状态": "通过", "否决原因": "", "备注": ""}, {"代码": "600750.SH", "名称": "华润江中", "层级": "卫星池(活动仓)", "企业性质": "中央国有企业", "原文分类": "中药防御", "收盘价": 22.62, "中位票息": 5.31, "最新财年票息": 6.1, "TTM票息": 6.1, "连续年数": 5, "CV": 0.27, "最新": 1.15, "周MA60": 23.71, "最新周收盘": 23.21, "偏离": -2.13, "买点": "线下·符合买点", "派息率": 96.7, "FCF覆盖": 0.79, "年度分红亿": 8.77, "状态": "通过", "否决原因": "", "备注": ""}, {"代码": "603697.SH", "名称": "有友食品", "层级": "卫星池(活动仓)", "企业性质": "民营企业", "原文分类": "民企/冷门", "收盘价": 9.7, "中位票息": 4.74, "最新财年票息": 4.74, "TTM票息": 4.74, "连续年数": 5, "CV": 0.235, "最新": 1.0, "周MA60": 11.09, "最新周收盘": 9.86, "偏离": -11.11, "买点": "线下·符合买点", "派息率": 96.8, "FCF覆盖": 2.01, "年度分红亿": 1.8, "状态": "通过", "否决原因": "", "备注": ""}]};</script></head><body>
+<div class="hero"><div class="wrap"><div class="kick">High Dividend Research · Crocodile School</div>
+<h1>选定池子</h1><p>攒股本、让股息覆盖生活支出 —— 用真实分红/年报/周线数据构建的可审阅研究站</p>
+<div class="stamp"><span>数据截至 2026-11-12 收盘</span><span>分红窗口 2021–2026</span><span>周线 66 周</span><span>数据源 pandadata</span></div>
+</div></div>
+<nav><div class="wrap"><a href="index.html">总览</a><a href="research.html">研究框架</a><a href="pool.html" class="on">选定池子</a><a href="watch.html">观察清单</a><span class="right">数据快照 · 非实时行情</span></div></nav>
+<div class="wrap">
+<section class="card"><h2><span class="no">01</span>交叉可执行清单（定池 ∩ 买点）</h2>
+<p class="lead">同时满足「分红质量合格」与「周 K 60 线以下」的标的，是当前唯一既过 S1/S2 又过 S3 的交集。</p>
+<div id="cross"></div>
+<div class="co warn"><b>注意：</b>另外 3 只虽在周 K 60 线以下（同仁堂 −10.25%、大秦铁路 −6.04%、双汇发展 −4.14%），
+但都因分红数据问题留在待核隔离区——<b>便宜不等于能进底仓</b>，这正是「先质量、后买点」顺序的意义。</div>
+</section>
+<section class="card"><h2><span class="no">02</span>核心池 · 8 只（底仓）</h2>
+<p class="lead">章程/承诺型央企国企 ∩ 漏斗 A 通过。中国移动、中国电信为「条件通过」（A 股上市不足 5 年，已用上市日期核验）。</p>
+<div id="core"></div></section>
+<section class="card"><h2><span class="no">03</span>卫星池 · 9 只（活动仓）</h2>
+<p class="lead">消费现金奶牛 / 中药防御 / 民企冷门 ∩ 漏斗 A 通过。按博主原意，仓位与信任度低于核心池，可做周 K 级差价。</p>
+<div id="sate"></div>
+<div class="co warn"><b>卫星池内需额外留意两只：</b>海澜之家 TTM 票息 11.22% 显著高于中位 7.10%（TTM/中位 1.58，CV 0.49）；
+美的集团 TTM/中位 1.72。虽未越过 1.80 阈值，但已接近「多期叠加/特别分红」边界，建仓前核对分红构成。</div>
+</section>
+<section class="card"><h2><span class="no">04</span>字段说明</h2>
+<ul>
+<li><b>中位票息 / 最新财年票息 / TTM 票息</b>：三者差异本身就是信号。大秦铁路中位 10.04% 但 TTM 仅 4.64%，说明分红已腰斩。</li>
+<li><b>派息率</b>：2025 财年分红总额（含中期）÷ 归母净利；<b>FCF 覆盖</b>：自由现金流 ÷ 分红总额。银行/保险口径失真，表中标注。</li>
+<li><b>周 MA60 / 偏离 / 买点</b>：原生周线最近 60 根收盘均价；「线下·符合买点」＝最新周收盘低于 MA60。</li>
+<li>全部票息为<b>税前</b>，未扣分红税与 FIFO 影响；周线最新为 11-06，日线收盘为 11-12。</li>
+</ul></section>
+<script>
+function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+function n(v,d){return (v==null||v==='')?'—':Number(v).toFixed(d===undefined?2:d)}
+function tagPos(p){return p&&p.indexOf('线下')>=0?'<span class="tag t">'+esc(p)+'</span>':'<span class="tag">'+esc(p||'—')+'</span>'}
+function table(rows,showNote){
+ var h='<div class="scroll"><table><thead><tr><th>代码</th><th>名称</th><th>企业性质</th><th class="n">收盘价</th>'+
+ '<th class="n">中位票息%</th><th class="n">最新财年%</th><th class="n">TTM%</th><th class="n">连续</th><th class="n">CV</th>'+
+ '<th class="n">周MA60</th><th class="n">偏离%</th><th>买点</th><th class="n">派息率%</th><th class="n">FCF覆盖</th>'+
+ (showNote?'<th>备注</th>':'')+'</tr></thead><tbody>';
+ rows.forEach(function(r){
+  h+='<tr'+(r['买点']&&r['买点'].indexOf('线下')>=0?' class="hl"':'')+'><td>'+esc(r['代码'])+'</td><td><b>'+esc(r['名称'])+'</b></td>'+
+  '<td class="small">'+esc(r['企业性质'])+'</td><td class="n">'+n(r['收盘价'])+'</td>'+
+  '<td class="n">'+n(r['中位票息'])+'</td><td class="n"><b>'+n(r['最新财年票息'])+'</b></td><td class="n">'+n(r['TTM票息'])+'</td>'+
+  '<td class="n">'+esc(r['连续年数'])+'</td><td class="n">'+n(r['CV'])+'</td>'+
+  '<td class="n">'+n(r['周MA60'])+'</td><td class="n">'+n(r['偏离'])+'</td><td>'+tagPos(r['买点'])+'</td>'+
+  '<td class="n">'+n(r['派息率'],1)+'</td><td class="n">'+n(r['FCF覆盖'])+'</td>'+
+  (showNote?'<td class="small">'+esc(r['备注'])+'</td>':'')+'</tr>';});
+ return h+'</tbody></table></div>';
+}
+document.getElementById('core').innerHTML=table(D.core,true);
+document.getElementById('sate').innerHTML=table(D.sate,false);
+var c=D.cross;
+var h='<table><thead><tr><th>代码</th><th>名称</th><th>层级</th><th class="n">偏离MA60%</th><th class="n">最新财年票息%</th><th class="n">派息率%</th><th>判断</th></tr></thead><tbody>';
+c.forEach(function(r){h+='<tr class="hl"><td>'+esc(r['代码'])+'</td><td><b>'+esc(r['名称'])+'</b></td><td>'+esc(r['层级'])+'</td>'+
+'<td class="n">'+n(r['偏离'])+'</td><td class="n">'+n(r['最新财年票息'])+'</td><td class="n">'+n(r['派息率'],1)+'</td>'+
+'<td>定池通过 + 周K60线下，可按 S3 三段式首笔试错</td></tr>';});
+document.getElementById('cross').innerHTML=h+'</tbody></table>';
+</script>
+<footer>高股息研究站 · 数据截至 2026-11-12 · 仅为方法论研究与数据整理，不构成投资建议、不承诺收益<br>
+仓库 <a href="https://github.com/w972241768-coder/gaoguxi">w972241768-coder/gaoguxi</a> · 全部数据来自 pandadata Connector 真实返回</footer>
+</div></body></html>
