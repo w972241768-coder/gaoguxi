@@ -1,0 +1,361 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#1d4ed8"><link rel="manifest" href="manifest.json">
+<title>备用池 · 连续5年股息率&gt;4% · 六维度清单</title>
+<style>
+:root{--bg:#f5f6f8;--card:#fff;--tx:#1f2937;--mut:#6b7280;--line:#e5e7eb;--pri:#1d4ed8;
+--pri-l:#eff4ff;--teal:#0f766e;--teal-l:#ecfdf5;--warn:#b45309;--warn-l:#fffbeb;
+--dan:#b91c1c;--dan-l:#fef2f2;--red:#c62828}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:14px/1.72 system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px 70px}
+.hero{background:linear-gradient(120deg,#16306b 0%,#1d4ed8 62%,#2f6fd0 100%);color:#fff;padding:34px 0 28px}
+.hero .wrap{padding-bottom:0}
+.kick{font-size:11px;letter-spacing:2px;opacity:.8;text-transform:uppercase}
+.hero h1{margin:7px 0 8px;font-size:27px;line-height:1.3}
+.hero p{margin:0;opacity:.92;font-size:13.5px}
+.stamp{margin-top:13px;display:flex;gap:8px;flex-wrap:wrap}
+.stamp span{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.28);border-radius:18px;padding:2px 12px;font-size:11.5px}
+nav{position:sticky;top:0;z-index:9;background:rgba(245,246,248,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:10px 0;margin-bottom:20px}
+nav .wrap{display:flex;gap:7px;flex-wrap:wrap;padding-top:0;padding-bottom:0;align-items:center}
+nav a{color:var(--pri);background:#fff;border:1px solid #dbe4f7;border-radius:17px;padding:4px 13px;font-size:12.5px;text-decoration:none;white-space:nowrap}
+nav a.on{background:var(--pri);color:#fff;border-color:var(--pri)}
+nav .right{margin-left:auto;font-size:11.5px;color:var(--mut)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:21px 24px;margin:0 0 18px;box-shadow:0 1px 3px rgba(16,24,40,.04)}
+h2{font-size:18.5px;margin:0 0 6px;padding-bottom:10px;border-bottom:2px solid var(--pri);display:flex;align-items:baseline;gap:9px}
+h2 .no{font-size:11px;color:#fff;background:var(--pri);border-radius:6px;padding:2px 8px;font-weight:600}
+h3{font-size:15px;margin:19px 0 8px;color:#16306b}
+p{margin:9px 0}.lead{color:var(--mut);font-size:13px;margin:0 0 13px}
+table{width:100%;border-collapse:collapse;font-size:12.5px;margin:10px 0;table-layout:auto}
+th,td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top;overflow-wrap:anywhere;word-break:break-word}
+th{background:#f8fafc;font-weight:600;color:#334155;font-size:12px}
+tbody tr:nth-child(even){background:#fcfdff}
+td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.small{font-size:11.5px;color:var(--mut)}
+.kpi{display:grid;grid-template-columns:repeat(auto-fit,minmax(135px,1fr));gap:10px;margin:14px 0}
+.kpi div{background:var(--pri-l);border:1px solid #dbe4f7;border-radius:10px;padding:11px 13px}
+.kpi b{display:block;font-size:22px;color:var(--pri);line-height:1.2;font-variant-numeric:tabular-nums}
+.kpi span{font-size:11.5px;color:var(--mut)}
+.co{border-left:4px solid var(--pri);background:var(--pri-l);padding:11px 16px;border-radius:0 8px 8px 0;margin:12px 0}
+.co.warn{border-color:var(--warn);background:var(--warn-l)}
+.co.dan{border-color:var(--dan);background:var(--dan-l)}
+.co.teal{border-color:var(--teal);background:var(--teal-l)}
+.co b{color:#16306b}.co.dan b{color:var(--dan)}.co.warn b{color:var(--warn)}.co.teal b{color:var(--teal)}
+.tag{display:inline-block;font-size:11px;padding:1px 8px;border-radius:11px;border:1px solid var(--line);background:#f8fafc;color:var(--mut);white-space:nowrap}
+.tag.t{background:var(--teal-l);border-color:#a7f3d0;color:var(--teal)}
+.tag.a{background:var(--dan-l);border-color:#fecaca;color:var(--dan)}
+.tag.b{background:var(--warn-l);border-color:#fde68a;color:var(--warn)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+@media(max-width:820px){.grid2{grid-template-columns:1fr}}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:13px;margin:14px 0}
+.tile{display:block;background:#fff;border:1px solid var(--line);border-radius:11px;padding:16px 18px;text-decoration:none;color:inherit;transition:.15s}
+.tile:hover{border-color:var(--pri);box-shadow:0 3px 12px rgba(29,78,216,.12);transform:translateY(-1px)}
+.tile b{display:block;font-size:15.5px;color:#16306b;margin-bottom:4px}
+.tile span{font-size:12px;color:var(--mut)}
+.scroll{max-height:560px;overflow:auto;border:1px solid var(--line);border-radius:8px}
+.scroll table{margin:0;border:0}
+.scroll th{position:sticky;top:0;background:#f1f5f9;z-index:2}
+.hl{background:#fff8e1!important}
+.toolbar{display:flex;gap:7px;flex-wrap:wrap;margin:11px 0 7px}
+.toolbar button{font:inherit;font-size:12px;padding:5px 12px;border-radius:16px;border:1px solid #dbe4f7;background:#fff;color:var(--pri);cursor:pointer}
+.toolbar button.on{background:var(--pri);color:#fff;border-color:var(--pri)}
+.toolbar input{font:inherit;font-size:12px;padding:5px 11px;border:1px solid var(--line);border-radius:16px;width:170px;outline:none}
+.step{border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin:9px 0;background:#fff}
+.step h4{margin:0 0 5px;font-size:14px;color:#16306b}
+.side{float:right;font-size:11px;padding:2px 9px;border-radius:11px;font-weight:600}
+.side.auto{background:var(--teal-l);color:var(--teal)}
+.side.man{background:var(--warn-l);color:var(--warn)}
+ul,ol{margin:8px 0;padding-left:22px}li{margin:4px 0}
+footer{color:var(--mut);font-size:11.5px;text-align:center;padding:20px 0 0;border-top:1px solid var(--line);margin-top:24px}
+.srcline{border-top:1px dashed var(--line);margin-top:14px;padding-top:9px;font-size:11.5px;color:var(--mut)}
+
+/* ===== 桌面：宽表独立横向滚动、首列固定、最小宽度防"细长" ===== */
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:8px;margin:10px 0}
+.tw table{margin:0;border:0}
+.tw.wide table{min-width:1060px}
+.tw table thead th{position:sticky;top:0;z-index:2;background:#f1f5f9}
+.scroll table{min-width:980px}
+.tw table td:first-child,.scroll table td:first-child{position:sticky;left:0;z-index:1;background:#fff}
+.tw table thead th:first-child,.scroll table thead th:first-child{left:0;z-index:3;background:#f1f5f9}
+.scroll table tbody tr:nth-child(even) td:first-child{background:#fcfdff}
+
+/* ===== 手机：所有表格 → 紧凑卡片，根治溢出与细长 ===== */
+@media(max-width:720px){
+ .wrap{padding:0 12px 48px}
+ .hero{padding:22px 0 18px}
+ .hero h1{font-size:21px}
+ .hero p{font-size:12.5px}
+ .stamp span{font-size:10.5px;padding:2px 9px}
+ nav{padding:8px 0;margin-bottom:13px}
+ nav a{font-size:12px;padding:4px 10px}
+ nav .right{display:none}
+ .card{padding:14px 12px;border-radius:10px;margin-bottom:13px}
+ h2{font-size:16px;padding-bottom:8px}
+ h3{font-size:14px}
+ .kpi{grid-template-columns:repeat(2,1fr);gap:8px}
+ .kpi b{font-size:19px}
+ .tiles{grid-template-columns:1fr;gap:9px}
+ .co{padding:10px 12px;font-size:13px}
+ .toolbar input{width:100%}
+ .grid2{grid-template-columns:1fr}
+ .scroll{max-height:none;overflow:visible;border:0;border-radius:0}
+ .tw{border:0;border-radius:0;margin:8px 0;overflow:visible}
+ table,table thead,table tbody,table tr,table th,table td{display:block;width:auto!important;min-width:0!important}
+ table,.tw table,.scroll table{margin:0;background:none;border:0;font-size:13px}
+ thead{display:none!important}
+ tbody tr,.scroll tbody tr,.tw tbody tr{display:grid;grid-template-columns:1fr 1fr;
+   border:1px solid var(--line);border-radius:10px;background:#fff!important;
+   margin:0 0 10px;padding:5px 6px;box-shadow:0 1px 2px rgba(16,24,40,.05)}
+ tbody tr.hl{background:#fffbeb!important;border-color:#f0dca4}
+ td,.scroll table td,.tw table td{position:static!important;border:0!important;
+   border-bottom:1px dashed #edf0f4!important;padding:4px 9px!important;min-width:0;
+   text-align:left!important;white-space:normal;font-size:12.5px;
+   display:flex;flex-direction:column;gap:1px;background:none!important;
+   font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+ td::before{content:attr(data-label);font-size:10.5px;line-height:1.35;color:var(--mut);font-weight:500}
+ td:not([data-label])::before{content:''}
+ td:first-child{grid-column:1/-1;background:#f3f6fb!important;border-radius:6px;
+   border-bottom:1px solid #e3e9f3!important;margin-bottom:3px;font-size:13.5px}
+ td.long{grid-column:1/-1}
+ td:last-child{border-bottom:0!important}
+ .tag{font-size:10.5px}
+ footer{font-size:11px;overflow-wrap:anywhere}
+}
+@media print{nav{display:none}.card{break-inside:avoid}body{background:#fff}}
+</style>
+<style>
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:18px 0}
+.kpi{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.kpi span{display:block;color:var(--mut);font-size:12px}
+.kpi b{display:block;font-size:25px;color:var(--pri);line-height:1.35}
+.kpi small{color:var(--mut);font-size:11px}
+section{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:16px}
+h2{font-size:18px;margin:0 0 12px;padding-left:10px;border-left:4px solid var(--pri)}
+h3{font-size:15px;margin:18px 0 8px;color:var(--pri)}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;font-size:12.5px}
+.tw.wide table{min-width:1500px}
+th{background:#eef2f7;text-align:left;padding:8px 9px;white-space:nowrap;position:sticky;top:0;border-bottom:1px solid var(--line)}
+td{padding:7px 9px;border-bottom:1px solid #f0f3f8;white-space:nowrap}
+tbody tr:hover{background:#f9fbfe}
+th:first-child,td:first-child{position:sticky;left:0;background:#fff;z-index:1}
+th:first-child{background:#eef2f7}
+.ok{color:#0f766e;font-weight:700}
+.no{color:#b91c1c;font-weight:700}
+.hi{color:#c62828;font-weight:700}
+.tag{background:var(--pri-l);color:var(--pri);border-radius:5px;padding:2px 6px;font-size:11px}
+.note{background:#f8fafc;border-left:3px solid var(--pri);padding:10px 14px;border-radius:0 8px 8px 0;margin:10px 0;font-size:13px}
+.warn{background:#fffbeb;border-left-color:var(--warn)}
+.bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0 14px}
+select,input{font:14px inherit;border:1px solid var(--line);border-radius:8px;padding:7px 10px;background:#fff;color:var(--tx)}
+.chk{display:flex;align-items:center;gap:5px;font-size:13px;color:var(--pri);font-weight:600}
+.chk input{width:auto;min-width:0;margin:0}
+.mono{font-family:ui-monospace,Consolas,monospace}
+.sm{font-size:11px}
+.muted{color:var(--mut);font-size:12px}
+.ver{margin-top:12px;font-size:11px;color:var(--mut);display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.ver button{border:1px solid var(--line);background:#fff;color:var(--pri);border-radius:7px;padding:5px 10px;font-size:11px;cursor:pointer}
+.box{border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.box h4{margin:0 0 8px;font-size:14px;color:var(--pri)}
+ul{margin:6px 0;padding-left:20px}li{margin:4px 0;font-size:13px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+footer{text-align:center;color:var(--mut);font-size:12px;padding:20px}
+@media(max-width:720px){
+ .kpis{grid-template-columns:repeat(2,1fr)}
+ .grid2{grid-template-columns:1fr}
+ .tw{overflow:visible;border:none;border-radius:0}
+ table{display:block;width:100%;min-width:0!important}
+ thead{display:none}tbody{display:block}
+ tbody tr{display:block;border:1px solid var(--line);border-radius:10px;margin-bottom:10px;padding:6px 8px;background:#fff}
+ td{display:flex;justify-content:space-between;align-items:baseline;gap:10px;white-space:normal;
+    border:none;border-bottom:1px dashed #eef2f7;padding:5px 2px;text-align:right;word-break:break-all}
+ td:last-child{border-bottom:none}
+ td::before{content:attr(data-label);color:var(--mut);font-size:11px;font-weight:600;flex:0 0 auto;text-align:left;white-space:nowrap}
+ td:first-child,th:first-child{position:static;background:transparent}
+}
+</style>
+<script>
+function paintTables(){
+ var tabs=document.querySelectorAll('table');
+ Array.prototype.forEach.call(tabs,function(t){
+  var hs=[];
+  Array.prototype.forEach.call(t.querySelectorAll('thead th'),function(x){hs.push(x.textContent.trim());});
+  Array.prototype.forEach.call(t.querySelectorAll('tbody tr'),function(tr){
+   Array.prototype.forEach.call(tr.cells,function(td,i){
+    if(hs[i]!=null&&!td.hasAttribute('data-label'))td.setAttribute('data-label',hs[i]);
+    var txt=(td.textContent||'').trim();
+    if(txt.length>22)td.classList.add('long');
+   });
+  });
+ });
+}
+</script></head><body>
+<nav><div class="wrap"><a href="index.html">总览</a><a href="research.html">研究框架</a><a href="pool.html">选定池子</a><a href="watch.html">观察清单</a><a href="backup.html" class="on">备用池</a><span class="right">数据快照 · 非实时行情</span></div></nav>
+<div class="hero"><div class="wrap">
+<div class="kick">BACKUP POOL / 2026-11-12 SNAPSHOT</div>
+<h1>备用池 · 连续 5 年股息率 &gt; 4%</h1>
+<p>从「连续 6 年分红 + 市值 &gt; 200 亿」的 254 只全 A 高股息池里再筛一轮，
+ 并叠加你给的六维度选股清单。静态快照，非实时行情。</p>
+<div class="stamp"><span>估值基准 2026-11-12</span><span>数据源 pandadata</span>
+<span>版本 20261113-1720</span></div></div></div>
+<div class="wrap">
+<div class="kpis">
+ <div class="kpi"><span>备用池只数</span><b>31</b><small>覆盖 10 个申万 L1</small></div>
+ <div class="kpi"><span>五年最低股息率 中位</span><b>4.47%</b><small>每年 = 当年股息 ÷ 当年末价</small></div>
+ <div class="kpi"><span>六条全过</span><b>0</b><small>过 5 条 5 只</small></div>
+ <div class="kpi"><span>过 5 条代表</span><b style="font-size:15px;line-height:1.7">格力电器、中国石油、凤凰传媒、中南传媒、唐山港</b><small>ROE 与权益比率结构性互斥</small></div>
+</div>
+
+<section><h2>01 · 备用池全表（31 只，六维度逐条标记）</h2>
+<div class="note warn"><b>结论先给：六条全过 0 只，过 5 条 5 只。</b>
+原因不是数据缺失，而是两条硬标准在财务结构上互斥——「五年 ROE &gt; 15%」偏好高杠杆或高周转，
+「所有者权益 / 总资产 ≥ 50%」要求低杠杆：31 只里 ROE 五年全过仅 2 只、权益比率过线 8 只，交集为 0。
+银行股权益比率普遍 7~9%（天然高杠杆），低杠杆的传媒/港口 ROE 又只有 9~11%。</div>
+<div class="bar"><select id="fInd"><option value="">全部行业</option><option value="交通运输">交通运输（3）</option><option value="传媒">传媒（2）</option><option value="家用电器">家用电器（1）</option><option value="建筑装饰">建筑装饰（1）</option><option value="煤炭">煤炭（2）</option><option value="石油石化">石油石化（1）</option><option value="纺织服饰">纺织服饰（1）</option><option value="银行">银行（18）</option><option value="非银金融">非银金融（1）</option><option value="食品饮料">食品饮料（1）</option></select>
+<input id="fTxt" placeholder="搜代码 / 名称 / 性质">
+<label class="chk"><input type="checkbox" id="fBest"> 只看过 5 条以上</label>
+<span class="muted">共 31 只</span></div>
+<div class="tw wide"><table><thead><tr><th>代码</th><th>名称</th><th>申万L1</th><th>企业性质</th><th>收盘价</th><th>总市值(亿)</th><th>五年最低股息率%</th><th>五年均值%</th><th>TTM股息率%</th><th>PE(静态)</th><th>PB</th><th>破净</th><th>近20日均换手%</th><th>ROE五年区间%</th><th>ROE2025%</th><th>权益/总资产%</th><th>六条通过数</th><th>六条明细(PE/PB/换手/股息/ROE/权益)</th></tr></thead><tbody>
+<tr><td data-label="代码"><b>000651.SZ</b></td><td data-label="名称">格力电器</td><td data-label="申万L1"><span class="tag">家用电器</span></td><td data-label="企业性质">公众企业</td><td data-label="收盘价">38.89</td><td data-label="总市值(亿)">2178</td><td data-label="五年最低股息率%"><span class="hi">5.24</span></td><td data-label="五年均值%">7.26</td><td data-label="TTM股息率%">7.71</td><td data-label="PE(静态)">7.48</td><td data-label="PB">1.49</td><td data-label="破净">否</td><td data-label="近20日均换手%">0.90</td><td data-label="ROE五年区间%">19.9 ~ 25.3</td><td data-label="ROE2025%">19.87</td><td data-label="权益/总资产%">38.3</td><td data-label="六条通过数"><b>5 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span></td></tr>
+<tr><td data-label="代码"><b>601857.SH</b></td><td data-label="名称">中国石油</td><td data-label="申万L1"><span class="tag">石油石化</span></td><td data-label="企业性质">中央国有企业</td><td data-label="收盘价">12.03</td><td data-label="总市值(亿)">22017</td><td data-label="五年最低股息率%"><span class="hi">4.44</span></td><td data-label="五年均值%">5.22</td><td data-label="TTM股息率%">4.24</td><td data-label="PE(静态)">13.99</td><td data-label="PB">1.36</td><td data-label="破净">否</td><td data-label="近20日均换手%">0.11</td><td data-label="ROE五年区间%">7.3 ~ 11.1</td><td data-label="ROE2025%">9.73</td><td data-label="权益/总资产%">63.9</td><td data-label="六条通过数"><b>5 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="ok">✓</span></td></tr>
+<tr><td data-label="代码"><b>601928.SH</b></td><td data-label="名称">凤凰传媒</td><td data-label="申万L1"><span class="tag">传媒</span></td><td data-label="企业性质">地方国有企业</td><td data-label="收盘价">9.17</td><td data-label="总市值(亿)">233</td><td data-label="五年最低股息率%"><span class="hi">4.33</span></td><td data-label="五年均值%">5.45</td><td data-label="TTM股息率%">5.45</td><td data-label="PE(静态)">12.92</td><td data-label="PB">1.17</td><td data-label="破净">否</td><td data-label="近20日均换手%">0.67</td><td data-label="ROE五年区间%">8.2 ~ 15.4</td><td data-label="ROE2025%">9.00</td><td data-label="权益/总资产%">66.1</td><td data-label="六条通过数"><b>5 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="ok">✓</span></td></tr>
+<tr><td data-label="代码"><b>601098.SH</b></td><td data-label="名称">中南传媒</td><td data-label="申万L1"><span class="tag">传媒</span></td><td data-label="企业性质">地方国有企业</td><td data-label="收盘价">11.17</td><td data-label="总市值(亿)">201</td><td data-label="五年最低股息率%"><span class="hi">4.33</span></td><td data-label="五年均值%">5.64</td><td data-label="TTM股息率%">4.03</td><td data-label="PE(静态)">12.55</td><td data-label="PB">1.24</td><td data-label="破净">否</td><td data-label="近20日均换手%">0.94</td><td data-label="ROE五年区间%">8.8 ~ 12.0</td><td data-label="ROE2025%">9.86</td><td data-label="权益/总资产%">64.3</td><td data-label="六条通过数"><b>5 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="ok">✓</span></td></tr>
+<tr><td data-label="代码"><b>601000.SH</b></td><td data-label="名称">唐山港</td><td data-label="申万L1"><span class="tag">交通运输</span></td><td data-label="企业性质">地方国有企业</td><td data-label="收盘价">4.87</td><td data-label="总市值(亿)">289</td><td data-label="五年最低股息率%"><span class="hi">4.25</span></td><td data-label="五年均值%">7.04</td><td data-label="TTM股息率%">4.11</td><td data-label="PE(静态)">14.44</td><td data-label="PB">1.34</td><td data-label="破净">否</td><td data-label="近20日均换手%">0.77</td><td data-label="ROE五年区间%">8.8 ~ 11.3</td><td data-label="ROE2025%">9.30</td><td data-label="权益/总资产%">91.0</td><td data-label="六条通过数"><b>5 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="ok">✓</span></td></tr>
+<tr><td data-label="代码"><b>600177.SH</b></td><td data-label="名称">雅戈尔</td><td data-label="申万L1"><span class="tag">纺织服饰</span></td><td data-label="企业性质">民营企业</td><td data-label="收盘价">8.37</td><td data-label="总市值(亿)">387</td><td data-label="五年最低股息率%"><span class="hi">6.05</span></td><td data-label="五年均值%">7.34</td><td data-label="TTM股息率%">6.69</td><td data-label="PE(静态)">15.79</td><td data-label="PB">0.91</td><td data-label="破净">是</td><td data-label="近20日均换手%">0.65</td><td data-label="ROE五年区间%">5.8 ~ 15.1</td><td data-label="ROE2025%">5.78</td><td data-label="权益/总资产%">60.1</td><td data-label="六条通过数"><b>4 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="no">✗</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="ok">✓</span></td></tr>
+<tr><td data-label="代码"><b>601225.SH</b></td><td data-label="名称">陕西煤业</td><td data-label="申万L1"><span class="tag">煤炭</span></td><td data-label="企业性质">地方国有企业</td><td data-label="收盘价">26.30</td><td data-label="总市值(亿)">2550</td><td data-label="五年最低股息率%"><span class="hi">5.99</span></td><td data-label="五年均值%">7.28</td><td data-label="TTM股息率%">3.68</td><td data-label="PE(静态)">15.20</td><td data-label="PB">2.63</td><td data-label="破净">否</td><td data-label="近20日均换手%">0.39</td><td data-label="ROE五年区间%">17.3 ~ 32.3</td><td data-label="ROE2025%">17.30</td><td data-label="权益/总资产%">58.2</td><td data-label="六条通过数"><b>4 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="no">✗</span><span class="no">✗</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span></td></tr>
+<tr><td data-label="代码"><b>601169.SH</b></td><td data-label="名称">北京银行</td><td data-label="申万L1"><span class="tag">银行</span></td><td data-label="企业性质">地方国有企业</td><td data-label="收盘价">6.01</td><td data-label="总市值(亿)">1271</td><td data-label="五年最低股息率%"><span class="hi">5.20</span></td><td data-label="五年均值%">6.34</td><td data-label="TTM股息率%">4.63</td><td data-label="PE(静态)">7.71</td><td data-label="PB">0.34</td><td data-label="破净">是</td><td data-label="近20日均换手%">0.98</td><td data-label="ROE五年区间%">5.3 ~ 8.0</td><td data-label="ROE2025%">5.32</td><td data-label="权益/总资产%">7.7</td><td data-label="六条通过数"><b>4 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="no">✗</span></td></tr>
+<tr><td data-label="代码"><b>600016.SH</b></td><td data-label="名称">民生银行</td><td data-label="申万L1"><span class="tag">银行</span></td><td data-label="企业性质">公众企业</td><td data-label="收盘价">3.39</td><td data-label="总市值(亿)">1484</td><td data-label="五年最低股息率%"><span class="hi">5.17</span></td><td data-label="五年均值%">6.18</td><td data-label="TTM股息率%">5.04</td><td data-label="PE(静态)">5.38</td><td data-label="PB">0.22</td><td data-label="破净">是</td><td data-label="近20日均换手%">0.74</td><td data-label="ROE五年区间%">4.4 ~ 6.0</td><td data-label="ROE2025%">4.43</td><td data-label="权益/总资产%">9.0</td><td data-label="六条通过数"><b>4 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="no">✗</span></td></tr>
+<tr><td data-label="代码"><b>601229.SH</b></td><td data-label="名称">上海银行</td><td data-label="申万L1"><span class="tag">银行</span></td><td data-label="企业性质">地方国有企业</td><td data-label="收盘价">8.33</td><td data-label="总市值(亿)">1193</td><td data-label="五年最低股息率%"><span class="hi">5.15</span></td><td data-label="五年均值%">6.46</td><td data-label="TTM股息率%">6.24</td><td data-label="PE(静态)">5.05</td><td data-label="PB">0.47</td><td data-label="破净">是</td><td data-label="近20日均换手%">0.62</td><td data-label="ROE五年区间%">9.3 ~ 10.7</td><td data-label="ROE2025%">9.44</td><td data-label="权益/总资产%">7.8</td><td data-label="六条通过数"><b>4 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="no">✗</span></td></tr>
+<tr><td data-label="代码"><b>601328.SH</b></td><td data-label="名称">交通银行</td><td data-label="申万L1"><span class="tag">银行</span></td><td data-label="企业性质">中央国有企业</td><td data-label="收盘价">8.45</td><td data-label="总市值(亿)">7467</td><td data-label="五年最低股息率%"><span class="hi">4.83</span></td><td data-label="五年均值%">6.61</td><td data-label="TTM股息率%">3.84</td><td data-label="PE(静态)">7.82</td><td data-label="PB">0.59</td><td data-label="破净">是</td><td data-label="近20日均换手%">0.97</td><td data-label="ROE五年区间%">7.5 ~ 9.1</td><td data-label="ROE2025%">7.53</td><td data-label="权益/总资产%">8.2</td><td data-label="六条通过数"><b>4 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="no">✗</span></td></tr>
+<tr><td data-label="代码"><b>600015.SH</b></td><td data-label="名称">华夏银行</td><td data-label="申万L1"><span class="tag">银行</span></td><td data-label="企业性质">地方国有企业</td><td data-label="收盘价">6.60</td><td data-label="总市值(亿)">1050</td><td data-label="五年最低股息率%"><span class="hi">4.79</span></td><td data-label="五年均值%">5.88</td><td data-label="TTM股息率%">6.36</td><td data-label="PE(静态)">4.07</td><td data-label="PB">0.27</td><td data-label="破净">是</td><td data-label="近20日均换手%">0.53</td><td data-label="ROE五年区间%">6.9 ~ 8.3</td><td data-label="ROE2025%">6.87</td><td data-label="权益/总资产%">8.4</td><td data-label="六条通过数"><b>4 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="no">✗</span></td></tr>
+<tr><td data-label="代码"><b>600919.SH</b></td><td data-label="名称">江苏银行</td><td data-label="申万L1"><span class="tag">银行</span></td><td data-label="企业性质">地方国有企业</td><td data-label="收盘价">12.94</td><td data-label="总市值(亿)">2375</td><td data-label="五年最低股息率%"><span class="hi">4.79</span></td><td data-label="五年均值%">5.61</td><td data-label="TTM股息率%">4.36</td><td data-label="PE(静态)">7.35</td><td data-label="PB">0.70</td><td data-label="破净">是</td><td data-label="近20日均换手%">0.59</td><td data-label="ROE五年区间%">10.2 ~ 12.2</td><td data-label="ROE2025%">10.21</td><td data-label="权益/总资产%">7.1</td><td data-label="六条通过数"><b>4 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="no">✗</span></td></tr>
+<tr><td data-label="代码"><b>601077.SH</b></td><td data-label="名称">渝农商行</td><td data-label="申万L1"><span class="tag">银行</span></td><td data-label="企业性质">地方国有企业</td><td data-label="收盘价">7.21</td><td data-label="总市值(亿)">819</td><td data-label="五年最低股息率%"><span class="hi">4.72</span></td><td data-label="五年均值%">5.81</td><td data-label="TTM股息率%">4.45</td><td data-label="PE(静态)">6.87</td><td data-label="PB">0.60</td><td data-label="破净">是</td><td data-label="近20日均换手%">0.83</td><td data-label="ROE五年区间%">8.7 ~ 9.1</td><td data-label="ROE2025%">8.84</td><td data-label="权益/总资产%">8.4</td><td data-label="六条通过数"><b>4 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="no">✗</span></td></tr>
+<tr><td data-label="代码"><b>601998.SH</b></td><td data-label="名称">中信银行</td><td data-label="申万L1"><span class="tag">银行</span></td><td data-label="企业性质">中央国有企业</td><td data-label="收盘价">9.16</td><td data-label="总市值(亿)">5097</td><td data-label="五年最低股息率%"><span class="hi">4.68</span></td><td data-label="五年均值%">5.95</td><td data-label="TTM股息率%">4.16</td><td data-label="PE(静态)">7.63</td><td data-label="PB">0.61</td><td data-label="破净">是</td><td data-label="近20日均换手%">0.12</td><td data-label="ROE五年区间%">8.5 ~ 9.3</td><td data-label="ROE2025%">8.52</td><td data-label="权益/总资产%">8.4</td><td data-label="六条通过数"><b>4 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="no">✗</span></td></tr>
+<tr><td data-label="代码"><b>601997.SH</b></td><td data-label="名称">贵阳银行</td><td data-label="申万L1"><span class="tag">银行</span></td><td data-label="企业性质">地方国有企业</td><td data-label="收盘价">5.92</td><td data-label="总市值(亿)">216</td><td data-label="五年最低股息率%"><span class="hi">4.61</span></td><td data-label="五年均值%">5.14</td><td data-label="TTM股息率%">5.07</td><td data-label="PE(静态)">4.32</td><td data-label="PB">0.31</td><td data-label="破净">是</td><td data-label="近20日均换手%">1.26</td><td data-label="ROE五年区间%">7.6 ~ 11.5</td><td data-label="ROE2025%">7.57</td><td data-label="权益/总资产%">9.6</td><td data-label="六条通过数"><b>4 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="no">✗</span></td></tr>
+<tr><td data-label="代码"><b>601939.SH</b></td><td data-label="名称">建设银行</td><td data-label="申万L1"><span class="tag">银行</span></td><td data-label="企业性质">中央国有企业</td><td data-label="收盘价">12.01</td><td data-label="总市值(亿)">31418</td><td data-label="五年最低股息率%"><span class="hi">4.55</span></td><td data-label="五年均值%">5.78</td><td data-label="TTM股息率%">3.24</td><td data-label="PE(静态)">9.24</td><td data-label="PB">0.86</td><td data-label="破净">是</td><td data-label="近20日均换手%">1.35</td><td data-label="ROE五年区间%">9.3 ~ 11.7</td><td data-label="ROE2025%">9.25</td><td data-label="权益/总资产%">8.1</td><td data-label="六条通过数"><b>4 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="no">✗</span></td></tr>
+<tr><td data-label="代码"><b>601818.SH</b></td><td data-label="名称">光大银行</td><td data-label="申万L1"><span class="tag">银行</span></td><td data-label="企业性质">中央国有企业</td><td data-label="收盘价">3.16</td><td data-label="总市值(亿)">1867</td><td data-label="五年最低股息率%"><span class="hi">4.47</span></td><td data-label="五年均值%">5.86</td><td data-label="TTM股息率%">5.54</td><td data-label="PE(静态)">5.45</td><td data-label="PB">0.31</td><td data-label="破净">是</td><td data-label="近20日均换手%">0.53</td><td data-label="ROE五年区间%">6.4 ~ 9.0</td><td data-label="ROE2025%">6.42</td><td data-label="权益/总资产%">8.5</td><td data-label="六条通过数"><b>4 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="no">✗</span></td></tr>
+<tr><td data-label="代码"><b>601398.SH</b></td><td data-label="名称">工商银行</td><td data-label="申万L1"><span class="tag">银行</span></td><td data-label="企业性质">中央国有企业</td><td data-label="收盘价">8.69</td><td data-label="总市值(亿)">30972</td><td data-label="五年最低股息率%"><span class="hi">4.43</span></td><td data-label="五年均值%">5.79</td><td data-label="TTM股息率%">5.31</td><td data-label="PE(静态)">8.69</td><td data-label="PB">0.73</td><td data-label="破净">是</td><td data-label="近20日均换手%">0.16</td><td data-label="ROE五年区间%">8.7 ~ 10.7</td><td data-label="ROE2025%">8.68</td><td data-label="权益/总资产%">8.0</td><td data-label="六条通过数"><b>4 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="no">✗</span></td></tr>
+<tr><td data-label="代码"><b>601009.SH</b></td><td data-label="名称">南京银行</td><td data-label="申万L1"><span class="tag">银行</span></td><td data-label="企业性质">地方国有企业</td><td data-label="收盘价">12.57</td><td data-label="总市值(亿)">1554</td><td data-label="五年最低股息率%"><span class="hi">4.39</span></td><td data-label="五年均值%">5.75</td><td data-label="TTM股息率%">4.21</td><td data-label="PE(静态)">7.14</td><td data-label="PB">0.75</td><td data-label="破净">是</td><td data-label="近20日均换手%">0.48</td><td data-label="ROE五年区间%">10.6 ~ 13.1</td><td data-label="ROE2025%">10.57</td><td data-label="权益/总资产%">7.0</td><td data-label="六条通过数"><b>4 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="no">✗</span></td></tr>
+<tr><td data-label="代码"><b>601288.SH</b></td><td data-label="名称">农业银行</td><td data-label="申万L1"><span class="tag">银行</span></td><td data-label="企业性质">中央国有企业</td><td data-label="收盘价">7.26</td><td data-label="总市值(亿)">25409</td><td data-label="五年最低股息率%"><span class="hi">4.32</span></td><td data-label="五年均值%">5.71</td><td data-label="TTM股息率%">5.22</td><td data-label="PE(静态)">9.31</td><td data-label="PB">0.78</td><td data-label="破净">是</td><td data-label="近20日均换手%">0.12</td><td data-label="ROE五年区间%">9.0 ~ 10.0</td><td data-label="ROE2025%">8.99</td><td data-label="权益/总资产%">6.6</td><td data-label="六条通过数"><b>4 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="no">✗</span></td></tr>
+<tr><td data-label="代码"><b>601668.SH</b></td><td data-label="名称">中国建筑</td><td data-label="申万L1"><span class="tag">建筑装饰</span></td><td data-label="企业性质">中央国有企业</td><td data-label="收盘价">4.59</td><td data-label="总市值(亿)">1897</td><td data-label="五年最低股息率%"><span class="hi">4.29</span></td><td data-label="五年均值%">4.79</td><td data-label="TTM股息率%">5.92</td><td data-label="PE(静态)">4.88</td><td data-label="PB">0.39</td><td data-label="破净">是</td><td data-label="近20日均换手%">0.62</td><td data-label="ROE五年区间%">7.9 ~ 14.9</td><td data-label="ROE2025%">7.95</td><td data-label="权益/总资产%">23.1</td><td data-label="六条通过数"><b>4 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="no">✗</span></td></tr>
+<tr><td data-label="代码"><b>601988.SH</b></td><td data-label="名称">中国银行</td><td data-label="申万L1"><span class="tag">银行</span></td><td data-label="企业性质">中央国有企业</td><td data-label="收盘价">7.04</td><td data-label="总市值(亿)">22684</td><td data-label="五年最低股息率%"><span class="hi">4.29</span></td><td data-label="五年均值%">5.94</td><td data-label="TTM股息率%">3.21</td><td data-label="PE(静态)">9.51</td><td data-label="PB">0.74</td><td data-label="破净">是</td><td data-label="近20日均换手%">0.16</td><td data-label="ROE五年区间%">7.9 ~ 9.7</td><td data-label="ROE2025%">7.93</td><td data-label="权益/总资产%">8.4</td><td data-label="六条通过数"><b>4 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="no">✗</span></td></tr>
+<tr><td data-label="代码"><b>601166.SH</b></td><td data-label="名称">兴业银行</td><td data-label="申万L1"><span class="tag">银行</span></td><td data-label="企业性质">地方国有企业</td><td data-label="收盘价">19.58</td><td data-label="总市值(亿)">4144</td><td data-label="五年最低股息率%"><span class="hi">4.21</span></td><td data-label="五年均值%">5.58</td><td data-label="TTM股息率%">5.44</td><td data-label="PE(静态)">5.66</td><td data-label="PB">0.46</td><td data-label="破净">是</td><td data-label="近20日均换手%">0.54</td><td data-label="ROE五年区间%">8.6 ~ 12.2</td><td data-label="ROE2025%">8.59</td><td data-label="权益/总资产%">8.2</td><td data-label="六条通过数"><b>4 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="no">✗</span></td></tr>
+<tr><td data-label="代码"><b>601577.SH</b></td><td data-label="名称">长沙银行</td><td data-label="申万L1"><span class="tag">银行</span></td><td data-label="企业性质">地方国有企业</td><td data-label="收盘价">10.02</td><td data-label="总市值(亿)">403</td><td data-label="五年最低股息率%"><span class="hi">4.10</span></td><td data-label="五年均值%">5.01</td><td data-label="TTM股息率%">4.49</td><td data-label="PE(静态)">5.19</td><td data-label="PB">0.50</td><td data-label="破净">是</td><td data-label="近20日均换手%">0.59</td><td data-label="ROE五年区间%">10.0 ~ 11.5</td><td data-label="ROE2025%">10.13</td><td data-label="权益/总资产%">6.5</td><td data-label="六条通过数"><b>4 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="no">✗</span></td></tr>
+<tr><td data-label="代码"><b>601658.SH</b></td><td data-label="名称">邮储银行</td><td data-label="申万L1"><span class="tag">银行</span></td><td data-label="企业性质">中央国有企业</td><td data-label="收盘价">5.62</td><td data-label="总市值(亿)">6749</td><td data-label="五年最低股息率%"><span class="hi">4.09</span></td><td data-label="五年均值%">4.95</td><td data-label="TTM股息率%">3.88</td><td data-label="PE(静态)">7.70</td><td data-label="PB">0.58</td><td data-label="破净">是</td><td data-label="近20日均换手%">0.24</td><td data-label="ROE五年区间%">7.5 ~ 10.3</td><td data-label="ROE2025%">7.53</td><td data-label="权益/总资产%">6.2</td><td data-label="六条通过数"><b>4 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="no">✗</span></td></tr>
+<tr><td data-label="代码"><b>600901.SH</b></td><td data-label="名称">江苏金租</td><td data-label="申万L1"><span class="tag">非银金融</span></td><td data-label="企业性质">地方国有企业</td><td data-label="收盘价">7.57</td><td data-label="总市值(亿)">438</td><td data-label="五年最低股息率%"><span class="hi">5.89</span></td><td data-label="五年均值%">6.44</td><td data-label="TTM股息率%">3.96</td><td data-label="PE(静态)">13.52</td><td data-label="PB">1.75</td><td data-label="破净">否</td><td data-label="近20日均换手%">0.59</td><td data-label="ROE五年区间%">12.2 ~ 15.1</td><td data-label="ROE2025%">12.93</td><td data-label="权益/总资产%">15.9</td><td data-label="六条通过数"><b>3 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="ok">✓</span><span class="no">✗</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="no">✗</span></td></tr>
+<tr><td data-label="代码"><b>601088.SH</b></td><td data-label="名称">中国神华</td><td data-label="申万L1"><span class="tag">煤炭</span></td><td data-label="企业性质">中央国有企业</td><td data-label="收盘价">48.96</td><td data-label="总市值(亿)">10619</td><td data-label="五年最低股息率%"><span class="hi">5.20</span></td><td data-label="五年均值%">7.71</td><td data-label="TTM股息率%">4.11</td><td data-label="PE(静态)">18.41</td><td data-label="PB">2.60</td><td data-label="破净">否</td><td data-label="近20日均换手%">0.22</td><td data-label="ROE五年区间%">12.9 ~ 17.7</td><td data-label="ROE2025%">12.92</td><td data-label="权益/总资产%">76.7</td><td data-label="六条通过数"><b>3 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="no">✗</span><span class="no">✗</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="ok">✓</span></td></tr>
+<tr><td data-label="代码"><b>600153.SH</b></td><td data-label="名称">建发股份</td><td data-label="申万L1"><span class="tag">交通运输</span></td><td data-label="企业性质">地方国有企业</td><td data-label="收盘价">8.46</td><td data-label="总市值(亿)">245</td><td data-label="五年最低股息率%"><span class="hi">4.40</span></td><td data-label="五年均值%">6.49</td><td data-label="TTM股息率%">8.27</td><td data-label="PE(静态)">—</td><td data-label="PB">0.40</td><td data-label="破净">是</td><td data-label="近20日均换手%">0.71</td><td data-label="ROE五年区间%">-17.6 ~ 18.9</td><td data-label="ROE2025%">-17.61</td><td data-label="权益/总资产%">25.1</td><td data-label="六条通过数"><b>3 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)">—<span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="no">✗</span></td></tr>
+<tr><td data-label="代码"><b>603156.SH</b></td><td data-label="名称">养元饮品</td><td data-label="申万L1"><span class="tag">食品饮料</span></td><td data-label="企业性质">民营企业</td><td data-label="收盘价">32.50</td><td data-label="总市值(亿)">410</td><td data-label="五年最低股息率%"><span class="hi">4.22</span></td><td data-label="五年均值%">7.03</td><td data-label="TTM股息率%">4.62</td><td data-label="PE(静态)">32.51</td><td data-label="PB">4.54</td><td data-label="破净">否</td><td data-label="近20日均换手%">0.63</td><td data-label="ROE五年区间%">12.8 ~ 17.2</td><td data-label="ROE2025%">13.97</td><td data-label="权益/总资产%">68.4</td><td data-label="六条通过数"><b>3 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="no">✗</span><span class="no">✗</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="ok">✓</span></td></tr>
+<tr><td data-label="代码"><b>600350.SH</b></td><td data-label="名称">山东高速</td><td data-label="申万L1"><span class="tag">交通运输</span></td><td data-label="企业性质">地方国有企业</td><td data-label="收盘价">11.14</td><td data-label="总市值(亿)">539</td><td data-label="五年最低股息率%"><span class="hi">4.09</span></td><td data-label="五年均值%">5.71</td><td data-label="TTM股息率%">3.77</td><td data-label="PE(静态)">20.44</td><td data-label="PB">1.21</td><td data-label="破净">否</td><td data-label="近20日均换手%">0.25</td><td data-label="ROE五年区间%">7.2 ~ 8.2</td><td data-label="ROE2025%">7.21</td><td data-label="权益/总资产%">36.2</td><td data-label="六条通过数"><b>3 / 6</b></td><td data-label="六条明细(PE/PB/换手/股息/ROE/权益)"><span class="no">✗</span><span class="ok">✓</span><span class="ok">✓</span><span class="ok">✓</span><span class="no">✗</span><span class="no">✗</span></td></tr>
+</tbody></table></div></section>
+
+<section><h2>02 · 六维度口径与通过统计</h2>
+<div class="note">三条阈值（PE ≤ 15、PB ≤ 1.5、20 日均换手 ≤ 2%）是<b>我按你的描述做的工程化建议，不是博主原话</b>，
+ 未做参数稳定性检验；另外三条（股息率 &gt; 4%、五年 ROE &gt; 15%、权益比率 ≥ 50%）是你明确给的标准。
+ 若你心里另有数值，改阈值即可重算，页面会同步更新。</div>
+<div class="tw "><table><thead><tr><th>维度</th><th>计算口径与阈值</th><th>通过只数</th><th>数据缺失</th></tr></thead><tbody>
+<tr><td data-label="维度">① 低市盈率</td><td data-label="计算口径与阈值">PE = 20261112 收盘价 ÷ 2025q4 基本每股收益；建议 ≤ 15 且为正</td><td data-label="通过只数"><b>25</b> / 31</td><td data-label="数据缺失">1</td></tr>
+<tr><td data-label="维度">② 低市净率</td><td data-label="计算口径与阈值">PB = 收盘价 ÷ 每股净资产（归母权益 ÷ 总股本）；建议 ≤ 1.5，PB<1 为破净</td><td data-label="通过只数"><b>27</b> / 31</td><td data-label="数据缺失">0</td></tr>
+<tr><td data-label="维度">③ 低换手率</td><td data-label="计算口径与阈值">近 20 个交易日日均成交量 ÷ 流通A股；建议 ≤ 2%</td><td data-label="通过只数"><b>31</b> / 31</td><td data-label="数据缺失">0</td></tr>
+<tr><td data-label="维度">④ 高股息</td><td data-label="计算口径与阈值">2021–2025 每年股息率 > 4%（备用池入池条件，你给的标准）</td><td data-label="通过只数"><b>31</b> / 31</td><td data-label="数据缺失">0</td></tr>
+<tr><td data-label="维度">⑤ 高 ROE</td><td data-label="计算口径与阈值">2021–2025 每年 归母净利润 ÷ 归母权益 > 15%（你给的标准）</td><td data-label="通过只数"><b>2</b> / 31</td><td data-label="数据缺失">0</td></tr>
+<tr><td data-label="维度">⑥ 权益厚实</td><td data-label="计算口径与阈值">所有者权益合计 ÷ 总资产 ≥ 50%（2025q4，你给的标准）</td><td data-label="通过只数"><b>8</b> / 31</td><td data-label="数据缺失">0</td></tr>
+</tbody></table></div>
+<div class="grid2" style="margin-top:14px">
+ <div class="box"><h4>数据事实</h4><ul>
+  <li>PE 用 2025q4 年报基本每股收益算<b>静态市盈率</b>，不是 TTM；PB 用 2025q4 归母权益 ÷ 总股本算每股净资产。</li>
+  <li>换手率用近 20 个交易日（20261015–20261112）日均成交量 ÷ 20261112 流通 A 股。</li>
+  <li>ROE = 该年 q4 归母净利润 ÷ 该年期末归母权益；五年逐年都要 &gt; 15% 才算过。</li>
+  <li>权益比率用<b>所有者权益合计（含少数股东权益）</b> ÷ 总资产，2025q4。</li></ul></div>
+ <div class="box"><h4>研究判断 / 边界</h4><ul>
+  <li>银行、保险的「权益 / 总资产」天然只有 7~10%，这条标准会系统性排除全部金融股，不是公司质地问题。</li>
+  <li>ROE 分母含优先股 / 永续债，银行口径会比年报披露的加权 ROE 低约 2~3 个百分点。</li>
+  <li>「破净」单列为观察项，不额外加门槛；PB &lt; 1 的共 21 只。</li>
+  <li>本页只做<b>定池与体检</b>，不含买点判断；按 11-13 的 20 年回测，周 MA60 需偏离 −3% 起才稳。</li></ul></div>
+</div></section>
+
+<section><h2>03 · 逐年股息率明细（2021–2025）</h2>
+<div class="note">第 y 年股息率 = 第 y 年按除权日聚合的每股税前现金分红 ÷ 第 y 年最后一个交易日的<b>不复权</b>收盘价。
+ 备用池要求这 5 年<b>每一年都 &gt; 4%</b>；若只要求「五年均值 &gt; 4%」则母池里有 53 只。</div>
+<div class="tw wide"><table><thead><tr><th>代码</th><th>名称</th><th>2021股息率%</th><th>2022股息率%</th><th>2023股息率%</th><th>2024股息率%</th><th>2025股息率%</th><th>最低%</th><th>均值%</th><th>五年CV</th></tr></thead><tbody>
+<tr><td data-label="代码"><b>600177.SH</b></td><td data-label="名称">雅戈尔</td><td data-label="2021股息率%">7.26</td><td data-label="2022股息率%">7.90</td><td data-label="2023股息率%">7.63</td><td data-label="2024股息率%">7.87</td><td data-label="2025股息率%">6.05</td><td data-label="最低%"><b>6.05</b></td><td data-label="均值%">7.34</td><td data-label="五年CV">0.161</td></tr>
+<tr><td data-label="代码"><b>601225.SH</b></td><td data-label="名称">陕西煤业</td><td data-label="2021股息率%">6.56</td><td data-label="2022股息率%">7.27</td><td data-label="2023股息率%">10.44</td><td data-label="2024股息率%">6.12</td><td data-label="2025股息率%">5.99</td><td data-label="最低%"><b>5.99</b></td><td data-label="均值%">7.28</td><td data-label="五年CV">0.316</td></tr>
+<tr><td data-label="代码"><b>600901.SH</b></td><td data-label="名称">江苏金租</td><td data-label="2021股息率%">5.89</td><td data-label="2022股息率%">6.39</td><td data-label="2023股息率%">7.23</td><td data-label="2024股息率%">6.13</td><td data-label="2025股息率%">6.54</td><td data-label="最低%"><b>5.89</b></td><td data-label="均值%">6.44</td><td data-label="五年CV">0.098</td></tr>
+<tr><td data-label="代码"><b>000651.SZ</b></td><td data-label="名称">格力电器</td><td data-label="2021股息率%">8.10</td><td data-label="2022股息率%">9.28</td><td data-label="2023股息率%">6.22</td><td data-label="2024股息率%">5.24</td><td data-label="2025股息率%">7.46</td><td data-label="最低%"><b>5.24</b></td><td data-label="均值%">7.26</td><td data-label="五年CV">0.155</td></tr>
+<tr><td data-label="代码"><b>601169.SH</b></td><td data-label="名称">北京银行</td><td data-label="2021股息率%">6.76</td><td data-label="2022股息率%">7.08</td><td data-label="2023股息率%">6.84</td><td data-label="2024股息率%">5.20</td><td data-label="2025股息率%">5.84</td><td data-label="最低%"><b>5.20</b></td><td data-label="均值%">6.34</td><td data-label="五年CV">0.026</td></tr>
+<tr><td data-label="代码"><b>601088.SH</b></td><td data-label="名称">中国神华</td><td data-label="2021股息率%">8.04</td><td data-label="2022股息率%">9.20</td><td data-label="2023股息率%">8.13</td><td data-label="2024股息率%">5.20</td><td data-label="2025股息率%">8.00</td><td data-label="最低%"><b>5.20</b></td><td data-label="均值%">7.71</td><td data-label="五年CV">0.188</td></tr>
+<tr><td data-label="代码"><b>600016.SH</b></td><td data-label="名称">民生银行</td><td data-label="2021股息率%">5.46</td><td data-label="2022股息率%">6.17</td><td data-label="2023股息率%">5.72</td><td data-label="2024股息率%">8.38</td><td data-label="2025股息率%">5.17</td><td data-label="最低%"><b>5.17</b></td><td data-label="均值%">6.18</td><td data-label="五年CV">0.232</td></tr>
+<tr><td data-label="代码"><b>601229.SH</b></td><td data-label="名称">上海银行</td><td data-label="2021股息率%">5.61</td><td data-label="2022股息率%">6.77</td><td data-label="2023股息率%">6.70</td><td data-label="2024股息率%">8.09</td><td data-label="2025股息率%">5.15</td><td data-label="最低%"><b>5.15</b></td><td data-label="均值%">6.46</td><td data-label="五年CV">0.269</td></tr>
+<tr><td data-label="代码"><b>601328.SH</b></td><td data-label="名称">交通银行</td><td data-label="2021股息率%">6.88</td><td data-label="2022股息率%">7.49</td><td data-label="2023股息率%">6.50</td><td data-label="2024股息率%">4.83</td><td data-label="2025股息率%">7.38</td><td data-label="最低%"><b>4.83</b></td><td data-label="均值%">6.61</td><td data-label="五年CV">0.192</td></tr>
+<tr><td data-label="代码"><b>600015.SH</b></td><td data-label="名称">华夏银行</td><td data-label="2021股息率%">5.38</td><td data-label="2022股息率%">6.51</td><td data-label="2023股息率%">6.81</td><td data-label="2024股息率%">4.79</td><td data-label="2025股息率%">5.90</td><td data-label="最低%"><b>4.79</b></td><td data-label="均值%">5.88</td><td data-label="五年CV">0.104</td></tr>
+<tr><td data-label="代码"><b>600919.SH</b></td><td data-label="名称">江苏银行</td><td data-label="2021股息率%">5.42</td><td data-label="2022股息率%">5.49</td><td data-label="2023股息率%">7.33</td><td data-label="2024股息率%">4.79</td><td data-label="2025股息率%">5.01</td><td data-label="最低%"><b>4.79</b></td><td data-label="均值%">5.61</td><td data-label="五年CV">0.167</td></tr>
+<tr><td data-label="代码"><b>601077.SH</b></td><td data-label="名称">渝农商行</td><td data-label="2021股息率%">5.77</td><td data-label="2022股息率%">7.15</td><td data-label="2023股息率%">6.65</td><td data-label="2024股息率%">4.77</td><td data-label="2025股息率%">4.72</td><td data-label="最低%"><b>4.72</b></td><td data-label="均值%">5.81</td><td data-label="五年CV">0.107</td></tr>
+<tr><td data-label="代码"><b>601998.SH</b></td><td data-label="名称">中信银行</td><td data-label="2021股息率%">5.50</td><td data-label="2022股息率%">6.06</td><td data-label="2023股息率%">6.22</td><td data-label="2024股息率%">7.29</td><td data-label="2025股息率%">4.68</td><td data-label="最低%"><b>4.68</b></td><td data-label="均值%">5.95</td><td data-label="五年CV">0.246</td></tr>
+<tr><td data-label="代码"><b>601997.SH</b></td><td data-label="名称">贵阳银行</td><td data-label="2021股息率%">4.61</td><td data-label="2022股息率%">5.46</td><td data-label="2023股息率%">5.84</td><td data-label="2024股息率%">4.83</td><td data-label="2025股息率%">4.94</td><td data-label="最低%"><b>4.61</b></td><td data-label="均值%">5.14</td><td data-label="五年CV">0.017</td></tr>
+<tr><td data-label="代码"><b>601939.SH</b></td><td data-label="名称">建设银行</td><td data-label="2021股息率%">5.56</td><td data-label="2022股息率%">6.47</td><td data-label="2023股息率%">5.98</td><td data-label="2024股息率%">4.55</td><td data-label="2025股息率%">6.34</td><td data-label="最低%"><b>4.55</b></td><td data-label="均值%">5.78</td><td data-label="五年CV">0.221</td></tr>
+<tr><td data-label="代码"><b>601818.SH</b></td><td data-label="名称">光大银行</td><td data-label="2021股息率%">6.33</td><td data-label="2022股息率%">6.55</td><td data-label="2023股息率%">6.55</td><td data-label="2024股息率%">4.47</td><td data-label="2025股息率%">5.42</td><td data-label="最低%"><b>4.47</b></td><td data-label="均值%">5.86</td><td data-label="五年CV">0.065</td></tr>
+<tr><td data-label="代码"><b>601857.SH</b></td><td data-label="名称">中国石油</td><td data-label="2021股息率%">4.44</td><td data-label="2022股息率%">6.01</td><td data-label="2023股息率%">6.09</td><td data-label="2024股息率%">5.03</td><td data-label="2025股息率%">4.51</td><td data-label="最低%"><b>4.44</b></td><td data-label="均值%">5.22</td><td data-label="五年CV">0.263</td></tr>
+<tr><td data-label="代码"><b>601398.SH</b></td><td data-label="名称">工商银行</td><td data-label="2021股息率%">5.75</td><td data-label="2022股息率%">6.76</td><td data-label="2023股息率%">6.35</td><td data-label="2024股息率%">4.43</td><td data-label="2025股息率%">5.67</td><td data-label="最低%"><b>4.43</b></td><td data-label="均值%">5.79</td><td data-label="五年CV">0.199</td></tr>
+<tr><td data-label="代码"><b>600153.SH</b></td><td data-label="名称">建发股份</td><td data-label="2021股息率%">5.51</td><td data-label="2022股息率%">4.40</td><td data-label="2023股息率%">8.31</td><td data-label="2024股息率%">6.65</td><td data-label="2025股息率%">7.57</td><td data-label="最低%"><b>4.40</b></td><td data-label="均值%">6.49</td><td data-label="五年CV">0.155</td></tr>
+<tr><td data-label="代码"><b>601009.SH</b></td><td data-label="名称">南京银行</td><td data-label="2021股息率%">4.39</td><td data-label="2022股息率%">4.43</td><td data-label="2023股息率%">7.23</td><td data-label="2024股息率%">8.29</td><td data-label="2025股息率%">4.42</td><td data-label="最低%"><b>4.39</b></td><td data-label="均值%">5.75</td><td data-label="五年CV">0.307</td></tr>
+<tr><td data-label="代码"><b>601928.SH</b></td><td data-label="名称">凤凰传媒</td><td data-label="2021股息率%">4.94</td><td data-label="2022股息率%">6.31</td><td data-label="2023股息率%">5.68</td><td data-label="2024股息率%">4.33</td><td data-label="2025股息率%">5.98</td><td data-label="最低%"><b>4.33</b></td><td data-label="均值%">5.45</td><td data-label="五年CV">0.126</td></tr>
+<tr><td data-label="代码"><b>601098.SH</b></td><td data-label="名称">中南传媒</td><td data-label="2021股息率%">6.58</td><td data-label="2022股息率%">6.51</td><td data-label="2023股息率%">5.90</td><td data-label="2024股息率%">4.33</td><td data-label="2025股息率%">4.88</td><td data-label="最低%"><b>4.33</b></td><td data-label="均值%">5.64</td><td data-label="五年CV">0.061</td></tr>
+<tr><td data-label="代码"><b>601288.SH</b></td><td data-label="名称">农业银行</td><td data-label="2021股息率%">6.30</td><td data-label="2022股息率%">7.11</td><td data-label="2023股息率%">6.10</td><td data-label="2024股息率%">4.32</td><td data-label="2025股息率%">4.71</td><td data-label="最低%"><b>4.32</b></td><td data-label="均值%">5.71</td><td data-label="五年CV">0.257</td></tr>
+<tr><td data-label="代码"><b>601668.SH</b></td><td data-label="名称">中国建筑</td><td data-label="2021股息率%">4.29</td><td data-label="2022股息率%">4.60</td><td data-label="2023股息率%">5.25</td><td data-label="2024股息率%">4.53</td><td data-label="2025股息率%">5.29</td><td data-label="最低%"><b>4.29</b></td><td data-label="均值%">4.79</td><td data-label="五年CV">0.082</td></tr>
+<tr><td data-label="代码"><b>601988.SH</b></td><td data-label="名称">中国银行</td><td data-label="2021股息率%">6.46</td><td data-label="2022股息率%">6.99</td><td data-label="2023股息率%">5.81</td><td data-label="2024股息率%">4.29</td><td data-label="2025股息率%">6.14</td><td data-label="最低%"><b>4.29</b></td><td data-label="均值%">5.94</td><td data-label="五年CV">0.217</td></tr>
+<tr><td data-label="代码"><b>601000.SH</b></td><td data-label="名称">唐山港</td><td data-label="2021股息率%">12.73</td><td data-label="2022股息率%">7.30</td><td data-label="2023股息率%">5.71</td><td data-label="2024股息率%">4.25</td><td data-label="2025股息率%">5.21</td><td data-label="最低%"><b>4.25</b></td><td data-label="均值%">7.04</td><td data-label="五年CV">0.261</td></tr>
+<tr><td data-label="代码"><b>603156.SH</b></td><td data-label="名称">养元饮品</td><td data-label="2021股息率%">4.22</td><td data-label="2022股息率%">8.98</td><td data-label="2023股息率%">8.47</td><td data-label="2024股息率%">7.01</td><td data-label="2025股息率%">6.47</td><td data-label="最低%"><b>4.22</b></td><td data-label="均值%">7.03</td><td data-label="五年CV">0.164</td></tr>
+<tr><td data-label="代码"><b>601166.SH</b></td><td data-label="名称">兴业银行</td><td data-label="2021股息率%">4.21</td><td data-label="2022股息率%">5.88</td><td data-label="2023股息率%">7.33</td><td data-label="2024股息率%">5.43</td><td data-label="2025股息率%">5.03</td><td data-label="最低%"><b>4.21</b></td><td data-label="均值%">5.58</td><td data-label="五年CV">0.122</td></tr>
+<tr><td data-label="代码"><b>601577.SH</b></td><td data-label="名称">长沙银行</td><td data-label="2021股息率%">4.10</td><td data-label="2022股息率%">5.18</td><td data-label="2023股息率%">5.13</td><td data-label="2024股息率%">4.27</td><td data-label="2025股息率%">6.39</td><td data-label="最低%"><b>4.10</b></td><td data-label="均值%">5.01</td><td data-label="五年CV">0.271</td></tr>
+<tr><td data-label="代码"><b>601658.SH</b></td><td data-label="名称">邮储银行</td><td data-label="2021股息率%">4.09</td><td data-label="2022股息率%">5.35</td><td data-label="2023股息率%">5.93</td><td data-label="2024股息率%">4.60</td><td data-label="2025股息率%">4.80</td><td data-label="最低%"><b>4.09</b></td><td data-label="均值%">4.95</td><td data-label="五年CV">0.081</td></tr>
+<tr><td data-label="代码"><b>600350.SH</b></td><td data-label="名称">山东高速</td><td data-label="2021股息率%">7.36</td><td data-label="2022股息率%">7.03</td><td data-label="2023股息率%">5.76</td><td data-label="2024股息率%">4.09</td><td data-label="2025股息率%">4.31</td><td data-label="最低%"><b>4.09</b></td><td data-label="均值%">5.71</td><td data-label="五年CV">0.037</td></tr>
+</tbody></table></div></section>
+
+<section><h2>04 · 筛选漏斗</h2><div class="tw "><table><thead><tr><th>筛选步骤</th><th>剩余只数</th><th>说明</th></tr></thead><tbody>
+<tr><td data-label="筛选步骤">母池：连续6年分红 + 市值>200亿</td><td data-label="剩余只数"><b>254</b></td><td data-label="说明">—</td></tr>
+<tr><td data-label="筛选步骤">有 2021–2025 完整年末价</td><td data-label="剩余只数"><b>254</b></td><td data-label="说明">缺 0 只（停牌/未上市）</td></tr>
+<tr><td data-label="筛选步骤">连续 5 年股息率均 > 4%</td><td data-label="剩余只数"><b>31</b></td><td data-label="说明">每年 = 当年每股股息 ÷ 当年末收盘价</td></tr>
+<tr><td data-label="筛选步骤">（对照）5 年平均 > 4% 但不要求每年</td><td data-label="剩余只数"><b>53</b></td><td data-label="说明">—</td></tr>
+</tbody></table></div></section>
+
+<section><h2>05 · 数据回执、边界与披露</h2>
+<div class="tw wide"><table><thead><tr><th>接口</th><th>参数 / 范围</th><th>返回规模</th><th>用途</th></tr></thead><tbody>
+<tr><td data-label="接口">get_stock_daily</td><td data-label="参数 / 范围"><span class="mono sm">2021/2022/2023/2024/2025 年末单日收盘价，254 只</span></td><td data-label="返回规模">1270 行 / 254 只 / 5 日全完整</td><td data-label="用途">算逐年股息率</td></tr>
+<tr><td data-label="接口">get_fina_reports</td><td data-label="参数 / 范围"><span class="mono sm">2020q4–2025q4 财务三表，31 只，8 字段</span></td><td data-label="返回规模">两批 993 + 938 行</td><td data-label="用途">PE / PB / 五年ROE / 权益比率</td></tr>
+<tr><td data-label="接口">get_stock_daily</td><td data-label="参数 / 范围"><span class="mono sm">20261015–20261112 成交量，31 只</span></td><td data-label="返回规模">651 行（336+315，分两批）</td><td data-label="用途">近20日均换手率</td></tr>
+<tr><td data-label="接口">get_share_float</td><td data-label="参数 / 范围"><span class="mono sm">20261112 流通A股，31 只</span></td><td data-label="返回规模">31 行 / truncated=false</td><td data-label="用途">换手率分母</td></tr>
+<tr><td data-label="接口">get_share_float</td><td data-label="参数 / 范围"><span class="mono sm">20261112 总股本 / A股股本（上一轮）</span></td><td data-label="返回规模">1109 只</td><td data-label="用途">总市值、每股净资产</td></tr>
+<tr><td data-label="接口">get_stock_cash_dividend</td><td data-label="参数 / 范围"><span class="mono sm">2020–2026 全市场分红（上一轮）</span></td><td data-label="返回规模">4582 只 / 2739 只(2020)</td><td data-label="用途">逐年每股股息</td></tr>
+<tr><td data-label="接口">get_industry_constituents</td><td data-label="参数 / 范围"><span class="mono sm">sws_2021 L1</span></td><td data-label="返回规模">5234 只 / 31 个 L1</td><td data-label="用途">主营行业分类</td></tr>
+<tr><td data-label="接口">get_stock_equity_nature</td><td data-label="参数 / 范围"><span class="mono sm">全市场</span></td><td data-label="返回规模">5565 只</td><td data-label="用途">企业性质标签</td></tr>
+</tbody></table></div>
+<div class="note warn" style="margin-top:14px"><b>口径与边界</b>
+<ul style="margin-bottom:0">
+<li>本页是 <b>2026-11-12 静态快照</b>，股价、股本、分红方案变动后需重跑；非实时行情。</li>
+<li>股息率为税前静态票息，持股 ≤30 天红利税 20%、31–365 天 10%、&gt;365 天暂免；章程分红承诺、FCF 覆盖与公告原文未逐家复核。</li>
+<li>全市场送转未逐股对齐，早年每股股息偏大会被 CV 门槛保守剔除，只会少收不会错收。</li>
+<li>同日行情存在跨会话修订（11-12 与 11-13 对 000021.SZ 差 0.66 元），本页一律采用 11-13 本次抓取价。</li>
+<li>阈值与通过标记是工程化筛选结果，<b>不构成投资建议、不承诺收益、不保证准确率、不自动下单</b>；据此操作风险自负。</li>
+</ul></div></section>
+
+<div class="ver"><span>版本 20261113-1720 · 数据快照 2026-11-12</span>
+<button onclick="location.replace(location.pathname+'?v='+Date.now())">强制更新</button>
+<span>手机看不到最新内容时点「强制更新」</span></div>
+<footer>数据源 pandadata · 生成脚本 _backup_pool.py → _backup_dims.py → _gaoguxi_backup.py · 仅供研究</footer>
+</div>
+<script>
+(function(){
+ var sel=document.getElementById('fInd'), inp=document.getElementById('fTxt'),
+     best=document.getElementById('fBest');
+ function apply(){
+  var a=sel.value, b=(inp.value||'').trim().toUpperCase(), c=best.checked;
+  document.querySelectorAll('section:first-of-type tbody tr').forEach(function(tr){
+   var t=tr.textContent.toUpperCase(), n=parseInt((tr.cells[16]||{}).textContent||'0',10)||0;
+   var ind=(tr.cells[2]||{}).textContent||'';
+   tr.style.display=((!a||ind===a)&&(!b||t.indexOf(b)>=0)&&(!c||n>=5))?'':'none';
+  });
+ }
+ sel.addEventListener('change',apply); inp.addEventListener('input',apply);
+ best.addEventListener('change',apply);
+})();
+</script></body></html>
