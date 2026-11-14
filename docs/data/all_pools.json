@@ -1,5 +1,5 @@
 {
- "version": "20261113-2148",
+ "version": "20261114-1831",
  "asof": "20261112",
  "n": 458,
  "pool_defs": [
@@ -171,7 +171,10 @@
     1.28
    ],
    "note": "",
-   "yld_ttm_unified": 12.00501253132832
+   "yld_ttm_unified": 12.00501253132832,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600398.SH",
@@ -208,7 +211,10 @@
     0.18
    ],
    "note": "",
-   "yld_ttm_unified": 11.202635914332784
+   "yld_ttm_unified": 11.202635914332784,
+   "bp_dev": 9.008,
+   "bp_buy": "不成立",
+   "bp_enter": "暂不进入"
   },
   {
    "symbol": "600153.SH",
@@ -247,7 +253,10 @@
     0.7
    ],
    "note": "",
-   "yld_ttm_unified": 8.274231678486995
+   "yld_ttm_unified": 8.274231678486995,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000651.SZ",
@@ -286,7 +295,10 @@
     3.0
    ],
    "note": "",
-   "yld_ttm_unified": 7.7140653124196445
+   "yld_ttm_unified": 7.7140653124196445,
+   "bp_dev": 6.778,
+   "bp_buy": "不成立",
+   "bp_enter": "暂不进入"
   },
   {
    "symbol": "000568.SZ",
@@ -324,7 +336,10 @@
     5.95
    ],
    "note": "",
-   "yld_ttm_unified": 7.5255407870732345
+   "yld_ttm_unified": 7.5255407870732345,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300770.SZ",
@@ -361,7 +376,10 @@
     2.86
    ],
    "note": "",
-   "yld_ttm_unified": 7.117437722419928
+   "yld_ttm_unified": 7.117437722419928,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000858.SZ",
@@ -397,7 +415,10 @@
     8.323
    ],
    "note": "",
-   "yld_ttm_unified": 7.101335536279775
+   "yld_ttm_unified": 7.101335536279775,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000157.SZ",
@@ -433,7 +454,10 @@
     0.3
    ],
    "note": "",
-   "yld_ttm_unified": 6.779661016949152
+   "yld_ttm_unified": 6.779661016949152,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600502.SH",
@@ -470,7 +494,10 @@
     0.27
    ],
    "note": "",
-   "yld_ttm_unified": 6.716417910447762
+   "yld_ttm_unified": 6.716417910447762,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600177.SH",
@@ -508,7 +535,10 @@
     0.46
    ],
    "note": "",
-   "yld_ttm_unified": 6.690561529271208
+   "yld_ttm_unified": 6.690561529271208,
+   "bp_dev": 13.961,
+   "bp_buy": "不成立",
+   "bp_enter": "暂不进入"
   },
   {
    "symbol": "600015.SH",
@@ -547,7 +577,10 @@
     0.405
    ],
    "note": "",
-   "yld_ttm_unified": 6.363636363636364
+   "yld_ttm_unified": 6.363636363636364,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601229.SH",
@@ -586,7 +619,10 @@
     0.52
    ],
    "note": "",
-   "yld_ttm_unified": 6.24249699879952
+   "yld_ttm_unified": 6.24249699879952,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600970.SH",
@@ -624,7 +660,10 @@
     0.45
    ],
    "note": "",
-   "yld_ttm_unified": 6.193548387096774
+   "yld_ttm_unified": 6.193548387096774,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600750.SH",
@@ -662,7 +701,10 @@
     1.2
    ],
    "note": "",
-   "yld_ttm_unified": 6.0980998674326115
+   "yld_ttm_unified": 6.0980998674326115,
+   "bp_dev": -0.288,
+   "bp_buy": "不成立",
+   "bp_enter": "暂不进入"
   },
   {
    "symbol": "002236.SZ",
@@ -698,7 +740,10 @@
     0.643
    ],
    "note": "",
-   "yld_ttm_unified": 6.080508474576271
+   "yld_ttm_unified": 6.080508474576271,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600741.SH",
@@ -736,7 +781,10 @@
     0.8
    ],
    "note": "",
-   "yld_ttm_unified": 6.064281382656156
+   "yld_ttm_unified": 6.064281382656156,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002032.SZ",
@@ -772,7 +820,10 @@
     2.81
    ],
    "note": "",
-   "yld_ttm_unified": 5.928764652840397
+   "yld_ttm_unified": 5.928764652840397,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601668.SH",
@@ -811,7 +862,10 @@
     0.2715
    ],
    "note": "",
-   "yld_ttm_unified": 5.92156862745098
+   "yld_ttm_unified": 5.92156862745098,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000581.SZ",
@@ -847,7 +901,10 @@
     1.0
    ],
    "note": "",
-   "yld_ttm_unified": 5.875440658049354
+   "yld_ttm_unified": 5.875440658049354,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600566.SH",
@@ -883,7 +940,10 @@
     2.09
    ],
    "note": "",
-   "yld_ttm_unified": 5.860559110811721
+   "yld_ttm_unified": 5.860559110811721,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600282.SH",
@@ -919,7 +979,10 @@
     0.2036
    ],
    "note": "",
-   "yld_ttm_unified": 5.791469194312797
+   "yld_ttm_unified": 5.791469194312797,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600582.SH",
@@ -957,7 +1020,10 @@
     0.317
    ],
    "note": "",
-   "yld_ttm_unified": 5.758157389635317
+   "yld_ttm_unified": 5.758157389635317,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600039.SH",
@@ -995,7 +1061,10 @@
     0.409
    ],
    "note": "",
-   "yld_ttm_unified": 5.649202733485194
+   "yld_ttm_unified": 5.649202733485194,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600461.SH",
@@ -1032,7 +1101,10 @@
     0.464
    ],
    "note": "",
-   "yld_ttm_unified": 5.646916565900847
+   "yld_ttm_unified": 5.646916565900847,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603816.SH",
@@ -1068,7 +1140,10 @@
     1.38
    ],
    "note": "",
-   "yld_ttm_unified": 5.646481178396071
+   "yld_ttm_unified": 5.646481178396071,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002293.SZ",
@@ -1104,7 +1179,10 @@
     0.6
    ],
    "note": "",
-   "yld_ttm_unified": 5.6406124093473
+   "yld_ttm_unified": 5.6406124093473,
+   "bp_dev": 24.957,
+   "bp_buy": "不成立",
+   "bp_enter": "暂不进入"
   },
   {
    "symbol": "601818.SH",
@@ -1143,7 +1221,10 @@
     0.189
    ],
    "note": "",
-   "yld_ttm_unified": 5.537974683544303
+   "yld_ttm_unified": 5.537974683544303,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601390.SH",
@@ -1181,7 +1262,10 @@
     0.26
    ],
    "note": "",
-   "yld_ttm_unified": 5.464622641509433
+   "yld_ttm_unified": 5.464622641509433,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601928.SH",
@@ -1220,7 +1304,10 @@
     0.6
    ],
    "note": "",
-   "yld_ttm_unified": 5.452562704471101
+   "yld_ttm_unified": 5.452562704471101,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601166.SH",
@@ -1259,7 +1346,10 @@
     1.06
    ],
    "note": "",
-   "yld_ttm_unified": 5.444330949948928
+   "yld_ttm_unified": 5.444330949948928,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002027.SZ",
@@ -1295,7 +1385,10 @@
     0.38
    ],
    "note": "",
-   "yld_ttm_unified": 5.440900562851782
+   "yld_ttm_unified": 5.440900562851782,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601766.SH",
@@ -1333,7 +1426,10 @@
     0.32
    ],
    "note": "",
-   "yld_ttm_unified": 5.422647527910686
+   "yld_ttm_unified": 5.422647527910686,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601398.SH",
@@ -1372,7 +1468,10 @@
     0.4494
    ],
    "note": "",
-   "yld_ttm_unified": 5.309551208285385
+   "yld_ttm_unified": 5.309551208285385,
+   "bp_dev": 19.043,
+   "bp_buy": "不成立",
+   "bp_enter": "暂不进入"
   },
   {
    "symbol": "000404.SZ",
@@ -1409,7 +1508,10 @@
     0.3
    ],
    "note": "",
-   "yld_ttm_unified": 5.296950240770466
+   "yld_ttm_unified": 5.296950240770466,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000708.SZ",
@@ -1447,7 +1549,10 @@
     0.7072
    ],
    "note": "",
-   "yld_ttm_unified": 5.246141348497157
+   "yld_ttm_unified": 5.246141348497157,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002555.SZ",
@@ -1483,7 +1588,10 @@
     1.0
    ],
    "note": "",
-   "yld_ttm_unified": 5.225806451612904
+   "yld_ttm_unified": 5.225806451612904,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601288.SH",
@@ -1522,7 +1630,10 @@
     0.3614
    ],
    "note": "",
-   "yld_ttm_unified": 5.223140495867769
+   "yld_ttm_unified": 5.223140495867769,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600098.SH",
@@ -1560,7 +1671,10 @@
     0.37
    ],
    "note": "",
-   "yld_ttm_unified": 5.162241887905604
+   "yld_ttm_unified": 5.162241887905604,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600019.SH",
@@ -1598,7 +1712,10 @@
     0.22
    ],
    "note": "",
-   "yld_ttm_unified": 5.12396694214876
+   "yld_ttm_unified": 5.12396694214876,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601318.SH",
@@ -1636,7 +1753,10 @@
     2.57
    ],
    "note": "",
-   "yld_ttm_unified": 5.119069941871367
+   "yld_ttm_unified": 5.119069941871367,
+   "bp_dev": -2.891,
+   "bp_buy": "不成立",
+   "bp_enter": "暂不进入"
   },
   {
    "symbol": "601186.SH",
@@ -1674,7 +1794,10 @@
     0.3
    ],
    "note": "",
-   "yld_ttm_unified": 5.084745762711864
+   "yld_ttm_unified": 5.084745762711864,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601601.SH",
@@ -1710,7 +1833,10 @@
     1.08
    ],
    "note": "",
-   "yld_ttm_unified": 5.071059431524548
+   "yld_ttm_unified": 5.071059431524548,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601997.SH",
@@ -1749,7 +1875,10 @@
     0.29
    ],
    "note": "",
-   "yld_ttm_unified": 5.0675675675675675
+   "yld_ttm_unified": 5.0675675675675675,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603195.SH",
@@ -1785,7 +1914,10 @@
     2.4
    ],
    "note": "",
-   "yld_ttm_unified": 5.057226510513708
+   "yld_ttm_unified": 5.057226510513708,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600016.SH",
@@ -1822,7 +1954,10 @@
     0.198
    ],
    "note": "",
-   "yld_ttm_unified": 5.04424778761062
+   "yld_ttm_unified": 5.04424778761062,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600642.SH",
@@ -1860,7 +1995,10 @@
     0.45
    ],
    "note": "",
-   "yld_ttm_unified": 5.032822757111597
+   "yld_ttm_unified": 5.032822757111597,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600742.SH",
@@ -1897,7 +2035,10 @@
     0.63
    ],
    "note": "",
-   "yld_ttm_unified": 4.968152866242039
+   "yld_ttm_unified": 4.968152866242039,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600007.SH",
@@ -1933,7 +2074,10 @@
     1.1
    ],
    "note": "",
-   "yld_ttm_unified": 4.924068108605614
+   "yld_ttm_unified": 4.924068108605614,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000932.SZ",
@@ -1969,7 +2113,10 @@
     0.1
    ],
    "note": "",
-   "yld_ttm_unified": 4.9079754601226995
+   "yld_ttm_unified": 4.9079754601226995,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000333.SZ",
@@ -2006,7 +2153,10 @@
     4.0
    ],
    "note": "",
-   "yld_ttm_unified": 4.886918968064553
+   "yld_ttm_unified": 4.886918968064553,
+   "bp_dev": 16.529,
+   "bp_buy": "不成立",
+   "bp_enter": "暂不进入"
   },
   {
    "symbol": "601825.SH",
@@ -2043,7 +2193,10 @@
     0.434
    ],
    "note": "",
-   "yld_ttm_unified": 4.867324561403509
+   "yld_ttm_unified": 4.867324561403509,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600612.SH",
@@ -2080,7 +2233,10 @@
     2.05
    ],
    "note": "",
-   "yld_ttm_unified": 4.867114953570285
+   "yld_ttm_unified": 4.867114953570285,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000828.SZ",
@@ -2117,7 +2273,10 @@
     0.475
    ],
    "note": "",
-   "yld_ttm_unified": 4.817444219066937
+   "yld_ttm_unified": 4.817444219066937,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600941.SH",
@@ -2153,7 +2312,10 @@
     4.7941
    ],
    "note": "",
-   "yld_ttm_unified": 4.796090807289015
+   "yld_ttm_unified": 4.796090807289015,
+   "bp_dev": 6.661,
+   "bp_buy": "不成立",
+   "bp_enter": "暂不进入"
   },
   {
    "symbol": "000538.SZ",
@@ -2190,7 +2352,10 @@
     2.204
    ],
    "note": "",
-   "yld_ttm_unified": 4.795096963044275
+   "yld_ttm_unified": 4.795096963044275,
+   "bp_dev": 6.338,
+   "bp_buy": "不成立",
+   "bp_enter": "暂不进入"
   },
   {
    "symbol": "000719.SZ",
@@ -2227,7 +2392,10 @@
     0.6
    ],
    "note": "",
-   "yld_ttm_unified": 4.782608695652174
+   "yld_ttm_unified": 4.782608695652174,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300628.SZ",
@@ -2263,7 +2431,10 @@
     1.8
    ],
    "note": "",
-   "yld_ttm_unified": 4.774535809018567
+   "yld_ttm_unified": 4.774535809018567,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600036.SH",
@@ -2300,7 +2471,10 @@
     2.0
    ],
    "note": "",
-   "yld_ttm_unified": 4.7290640394088665
+   "yld_ttm_unified": 4.7290640394088665,
+   "bp_dev": 9.88,
+   "bp_buy": "不成立",
+   "bp_enter": "暂不进入"
   },
   {
    "symbol": "603697.SH",
@@ -2337,7 +2511,10 @@
     0.44
    ],
    "note": "",
-   "yld_ttm_unified": 4.72764645426516
+   "yld_ttm_unified": 4.72764645426516,
+   "bp_dev": -8.42,
+   "bp_buy": "成立·深档",
+   "bp_enter": "可进入"
   },
   {
    "symbol": "002014.SZ",
@@ -2374,7 +2551,10 @@
     0.9
    ],
    "note": "",
-   "yld_ttm_unified": 4.6915725456125115
+   "yld_ttm_unified": 4.6915725456125115,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600757.SH",
@@ -2411,7 +2591,10 @@
     0.41
    ],
    "note": "",
-   "yld_ttm_unified": 4.669703872437358
+   "yld_ttm_unified": 4.669703872437358,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600197.SH",
@@ -2448,7 +2631,10 @@
     0.45
    ],
    "note": "",
-   "yld_ttm_unified": 4.648648648648648
+   "yld_ttm_unified": 4.648648648648648,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600295.SH",
@@ -2484,7 +2670,10 @@
     0.6
    ],
    "note": "",
-   "yld_ttm_unified": 4.641909814323607
+   "yld_ttm_unified": 4.641909814323607,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600803.SH",
@@ -2520,7 +2709,10 @@
     0.99
    ],
    "note": "",
-   "yld_ttm_unified": 4.639922667955534
+   "yld_ttm_unified": 4.639922667955534,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601169.SH",
@@ -2559,7 +2751,10 @@
     0.32
    ],
    "note": "",
-   "yld_ttm_unified": 4.625623960066556
+   "yld_ttm_unified": 4.625623960066556,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601006.SH",
@@ -2595,7 +2790,10 @@
     0.22
    ],
    "note": "",
-   "yld_ttm_unified": 4.620833333333334
+   "yld_ttm_unified": 4.620833333333334,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603156.SH",
@@ -2632,7 +2830,10 @@
     1.86
    ],
    "note": "",
-   "yld_ttm_unified": 4.615384615384616
+   "yld_ttm_unified": 4.615384615384616,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000987.SZ",
@@ -2670,7 +2871,10 @@
     0.26
    ],
    "note": "",
-   "yld_ttm_unified": 4.606240713224368
+   "yld_ttm_unified": 4.606240713224368,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002060.SZ",
@@ -2707,7 +2911,10 @@
     0.14
    ],
    "note": "",
-   "yld_ttm_unified": 4.59016393442623
+   "yld_ttm_unified": 4.59016393442623,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603689.SH",
@@ -2744,7 +2951,10 @@
     0.4
    ],
    "note": "",
-   "yld_ttm_unified": 4.533678756476684
+   "yld_ttm_unified": 4.533678756476684,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603899.SH",
@@ -2780,7 +2990,10 @@
     1.0
    ],
    "note": "",
-   "yld_ttm_unified": 4.531037607612143
+   "yld_ttm_unified": 4.531037607612143,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601577.SH",
@@ -2819,7 +3032,10 @@
     0.62
    ],
    "note": "",
-   "yld_ttm_unified": 4.491017964071856
+   "yld_ttm_unified": 4.491017964071856,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000900.SZ",
@@ -2856,7 +3072,10 @@
     0.15
    ],
    "note": "",
-   "yld_ttm_unified": 4.481792717086835
+   "yld_ttm_unified": 4.481792717086835,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002758.SZ",
@@ -2893,7 +3112,10 @@
     0.3
    ],
    "note": "",
-   "yld_ttm_unified": 4.45945945945946
+   "yld_ttm_unified": 4.45945945945946,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000951.SZ",
@@ -2930,7 +3152,10 @@
     0.72
    ],
    "note": "",
-   "yld_ttm_unified": 4.453419493807216
+   "yld_ttm_unified": 4.453419493807216,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600887.SH",
@@ -2967,7 +3192,10 @@
     1.7
    ],
    "note": "",
-   "yld_ttm_unified": 4.451612903225806
+   "yld_ttm_unified": 4.451612903225806,
+   "bp_dev": 19.869,
+   "bp_buy": "不成立",
+   "bp_enter": "暂不进入"
   },
   {
    "symbol": "601077.SH",
@@ -3006,7 +3234,10 @@
     0.3046
    ],
    "note": "",
-   "yld_ttm_unified": 4.450762829403606
+   "yld_ttm_unified": 4.450762829403606,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603233.SH",
@@ -3042,7 +3273,10 @@
     0.65
    ],
    "note": "",
-   "yld_ttm_unified": 4.440059200789344
+   "yld_ttm_unified": 4.440059200789344,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000429.SZ",
@@ -3080,7 +3314,10 @@
     0.523
    ],
    "note": "",
-   "yld_ttm_unified": 4.424908424908425
+   "yld_ttm_unified": 4.424908424908425,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600704.SH",
@@ -3118,7 +3355,10 @@
     0.21
    ],
    "note": "",
-   "yld_ttm_unified": 4.3737574552683895
+   "yld_ttm_unified": 4.3737574552683895,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600919.SH",
@@ -3157,7 +3397,10 @@
     0.5206
    ],
    "note": "",
-   "yld_ttm_unified": 4.35935085007728
+   "yld_ttm_unified": 4.35935085007728,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600008.SH",
@@ -3195,7 +3438,10 @@
     0.17
    ],
    "note": "",
-   "yld_ttm_unified": 4.3478260869565215
+   "yld_ttm_unified": 4.3478260869565215,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600639.SH",
@@ -3232,7 +3478,10 @@
     0.3227
    ],
    "note": "",
-   "yld_ttm_unified": 4.3431053203040175
+   "yld_ttm_unified": 4.3431053203040175,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600018.SH",
@@ -3270,7 +3519,10 @@
     0.145
    ],
    "note": "",
-   "yld_ttm_unified": 4.336283185840708
+   "yld_ttm_unified": 4.336283185840708,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603128.SH",
@@ -3307,7 +3559,10 @@
     0.174
    ],
    "note": "",
-   "yld_ttm_unified": 4.324324324324325
+   "yld_ttm_unified": 4.324324324324325,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600690.SH",
@@ -3345,7 +3600,10 @@
     1.2342
    ],
    "note": "",
-   "yld_ttm_unified": 4.290182868142444
+   "yld_ttm_unified": 4.290182868142444,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601688.SH",
@@ -3383,7 +3641,10 @@
     0.52
    ],
    "note": "",
-   "yld_ttm_unified": 4.266510812390415
+   "yld_ttm_unified": 4.266510812390415,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601857.SH",
@@ -3422,7 +3683,10 @@
     0.47
    ],
    "note": "",
-   "yld_ttm_unified": 4.239401496259352
+   "yld_ttm_unified": 4.239401496259352,
+   "bp_dev": 20.774,
+   "bp_buy": "不成立",
+   "bp_enter": "暂不进入"
   },
   {
    "symbol": "600064.SH",
@@ -3459,7 +3723,10 @@
     0.3
    ],
    "note": "",
-   "yld_ttm_unified": 4.2328042328042335
+   "yld_ttm_unified": 4.2328042328042335,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600269.SH",
@@ -3496,7 +3763,10 @@
     0.17
    ],
    "note": "",
-   "yld_ttm_unified": 4.228855721393035
+   "yld_ttm_unified": 4.228855721393035,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000786.SZ",
@@ -3534,7 +3804,10 @@
     0.865
    ],
    "note": "",
-   "yld_ttm_unified": 4.215384615384616
+   "yld_ttm_unified": 4.215384615384616,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600035.SH",
@@ -3571,7 +3844,10 @@
     0.17
    ],
    "note": "",
-   "yld_ttm_unified": 4.210526315789474
+   "yld_ttm_unified": 4.210526315789474,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601009.SH",
@@ -3608,7 +3884,10 @@
     0.5055
    ],
    "note": "",
-   "yld_ttm_unified": 4.210023866348449
+   "yld_ttm_unified": 4.210023866348449,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601107.SH",
@@ -3644,7 +3923,10 @@
     0.29
    ],
    "note": "",
-   "yld_ttm_unified": 4.177215189873417
+   "yld_ttm_unified": 4.177215189873417,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600863.SH",
@@ -3682,7 +3964,10 @@
     0.22
    ],
    "note": "",
-   "yld_ttm_unified": 4.174573055028463
+   "yld_ttm_unified": 4.174573055028463,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600598.SH",
@@ -3720,7 +4005,10 @@
     0.55
    ],
    "note": "",
-   "yld_ttm_unified": 4.166666666666667
+   "yld_ttm_unified": 4.166666666666667,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002007.SZ",
@@ -3756,7 +4044,10 @@
     0.7
    ],
    "note": "",
-   "yld_ttm_unified": 4.166666666666666
+   "yld_ttm_unified": 4.166666666666666,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601998.SH",
@@ -3793,7 +4084,10 @@
     0.3602
    ],
    "note": "",
-   "yld_ttm_unified": 4.1593886462882095
+   "yld_ttm_unified": 4.1593886462882095,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000596.SZ",
@@ -3830,7 +4124,10 @@
     6.0
    ],
    "note": "",
-   "yld_ttm_unified": 4.158790170132325
+   "yld_ttm_unified": 4.158790170132325,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601598.SH",
@@ -3868,7 +4165,10 @@
     0.29
    ],
    "note": "",
-   "yld_ttm_unified": 4.131652661064425
+   "yld_ttm_unified": 4.131652661064425,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600000.SH",
@@ -3906,7 +4206,10 @@
     0.41
    ],
    "note": "",
-   "yld_ttm_unified": 4.113614103819784
+   "yld_ttm_unified": 4.113614103819784,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601000.SH",
@@ -3945,7 +4248,10 @@
     0.2
    ],
    "note": "",
-   "yld_ttm_unified": 4.1067761806981515
+   "yld_ttm_unified": 4.1067761806981515,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601088.SH",
@@ -3984,7 +4290,10 @@
     3.24
    ],
    "note": "",
-   "yld_ttm_unified": 4.105392156862744
+   "yld_ttm_unified": 4.105392156862744,
+   "bp_dev": 16.576,
+   "bp_buy": "不成立",
+   "bp_enter": "暂不进入"
   },
   {
    "symbol": "600352.SH",
@@ -4020,7 +4329,10 @@
     0.45
    ],
    "note": "",
-   "yld_ttm_unified": 4.0797824116047146
+   "yld_ttm_unified": 4.0797824116047146,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601211.SH",
@@ -4058,7 +4370,10 @@
     0.43
    ],
    "note": "",
-   "yld_ttm_unified": 4.0625
+   "yld_ttm_unified": 4.0625,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600761.SH",
@@ -4095,7 +4410,10 @@
     0.7
    ],
    "note": "",
-   "yld_ttm_unified": 4.045853000674309
+   "yld_ttm_unified": 4.045853000674309,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000776.SZ",
@@ -4131,7 +4449,10 @@
     0.5
    ],
    "note": "",
-   "yld_ttm_unified": 4.040948275862069
+   "yld_ttm_unified": 4.040948275862069,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601098.SH",
@@ -4170,7 +4491,10 @@
     0.55
    ],
    "note": "",
-   "yld_ttm_unified": 4.028648164726947
+   "yld_ttm_unified": 4.028648164726947,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600648.SH",
@@ -4206,7 +4530,10 @@
     0.35
    ],
    "note": "",
-   "yld_ttm_unified": 4.022988505747127
+   "yld_ttm_unified": 4.022988505747127,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002911.SZ",
@@ -4243,7 +4570,10 @@
     0.48
    ],
    "note": "",
-   "yld_ttm_unified": 4.021655065738592
+   "yld_ttm_unified": 4.021655065738592,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601963.SH",
@@ -4280,7 +4610,10 @@
     0.414
    ],
    "note": "",
-   "yld_ttm_unified": 4.004468275245755
+   "yld_ttm_unified": 4.004468275245755,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600901.SH",
@@ -4317,7 +4650,10 @@
     0.4
    ],
    "note": "",
-   "yld_ttm_unified": 3.963011889035667
+   "yld_ttm_unified": 3.963011889035667,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601860.SH",
@@ -4353,7 +4689,10 @@
     0.1
    ],
    "note": "",
-   "yld_ttm_unified": 3.952569169960475
+   "yld_ttm_unified": 3.952569169960475,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600660.SH",
@@ -4389,7 +4728,10 @@
     2.7
    ],
    "note": "",
-   "yld_ttm_unified": 3.9391226499552374
+   "yld_ttm_unified": 3.9391226499552374,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601658.SH",
@@ -4427,7 +4769,10 @@
     0.2616
    ],
    "note": "",
-   "yld_ttm_unified": 3.884341637010676
+   "yld_ttm_unified": 3.884341637010676,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600999.SH",
@@ -4464,7 +4809,10 @@
     0.496
    ],
    "note": "",
-   "yld_ttm_unified": 3.8839848675914252
+   "yld_ttm_unified": 3.8839848675914252,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601900.SH",
@@ -4500,7 +4848,10 @@
     0.55
    ],
    "note": "",
-   "yld_ttm_unified": 3.8754325259515574
+   "yld_ttm_unified": 3.8754325259515574,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600028.SH",
@@ -4536,7 +4887,10 @@
     0.228
    ],
    "note": "",
-   "yld_ttm_unified": 3.8680926916221035
+   "yld_ttm_unified": 3.8680926916221035,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600332.SH",
@@ -4573,7 +4927,10 @@
     0.8
    ],
    "note": "",
-   "yld_ttm_unified": 3.8520801232665645
+   "yld_ttm_unified": 3.8520801232665645,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601992.SH",
@@ -4609,7 +4966,10 @@
     0.05
    ],
    "note": "",
-   "yld_ttm_unified": 3.8461538461538463
+   "yld_ttm_unified": 3.8461538461538463,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601328.SH",
@@ -4646,7 +5006,10 @@
     0.5353
    ],
    "note": "",
-   "yld_ttm_unified": 3.842603550295858
+   "yld_ttm_unified": 3.842603550295858,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000544.SZ",
@@ -4682,7 +5045,10 @@
     0.26
    ],
    "note": "",
-   "yld_ttm_unified": 3.8406827880512093
+   "yld_ttm_unified": 3.8406827880512093,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002415.SZ",
@@ -4719,7 +5085,10 @@
     1.1
    ],
    "note": "",
-   "yld_ttm_unified": 3.8370720188902
+   "yld_ttm_unified": 3.8370720188902,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600551.SH",
@@ -4755,7 +5124,10 @@
     0.4
    ],
    "note": "",
-   "yld_ttm_unified": 3.821656050955414
+   "yld_ttm_unified": 3.821656050955414,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601019.SH",
@@ -4791,7 +5163,10 @@
     0.37
    ],
    "note": "",
-   "yld_ttm_unified": 3.820816864295125
+   "yld_ttm_unified": 3.820816864295125,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600012.SH",
@@ -4828,7 +5203,10 @@
     0.604
    ],
    "note": "",
-   "yld_ttm_unified": 3.812824956672444
+   "yld_ttm_unified": 3.812824956672444,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600987.SH",
@@ -4864,7 +5242,10 @@
     0.4
    ],
    "note": "",
-   "yld_ttm_unified": 3.8109756097560976
+   "yld_ttm_unified": 3.8109756097560976,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002966.SZ",
@@ -4900,7 +5281,10 @@
     0.41
    ],
    "note": "",
-   "yld_ttm_unified": 3.8054968287526423
+   "yld_ttm_unified": 3.8054968287526423,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601728.SH",
@@ -4936,7 +5320,10 @@
     0.2739
    ],
    "note": "",
-   "yld_ttm_unified": 3.8033282904689867
+   "yld_ttm_unified": 3.8033282904689867,
+   "bp_dev": 9.377,
+   "bp_buy": "不成立",
+   "bp_enter": "暂不进入"
   },
   {
    "symbol": "600982.SH",
@@ -4972,7 +5359,10 @@
     0.15
    ],
    "note": "",
-   "yld_ttm_unified": 3.78619153674833
+   "yld_ttm_unified": 3.78619153674833,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600710.SH",
@@ -5008,7 +5398,10 @@
     0.369
    ],
    "note": "",
-   "yld_ttm_unified": 3.77959927140255
+   "yld_ttm_unified": 3.77959927140255,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000928.SZ",
@@ -5044,7 +5437,10 @@
     0.299
    ],
    "note": "",
-   "yld_ttm_unified": 3.776978417266187
+   "yld_ttm_unified": 3.776978417266187,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600350.SH",
@@ -5082,7 +5478,10 @@
     0.42
    ],
    "note": "",
-   "yld_ttm_unified": 3.7701974865350087
+   "yld_ttm_unified": 3.7701974865350087,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600790.SH",
@@ -5118,7 +5517,10 @@
     0.12
    ],
    "note": "",
-   "yld_ttm_unified": 3.75
+   "yld_ttm_unified": 3.75,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000425.SZ",
@@ -5155,7 +5557,10 @@
     0.18
    ],
    "note": "",
-   "yld_ttm_unified": 3.746177370030581
+   "yld_ttm_unified": 3.746177370030581,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601377.SH",
@@ -5192,7 +5597,10 @@
     0.15
    ],
    "note": "",
-   "yld_ttm_unified": 3.7453183520599254
+   "yld_ttm_unified": 3.7453183520599254,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603025.SH",
@@ -5228,7 +5636,10 @@
     0.35
    ],
    "note": "",
-   "yld_ttm_unified": 3.743760399334443
+   "yld_ttm_unified": 3.743760399334443,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600060.SH",
@@ -5265,7 +5676,10 @@
     0.88
    ],
    "note": "",
-   "yld_ttm_unified": 3.7195411392405067
+   "yld_ttm_unified": 3.7195411392405067,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603345.SH",
@@ -5301,7 +5715,10 @@
     3.39
    ],
    "note": "",
-   "yld_ttm_unified": 3.711545209966078
+   "yld_ttm_unified": 3.711545209966078,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "001965.SZ",
@@ -5338,7 +5755,10 @@
     0.417
    ],
    "note": "",
-   "yld_ttm_unified": 3.711442786069651
+   "yld_ttm_unified": 3.711442786069651,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000498.SZ",
@@ -5374,7 +5794,10 @@
     0.205
    ],
    "note": "",
-   "yld_ttm_unified": 3.701149425287356
+   "yld_ttm_unified": 3.701149425287356,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000685.SZ",
@@ -5410,7 +5833,10 @@
     0.432
    ],
    "note": "",
-   "yld_ttm_unified": 3.6983669548511044
+   "yld_ttm_unified": 3.6983669548511044,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603369.SH",
@@ -5447,7 +5873,10 @@
     1.2
    ],
    "note": "",
-   "yld_ttm_unified": 3.6957191253464736
+   "yld_ttm_unified": 3.6957191253464736,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600519.SH",
@@ -5483,7 +5912,10 @@
     51.63
    ],
    "note": "",
-   "yld_ttm_unified": 3.68590411765123
+   "yld_ttm_unified": 3.68590411765123,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002507.SZ",
@@ -5519,7 +5951,10 @@
     0.42
    ],
    "note": "",
-   "yld_ttm_unified": 3.677758318739054
+   "yld_ttm_unified": 3.677758318739054,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601225.SH",
@@ -5557,7 +5992,10 @@
     1.278
    ],
    "note": "",
-   "yld_ttm_unified": 3.67680608365019
+   "yld_ttm_unified": 3.67680608365019,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603648.SH",
@@ -5593,7 +6031,10 @@
     0.3
    ],
    "note": "",
-   "yld_ttm_unified": 3.615819209039548
+   "yld_ttm_unified": 3.615819209039548,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000411.SZ",
@@ -5629,7 +6070,10 @@
     0.3832
    ],
    "note": "",
-   "yld_ttm_unified": 3.6048879837067207
+   "yld_ttm_unified": 3.6048879837067207,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600377.SH",
@@ -5666,7 +6110,10 @@
     0.49
    ],
    "note": "",
-   "yld_ttm_unified": 3.537906137184116
+   "yld_ttm_unified": 3.537906137184116,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600968.SH",
@@ -5703,7 +6150,10 @@
     0.135
    ],
    "note": "",
-   "yld_ttm_unified": 3.5336538461538463
+   "yld_ttm_unified": 3.5336538461538463,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601607.SH",
@@ -5740,7 +6190,10 @@
     0.29
    ],
    "note": "",
-   "yld_ttm_unified": 3.5076923076923077
+   "yld_ttm_unified": 3.5076923076923077,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002831.SZ",
@@ -5776,7 +6229,10 @@
     1.0341
    ],
    "note": "",
-   "yld_ttm_unified": 3.4955555555555553
+   "yld_ttm_unified": 3.4955555555555553,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002332.SZ",
@@ -5812,7 +6268,10 @@
     0.4
    ],
    "note": "",
-   "yld_ttm_unified": 3.484320557491289
+   "yld_ttm_unified": 3.484320557491289,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000883.SZ",
@@ -5849,7 +6308,10 @@
     0.1
    ],
    "note": "",
-   "yld_ttm_unified": 3.472222222222222
+   "yld_ttm_unified": 3.472222222222222,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002061.SZ",
@@ -5885,7 +6347,10 @@
     0.125
    ],
    "note": "",
-   "yld_ttm_unified": 3.4700315457413247
+   "yld_ttm_unified": 3.4700315457413247,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "688009.SH",
@@ -5922,7 +6387,10 @@
     0.17
    ],
    "note": "",
-   "yld_ttm_unified": 3.4552845528455287
+   "yld_ttm_unified": 3.4552845528455287,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601018.SH",
@@ -5959,7 +6427,10 @@
     0.138
    ],
    "note": "",
-   "yld_ttm_unified": 3.4472934472934473
+   "yld_ttm_unified": 3.4472934472934473,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601827.SH",
@@ -5995,7 +6466,10 @@
     0.245
    ],
    "note": "",
-   "yld_ttm_unified": 3.427835051546392
+   "yld_ttm_unified": 3.427835051546392,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603658.SH",
@@ -6031,7 +6505,10 @@
     1.26
    ],
    "note": "",
-   "yld_ttm_unified": 3.4275248560962845
+   "yld_ttm_unified": 3.4275248560962845,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600916.SH",
@@ -6067,7 +6544,10 @@
     0.35
    ],
    "note": "",
-   "yld_ttm_unified": 3.418803418803419
+   "yld_ttm_unified": 3.418803418803419,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603198.SH",
@@ -6103,7 +6583,10 @@
     1.5
    ],
    "note": "",
-   "yld_ttm_unified": 3.401360544217687
+   "yld_ttm_unified": 3.401360544217687,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600900.SH",
@@ -6141,7 +6624,10 @@
     0.943
    ],
    "note": "",
-   "yld_ttm_unified": 3.3772374197906116
+   "yld_ttm_unified": 3.3772374197906116,
+   "bp_dev": 10.295,
+   "bp_buy": "不成立",
+   "bp_enter": "暂不进入"
   },
   {
    "symbol": "601811.SH",
@@ -6178,7 +6664,10 @@
     0.6
    ],
    "note": "",
-   "yld_ttm_unified": 3.375286041189931
+   "yld_ttm_unified": 3.375286041189931,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601326.SH",
@@ -6214,7 +6703,10 @@
     0.085
    ],
    "note": "",
-   "yld_ttm_unified": 3.3527696793002915
+   "yld_ttm_unified": 3.3527696793002915,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603043.SH",
@@ -6250,7 +6742,10 @@
     0.58
    ],
    "note": "",
-   "yld_ttm_unified": 3.351206434316354
+   "yld_ttm_unified": 3.351206434316354,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600283.SH",
@@ -6286,7 +6781,10 @@
     0.25
    ],
    "note": "",
-   "yld_ttm_unified": 3.3422459893048124
+   "yld_ttm_unified": 3.3422459893048124,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000933.SZ",
@@ -6323,7 +6821,10 @@
     0.5
    ],
    "note": "",
-   "yld_ttm_unified": 3.2908268202385855
+   "yld_ttm_unified": 3.2908268202385855,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000895.SZ",
@@ -6359,7 +6860,10 @@
     1.4
    ],
    "note": "",
-   "yld_ttm_unified": 3.289473684210526
+   "yld_ttm_unified": 3.289473684210526,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601968.SH",
@@ -6395,7 +6899,10 @@
     0.077
    ],
    "note": "",
-   "yld_ttm_unified": 3.260869565217392
+   "yld_ttm_unified": 3.260869565217392,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002116.SZ",
@@ -6431,7 +6938,10 @@
     0.3094
    ],
    "note": "",
-   "yld_ttm_unified": 3.2585438335809807
+   "yld_ttm_unified": 3.2585438335809807,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601939.SH",
@@ -6468,7 +6978,10 @@
     0.5888
    ],
    "note": "",
-   "yld_ttm_unified": 3.236469608659451
+   "yld_ttm_unified": 3.236469608659451,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600125.SH",
@@ -6504,7 +7017,10 @@
     0.14
    ],
    "note": "",
-   "yld_ttm_unified": 3.232514177693762
+   "yld_ttm_unified": 3.232514177693762,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601800.SH",
@@ -6541,7 +7057,10 @@
     0.3017
    ],
    "note": "",
-   "yld_ttm_unified": 3.224052718286656
+   "yld_ttm_unified": 3.224052718286656,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600483.SH",
@@ -6578,7 +7097,10 @@
     0.383
    ],
    "note": "",
-   "yld_ttm_unified": 3.217866909753874
+   "yld_ttm_unified": 3.217866909753874,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601369.SH",
@@ -6614,7 +7136,10 @@
     0.43
    ],
    "note": "",
-   "yld_ttm_unified": 3.2175032175032174
+   "yld_ttm_unified": 3.2175032175032174,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601988.SH",
@@ -6651,7 +7176,10 @@
     0.3518
    ],
    "note": "",
-   "yld_ttm_unified": 3.2144886363636362
+   "yld_ttm_unified": 3.2144886363636362,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603970.SH",
@@ -6687,7 +7215,10 @@
     0.45
    ],
    "note": "",
-   "yld_ttm_unified": 3.2128514056224895
+   "yld_ttm_unified": 3.2128514056224895,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600368.SH",
@@ -6723,7 +7254,10 @@
     0.131
    ],
    "note": "",
-   "yld_ttm_unified": 3.1954022988505755
+   "yld_ttm_unified": 3.1954022988505755,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601101.SH",
@@ -6759,7 +7293,10 @@
     0.458
    ],
    "note": "",
-   "yld_ttm_unified": 3.169014084507042
+   "yld_ttm_unified": 3.169014084507042,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002001.SZ",
@@ -6795,7 +7332,10 @@
     0.9
    ],
    "note": "",
-   "yld_ttm_unified": 3.1372549019607843
+   "yld_ttm_unified": 3.1372549019607843,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601898.SH",
@@ -6832,7 +7372,10 @@
     0.424
    ],
    "note": "",
-   "yld_ttm_unified": 3.0846153846153848
+   "yld_ttm_unified": 3.0846153846153848,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600956.SH",
@@ -6869,7 +7412,10 @@
     0.21
    ],
    "note": "",
-   "yld_ttm_unified": 3.0581039755351687
+   "yld_ttm_unified": 3.0581039755351687,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000062.SZ",
@@ -6905,7 +7451,10 @@
     0.58
    ],
    "note": "",
-   "yld_ttm_unified": 3.0441400304414
+   "yld_ttm_unified": 3.0441400304414,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601881.SH",
@@ -6942,7 +7491,10 @@
     0.321
    ],
    "note": "",
-   "yld_ttm_unified": 3.025064822817632
+   "yld_ttm_unified": 3.025064822817632,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601555.SH",
@@ -6979,7 +7531,10 @@
     0.375
    ],
    "note": "",
-   "yld_ttm_unified": 2.993197278911565
+   "yld_ttm_unified": 2.993197278911565,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600309.SH",
@@ -7016,7 +7571,10 @@
     0.73
    ],
    "note": "",
-   "yld_ttm_unified": 2.9889727219965176
+   "yld_ttm_unified": 2.9889727219965176,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000728.SZ",
@@ -7053,7 +7611,10 @@
     0.24
    ],
    "note": "",
-   "yld_ttm_unified": 2.9761904761904763
+   "yld_ttm_unified": 2.9761904761904763,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601117.SH",
@@ -7090,7 +7651,10 @@
     0.186
    ],
    "note": "",
-   "yld_ttm_unified": 2.967651195499297
+   "yld_ttm_unified": 2.967651195499297,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000028.SZ",
@@ -7126,7 +7690,10 @@
     0.366
    ],
    "note": "",
-   "yld_ttm_unified": 2.960115329168669
+   "yld_ttm_unified": 2.960115329168669,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002841.SZ",
@@ -7162,7 +7729,10 @@
     0.68
    ],
    "note": "",
-   "yld_ttm_unified": 2.946148273363922
+   "yld_ttm_unified": 2.946148273363922,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603299.SH",
@@ -7198,7 +7768,10 @@
     0.443
    ],
    "note": "",
-   "yld_ttm_unified": 2.903225806451613
+   "yld_ttm_unified": 2.903225806451613,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000967.SZ",
@@ -7234,7 +7807,10 @@
     0.189
    ],
    "note": "",
-   "yld_ttm_unified": 2.8938906752411575
+   "yld_ttm_unified": 2.8938906752411575,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601878.SH",
@@ -7271,7 +7847,10 @@
     0.15
    ],
    "note": "",
-   "yld_ttm_unified": 2.883506343713956
+   "yld_ttm_unified": 2.883506343713956,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002948.SZ",
@@ -7307,7 +7886,10 @@
     0.16
    ],
    "note": "",
-   "yld_ttm_unified": 2.857142857142857
+   "yld_ttm_unified": 2.857142857142857,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600674.SH",
@@ -7344,7 +7926,10 @@
     0.4
    ],
    "note": "",
-   "yld_ttm_unified": 2.853881278538813
+   "yld_ttm_unified": 2.853881278538813,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601628.SH",
@@ -7381,7 +7966,10 @@
     0.688
    ],
    "note": "",
-   "yld_ttm_unified": 2.8454810495626823
+   "yld_ttm_unified": 2.8454810495626823,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603939.SH",
@@ -7417,7 +8005,10 @@
     0.7
    ],
    "note": "",
-   "yld_ttm_unified": 2.816901408450704
+   "yld_ttm_unified": 2.816901408450704,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600511.SH",
@@ -7454,7 +8045,10 @@
     0.8
    ],
    "note": "",
-   "yld_ttm_unified": 2.815909890883492
+   "yld_ttm_unified": 2.815909890883492,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000850.SZ",
@@ -7490,7 +8084,10 @@
     0.1
    ],
    "note": "",
-   "yld_ttm_unified": 2.808988764044944
+   "yld_ttm_unified": 2.808988764044944,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002479.SZ",
@@ -7526,7 +8123,10 @@
     0.15
    ],
    "note": "",
-   "yld_ttm_unified": 2.798507462686567
+   "yld_ttm_unified": 2.798507462686567,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603100.SH",
@@ -7562,7 +8162,10 @@
     0.575
    ],
    "note": "",
-   "yld_ttm_unified": 2.7914614121510675
+   "yld_ttm_unified": 2.7914614121510675,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600030.SH",
@@ -7599,7 +8202,10 @@
     0.28
    ],
    "note": "",
-   "yld_ttm_unified": 2.7910685805422646
+   "yld_ttm_unified": 2.7910685805422646,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002064.SZ",
@@ -7635,7 +8241,10 @@
     0.2
    ],
    "note": "",
-   "yld_ttm_unified": 2.790178571428571
+   "yld_ttm_unified": 2.790178571428571,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600369.SH",
@@ -7672,7 +8281,10 @@
     0.085
    ],
    "note": "",
-   "yld_ttm_unified": 2.7894736842105265
+   "yld_ttm_unified": 2.7894736842105265,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601512.SH",
@@ -7708,7 +8320,10 @@
     0.128
    ],
    "note": "",
-   "yld_ttm_unified": 2.7640156453715776
+   "yld_ttm_unified": 2.7640156453715776,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601877.SH",
@@ -7744,7 +8359,10 @@
     0.6
    ],
    "note": "",
-   "yld_ttm_unified": 2.7345393352965925
+   "yld_ttm_unified": 2.7345393352965925,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600475.SH",
@@ -7780,7 +8398,10 @@
     0.45
    ],
    "note": "",
-   "yld_ttm_unified": 2.7322404371584694
+   "yld_ttm_unified": 2.7322404371584694,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "688036.SH",
@@ -7816,7 +8437,10 @@
     2.3
    ],
    "note": "",
-   "yld_ttm_unified": 2.7304850626405397
+   "yld_ttm_unified": 2.7304850626405397,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600618.SH",
@@ -7852,7 +8476,10 @@
     0.21
    ],
    "note": "",
-   "yld_ttm_unified": 2.7303754266211606
+   "yld_ttm_unified": 2.7303754266211606,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600406.SH",
@@ -7889,7 +8516,10 @@
     0.582
    ],
    "note": "",
-   "yld_ttm_unified": 2.7092320966350303
+   "yld_ttm_unified": 2.7092320966350303,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600724.SH",
@@ -7925,7 +8555,10 @@
     0.14
    ],
    "note": "",
-   "yld_ttm_unified": 2.684563758389262
+   "yld_ttm_unified": 2.684563758389262,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002939.SZ",
@@ -7962,7 +8595,10 @@
     0.168
    ],
    "note": "",
-   "yld_ttm_unified": 2.677595628415301
+   "yld_ttm_unified": 2.677595628415301,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300003.SZ",
@@ -7998,7 +8634,10 @@
     0.2978
    ],
    "note": "",
-   "yld_ttm_unified": 2.674609695973706
+   "yld_ttm_unified": 2.674609695973706,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601633.SH",
@@ -8034,7 +8673,10 @@
     0.45
    ],
    "note": "",
-   "yld_ttm_unified": 2.6717557251908395
+   "yld_ttm_unified": 2.6717557251908395,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002039.SZ",
@@ -8070,7 +8712,10 @@
     0.16
    ],
    "note": "",
-   "yld_ttm_unified": 2.6688453159041394
+   "yld_ttm_unified": 2.6688453159041394,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600529.SH",
@@ -8106,7 +8751,10 @@
     0.6
    ],
    "note": "",
-   "yld_ttm_unified": 2.665186007773459
+   "yld_ttm_unified": 2.665186007773459,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601330.SH",
@@ -8142,7 +8790,10 @@
     0.3
    ],
    "note": "",
-   "yld_ttm_unified": 2.663438256658596
+   "yld_ttm_unified": 2.663438256658596,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600104.SH",
@@ -8179,7 +8830,10 @@
     0.088
    ],
    "note": "",
-   "yld_ttm_unified": 2.66
+   "yld_ttm_unified": 2.66,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600795.SH",
@@ -8215,7 +8869,10 @@
     0.21
    ],
    "note": "",
-   "yld_ttm_unified": 2.655367231638418
+   "yld_ttm_unified": 2.655367231638418,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603013.SH",
@@ -8251,7 +8908,10 @@
     0.4
    ],
    "note": "",
-   "yld_ttm_unified": 2.638522427440633
+   "yld_ttm_unified": 2.638522427440633,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000529.SZ",
@@ -8287,7 +8947,10 @@
     0.12
    ],
    "note": "",
-   "yld_ttm_unified": 2.62582056892779
+   "yld_ttm_unified": 2.62582056892779,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002500.SZ",
@@ -8323,7 +8986,10 @@
     0.1
    ],
    "note": "",
-   "yld_ttm_unified": 2.61569416498994
+   "yld_ttm_unified": 2.61569416498994,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000419.SZ",
@@ -8359,7 +9025,10 @@
     0.15
    ],
    "note": "",
-   "yld_ttm_unified": 2.6052104208416833
+   "yld_ttm_unified": 2.6052104208416833,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000027.SZ",
@@ -8396,7 +9065,10 @@
     0.15
    ],
    "note": "",
-   "yld_ttm_unified": 2.5889967637540456
+   "yld_ttm_unified": 2.5889967637540456,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000166.SZ",
@@ -8433,7 +9105,10 @@
     0.081
    ],
    "note": "",
-   "yld_ttm_unified": 2.588235294117647
+   "yld_ttm_unified": 2.588235294117647,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600061.SH",
@@ -8470,7 +9145,10 @@
     0.127
    ],
    "note": "",
-   "yld_ttm_unified": 2.5704809286898835
+   "yld_ttm_unified": 2.5704809286898835,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603298.SH",
@@ -8506,7 +9184,10 @@
     0.7
    ],
    "note": "",
-   "yld_ttm_unified": 2.526315789473684
+   "yld_ttm_unified": 2.526315789473684,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601139.SH",
@@ -8542,7 +9223,10 @@
     0.16
    ],
    "note": "",
-   "yld_ttm_unified": 2.519685039370079
+   "yld_ttm_unified": 2.519685039370079,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600848.SH",
@@ -8579,7 +9263,10 @@
     0.2
    ],
    "note": "",
-   "yld_ttm_unified": 2.506265664160401
+   "yld_ttm_unified": 2.506265664160401,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600787.SH",
@@ -8615,7 +9302,10 @@
     0.07
    ],
    "note": "",
-   "yld_ttm_unified": 2.5
+   "yld_ttm_unified": 2.5,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600062.SH",
@@ -8651,7 +9341,10 @@
     0.471
    ],
    "note": "",
-   "yld_ttm_unified": 2.470664928292047
+   "yld_ttm_unified": 2.470664928292047,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600335.SH",
@@ -8687,7 +9380,10 @@
     0.11
    ],
    "note": "",
-   "yld_ttm_unified": 2.4554455445544554
+   "yld_ttm_unified": 2.4554455445544554,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600958.SH",
@@ -8724,7 +9420,10 @@
     0.22
    ],
    "note": "",
-   "yld_ttm_unified": 2.442002442002442
+   "yld_ttm_unified": 2.442002442002442,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600535.SH",
@@ -8760,7 +9459,10 @@
     0.41
    ],
    "note": "",
-   "yld_ttm_unified": 2.4355300859598854
+   "yld_ttm_unified": 2.4355300859598854,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600875.SH",
@@ -8797,7 +9499,10 @@
     0.403
    ],
    "note": "",
-   "yld_ttm_unified": 2.413479052823315
+   "yld_ttm_unified": 2.413479052823315,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601669.SH",
@@ -8834,7 +9539,10 @@
     0.127
    ],
    "note": "",
-   "yld_ttm_unified": 2.4031890660592254
+   "yld_ttm_unified": 2.4031890660592254,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601958.SH",
@@ -8871,7 +9579,10 @@
     0.4
    ],
    "note": "",
-   "yld_ttm_unified": 2.3837902264600714
+   "yld_ttm_unified": 2.3837902264600714,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600717.SH",
@@ -8907,7 +9618,10 @@
     0.104
    ],
    "note": "",
-   "yld_ttm_unified": 2.372093023255814
+   "yld_ttm_unified": 2.372093023255814,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601952.SH",
@@ -8943,7 +9657,10 @@
     0.27
    ],
    "note": "",
-   "yld_ttm_unified": 2.3543990086741013
+   "yld_ttm_unified": 2.3543990086741013,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600133.SH",
@@ -8979,7 +9696,10 @@
     0.165
    ],
    "note": "",
-   "yld_ttm_unified": 2.3479490806223478
+   "yld_ttm_unified": 2.3479490806223478,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601965.SH",
@@ -9015,7 +9735,10 @@
     0.44
    ],
    "note": "",
-   "yld_ttm_unified": 2.3271731690622866
+   "yld_ttm_unified": 2.3271731690622866,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600489.SH",
@@ -9052,7 +9775,10 @@
     0.388
    ],
    "note": "",
-   "yld_ttm_unified": 2.3260538344337225
+   "yld_ttm_unified": 2.3260538344337225,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600814.SH",
@@ -9088,7 +9814,10 @@
     0.178
    ],
    "note": "",
-   "yld_ttm_unified": 2.3194444444444446
+   "yld_ttm_unified": 2.3194444444444446,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601808.SH",
@@ -9125,7 +9854,10 @@
     0.2306
    ],
    "note": "",
-   "yld_ttm_unified": 2.298616761594792
+   "yld_ttm_unified": 2.298616761594792,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002461.SZ",
@@ -9161,7 +9893,10 @@
     0.17
    ],
    "note": "",
-   "yld_ttm_unified": 2.2946859903381642
+   "yld_ttm_unified": 2.2946859903381642,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002057.SZ",
@@ -9197,7 +9932,10 @@
     0.124
    ],
    "note": "",
-   "yld_ttm_unified": 2.2922252010723865
+   "yld_ttm_unified": 2.2922252010723865,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601138.SH",
@@ -9233,7 +9971,10 @@
     0.64
    ],
    "note": "",
-   "yld_ttm_unified": 2.2606689734717413
+   "yld_ttm_unified": 2.2606689734717413,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002078.SZ",
@@ -9269,7 +10010,10 @@
     0.4
    ],
    "note": "",
-   "yld_ttm_unified": 2.2590361445783134
+   "yld_ttm_unified": 2.2590361445783134,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600637.SH",
@@ -9306,7 +10050,10 @@
     0.23
    ],
    "note": "",
-   "yld_ttm_unified": 2.252816020025031
+   "yld_ttm_unified": 2.252816020025031,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601231.SH",
@@ -9342,7 +10089,10 @@
     0.23
    ],
    "note": "",
-   "yld_ttm_unified": 2.25130890052356
+   "yld_ttm_unified": 2.25130890052356,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601199.SH",
@@ -9378,7 +10128,10 @@
     0.14
    ],
    "note": "",
-   "yld_ttm_unified": 2.2388059701492535
+   "yld_ttm_unified": 2.2388059701492535,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601008.SH",
@@ -9414,7 +10167,10 @@
     0.06
    ],
    "note": "",
-   "yld_ttm_unified": 2.211302211302211
+   "yld_ttm_unified": 2.211302211302211,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600141.SH",
@@ -9451,7 +10207,10 @@
     1.0
    ],
    "note": "",
-   "yld_ttm_unified": 2.210433244916003
+   "yld_ttm_unified": 2.210433244916003,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "688571.SH",
@@ -9487,7 +10246,10 @@
     0.2
    ],
    "note": "",
-   "yld_ttm_unified": 2.1834061135371177
+   "yld_ttm_unified": 2.1834061135371177,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600563.SH",
@@ -9523,7 +10285,10 @@
     2.0
    ],
    "note": "",
-   "yld_ttm_unified": 2.1710402114404377
+   "yld_ttm_unified": 2.1710402114404377,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603806.SH",
@@ -9559,7 +10324,10 @@
     0.26
    ],
    "note": "",
-   "yld_ttm_unified": 2.158273381294964
+   "yld_ttm_unified": 2.158273381294964,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600116.SH",
@@ -9595,7 +10363,10 @@
     0.09
    ],
    "note": "",
-   "yld_ttm_unified": 2.147766323024055
+   "yld_ttm_unified": 2.147766323024055,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000975.SZ",
@@ -9631,7 +10402,10 @@
     0.365
    ],
    "note": "",
-   "yld_ttm_unified": 2.136060471320587
+   "yld_ttm_unified": 2.136060471320587,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603227.SH",
@@ -9667,7 +10441,10 @@
     0.2
    ],
    "note": "",
-   "yld_ttm_unified": 2.1337126600284493
+   "yld_ttm_unified": 2.1337126600284493,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "688569.SH",
@@ -9703,7 +10480,10 @@
     0.35
    ],
    "note": "",
-   "yld_ttm_unified": 2.1309715512614065
+   "yld_ttm_unified": 2.1309715512614065,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000709.SZ",
@@ -9739,7 +10519,10 @@
     0.03
    ],
    "note": "",
-   "yld_ttm_unified": 2.105263157894737
+   "yld_ttm_unified": 2.105263157894737,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600906.SH",
@@ -9775,7 +10558,10 @@
     0.13
    ],
    "note": "",
-   "yld_ttm_unified": 2.1052631578947367
+   "yld_ttm_unified": 2.1052631578947367,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601788.SH",
@@ -9812,7 +10598,10 @@
     0.2181
    ],
    "note": "",
-   "yld_ttm_unified": 2.0968934911242605
+   "yld_ttm_unified": 2.0968934911242605,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600356.SH",
@@ -9848,7 +10637,10 @@
     0.12
    ],
    "note": "",
-   "yld_ttm_unified": 2.0948180815876514
+   "yld_ttm_unified": 2.0948180815876514,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000156.SZ",
@@ -9884,7 +10676,10 @@
     0.18
    ],
    "note": "",
-   "yld_ttm_unified": 2.094240837696335
+   "yld_ttm_unified": 2.094240837696335,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600233.SH",
@@ -9920,7 +10715,10 @@
     0.36
    ],
    "note": "",
-   "yld_ttm_unified": 2.083333333333333
+   "yld_ttm_unified": 2.083333333333333,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300015.SZ",
@@ -9956,7 +10754,10 @@
     0.16
    ],
    "note": "",
-   "yld_ttm_unified": 2.0809248554913293
+   "yld_ttm_unified": 2.0809248554913293,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601007.SH",
@@ -9992,7 +10793,10 @@
     0.07
    ],
    "note": "",
-   "yld_ttm_unified": 2.076923076923077
+   "yld_ttm_unified": 2.076923076923077,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601985.SH",
@@ -10029,7 +10833,10 @@
     0.16
    ],
    "note": "",
-   "yld_ttm_unified": 2.070393374741201
+   "yld_ttm_unified": 2.070393374741201,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600085.SH",
@@ -10065,7 +10872,10 @@
     0.5
    ],
    "note": "",
-   "yld_ttm_unified": 2.059308072487644
+   "yld_ttm_unified": 2.059308072487644,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601990.SH",
@@ -10102,7 +10912,10 @@
     0.13
    ],
    "note": "",
-   "yld_ttm_unified": 2.0376175548589344
+   "yld_ttm_unified": 2.0376175548589344,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300832.SZ",
@@ -10138,7 +10951,10 @@
     1.3
    ],
    "note": "",
-   "yld_ttm_unified": 2.0311442112389977
+   "yld_ttm_unified": 2.0311442112389977,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601200.SH",
@@ -10174,7 +10990,10 @@
     0.1
    ],
    "note": "",
-   "yld_ttm_unified": 2.0179372197309418
+   "yld_ttm_unified": 2.0179372197309418,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600120.SH",
@@ -10210,7 +11029,10 @@
     0.084
    ],
    "note": "",
-   "yld_ttm_unified": 2.0047732696897373
+   "yld_ttm_unified": 2.0047732696897373,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "688188.SH",
@@ -10246,7 +11068,10 @@
     2.826
    ],
    "note": "",
-   "yld_ttm_unified": 2.004158004158004
+   "yld_ttm_unified": 2.004158004158004,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000878.SZ",
@@ -10282,7 +11107,10 @@
     0.24
    ],
    "note": "",
-   "yld_ttm_unified": 1.9867549668874174
+   "yld_ttm_unified": 1.9867549668874174,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601880.SH",
@@ -10319,7 +11147,10 @@
     0.0239
    ],
    "note": "",
-   "yld_ttm_unified": 1.9861111111111112
+   "yld_ttm_unified": 1.9861111111111112,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601038.SH",
@@ -10355,7 +11186,10 @@
     0.3679
    ],
    "note": "",
-   "yld_ttm_unified": 1.981454005934718
+   "yld_ttm_unified": 1.981454005934718,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002430.SZ",
@@ -10392,7 +11226,10 @@
     0.4
    ],
    "note": "",
-   "yld_ttm_unified": 1.9708316909735908
+   "yld_ttm_unified": 1.9708316909735908,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002673.SZ",
@@ -10429,7 +11266,10 @@
     0.12
    ],
    "note": "",
-   "yld_ttm_unified": 1.963993453355155
+   "yld_ttm_unified": 1.963993453355155,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603596.SH",
@@ -10465,7 +11305,10 @@
     0.35
    ],
    "note": "",
-   "yld_ttm_unified": 1.9587628865979385
+   "yld_ttm_unified": 1.9587628865979385,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600827.SH",
@@ -10501,7 +11344,10 @@
     0.265
    ],
    "note": "",
-   "yld_ttm_unified": 1.935483870967742
+   "yld_ttm_unified": 1.935483870967742,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600459.SH",
@@ -10537,7 +11383,10 @@
     0.2401
    ],
    "note": "",
-   "yld_ttm_unified": 1.9292251372788283
+   "yld_ttm_unified": 1.9292251372788283,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300284.SZ",
@@ -10573,7 +11422,10 @@
     0.09
    ],
    "note": "",
-   "yld_ttm_unified": 1.9153225806451613
+   "yld_ttm_unified": 1.9153225806451613,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600025.SH",
@@ -10610,7 +11462,10 @@
     0.2
    ],
    "note": "",
-   "yld_ttm_unified": 1.8928901200369344
+   "yld_ttm_unified": 1.8928901200369344,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "003816.SZ",
@@ -10647,7 +11502,10 @@
     0.095
    ],
    "note": "",
-   "yld_ttm_unified": 1.853448275862069
+   "yld_ttm_unified": 1.853448275862069,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000739.SZ",
@@ -10683,7 +11541,10 @@
     0.7044
    ],
    "note": "",
-   "yld_ttm_unified": 1.8471337579617835
+   "yld_ttm_unified": 1.8471337579617835,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600299.SH",
@@ -10720,7 +11581,10 @@
     0.18
    ],
    "note": "",
-   "yld_ttm_unified": 1.8303030303030303
+   "yld_ttm_unified": 1.8303030303030303,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600128.SH",
@@ -10756,7 +11620,10 @@
     0.1
    ],
    "note": "",
-   "yld_ttm_unified": 1.8216080402010049
+   "yld_ttm_unified": 1.8216080402010049,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601918.SH",
@@ -10793,7 +11660,10 @@
     0.16
    ],
    "note": "",
-   "yld_ttm_unified": 1.7875920084121981
+   "yld_ttm_unified": 1.7875920084121981,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600305.SH",
@@ -10829,7 +11699,10 @@
     0.1
    ],
    "note": "",
-   "yld_ttm_unified": 1.7830609212481425
+   "yld_ttm_unified": 1.7830609212481425,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601949.SH",
@@ -10865,7 +11738,10 @@
     0.102
    ],
    "note": "",
-   "yld_ttm_unified": 1.7801047120418845
+   "yld_ttm_unified": 1.7801047120418845,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600176.SH",
@@ -10902,7 +11778,10 @@
     0.41
    ],
    "note": "",
-   "yld_ttm_unified": 1.7681060863651819
+   "yld_ttm_unified": 1.7681060863651819,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600909.SH",
@@ -10939,7 +11818,10 @@
     0.14
    ],
    "note": "",
-   "yld_ttm_unified": 1.7673048600883652
+   "yld_ttm_unified": 1.7673048600883652,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600486.SH",
@@ -10976,7 +11858,10 @@
     0.92
    ],
    "note": "",
-   "yld_ttm_unified": 1.7543214417065096
+   "yld_ttm_unified": 1.7543214417065096,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600196.SH",
@@ -11012,7 +11897,10 @@
     0.32
    ],
    "note": "",
-   "yld_ttm_unified": 1.7097764138535734
+   "yld_ttm_unified": 1.7097764138535734,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002226.SZ",
@@ -11048,7 +11936,10 @@
     0.065
    ],
    "note": "",
-   "yld_ttm_unified": 1.702127659574468
+   "yld_ttm_unified": 1.702127659574468,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002722.SZ",
@@ -11084,7 +11975,10 @@
     0.23
    ],
    "note": "",
-   "yld_ttm_unified": 1.6679904686258933
+   "yld_ttm_unified": 1.6679904686258933,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002423.SZ",
@@ -11121,7 +12015,10 @@
     0.158
    ],
    "note": "",
-   "yld_ttm_unified": 1.6591928251121075
+   "yld_ttm_unified": 1.6591928251121075,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600621.SH",
@@ -11157,7 +12054,10 @@
     0.117
    ],
    "note": "",
-   "yld_ttm_unified": 1.6457680250783697
+   "yld_ttm_unified": 1.6457680250783697,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002179.SZ",
@@ -11194,7 +12094,10 @@
     0.8
    ],
    "note": "",
-   "yld_ttm_unified": 1.6320474777448073
+   "yld_ttm_unified": 1.6320474777448073,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000617.SZ",
@@ -11231,7 +12134,10 @@
     0.117
    ],
    "note": "",
-   "yld_ttm_unified": 1.6319999999999997
+   "yld_ttm_unified": 1.6319999999999997,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000919.SZ",
@@ -11267,7 +12173,10 @@
     0.1
    ],
    "note": "",
-   "yld_ttm_unified": 1.6103059581320454
+   "yld_ttm_unified": 1.6103059581320454,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601066.SH",
@@ -11304,7 +12213,10 @@
     0.165
    ],
    "note": "",
-   "yld_ttm_unified": 1.5653775322283612
+   "yld_ttm_unified": 1.5653775322283612,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000559.SZ",
@@ -11340,7 +12252,10 @@
     0.18
    ],
    "note": "",
-   "yld_ttm_unified": 1.5637216575449573
+   "yld_ttm_unified": 1.5637216575449573,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601858.SH",
@@ -11376,7 +12291,10 @@
     0.274
    ],
    "note": "",
-   "yld_ttm_unified": 1.540744466800805
+   "yld_ttm_unified": 1.540744466800805,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600739.SH",
@@ -11412,7 +12330,10 @@
     0.02
    ],
    "note": "",
-   "yld_ttm_unified": 1.5321756894790604
+   "yld_ttm_unified": 1.5321756894790604,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300388.SZ",
@@ -11448,7 +12369,10 @@
     0.13
    ],
    "note": "",
-   "yld_ttm_unified": 1.5189873417721518
+   "yld_ttm_unified": 1.5189873417721518,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603920.SH",
@@ -11484,7 +12408,10 @@
     0.9
    ],
    "note": "",
-   "yld_ttm_unified": 1.515151515151515
+   "yld_ttm_unified": 1.515151515151515,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600298.SH",
@@ -11521,7 +12448,10 @@
     0.55
    ],
    "note": "",
-   "yld_ttm_unified": 1.5019115237575098
+   "yld_ttm_unified": 1.5019115237575098,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300037.SZ",
@@ -11557,7 +12487,10 @@
     0.4
    ],
    "note": "",
-   "yld_ttm_unified": 1.490312965722802
+   "yld_ttm_unified": 1.490312965722802,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603606.SH",
@@ -11593,7 +12526,10 @@
     0.45
    ],
    "note": "",
-   "yld_ttm_unified": 1.490154337413518
+   "yld_ttm_unified": 1.490154337413518,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600101.SH",
@@ -11629,7 +12565,10 @@
     0.12
    ],
    "note": "",
-   "yld_ttm_unified": 1.484480431848853
+   "yld_ttm_unified": 1.484480431848853,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002820.SZ",
@@ -11665,7 +12604,10 @@
     0.15
    ],
    "note": "",
-   "yld_ttm_unified": 1.4807502467917077
+   "yld_ttm_unified": 1.4807502467917077,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002040.SZ",
@@ -11701,7 +12643,10 @@
     0.095
    ],
    "note": "",
-   "yld_ttm_unified": 1.4664981036662452
+   "yld_ttm_unified": 1.4664981036662452,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000063.SZ",
@@ -11737,7 +12682,10 @@
     0.617
    ],
    "note": "",
-   "yld_ttm_unified": 1.4662861220121297
+   "yld_ttm_unified": 1.4662861220121297,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002241.SZ",
@@ -11773,7 +12721,10 @@
     0.3
    ],
    "note": "",
-   "yld_ttm_unified": 1.419302514193025
+   "yld_ttm_unified": 1.419302514193025,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "688122.SH",
@@ -11810,7 +12761,10 @@
     0.75
    ],
    "note": "",
-   "yld_ttm_unified": 1.41643059490085
+   "yld_ttm_unified": 1.41643059490085,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000065.SZ",
@@ -11846,7 +12800,10 @@
     0.1479
    ],
    "note": "",
-   "yld_ttm_unified": 1.3965341488277268
+   "yld_ttm_unified": 1.3965341488277268,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002422.SZ",
@@ -11882,7 +12839,10 @@
     0.629
    ],
    "note": "",
-   "yld_ttm_unified": 1.3674033149171272
+   "yld_ttm_unified": 1.3674033149171272,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002202.SZ",
@@ -11918,7 +12878,10 @@
     0.14
    ],
    "note": "",
-   "yld_ttm_unified": 1.364256480218281
+   "yld_ttm_unified": 1.364256480218281,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603677.SH",
@@ -11954,7 +12917,10 @@
     0.25
    ],
    "note": "",
-   "yld_ttm_unified": 1.3513513513513513
+   "yld_ttm_unified": 1.3513513513513513,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603693.SH",
@@ -11990,7 +12956,10 @@
     0.15
    ],
    "note": "",
-   "yld_ttm_unified": 1.3321492007104796
+   "yld_ttm_unified": 1.3321492007104796,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603977.SH",
@@ -12026,7 +12995,10 @@
     0.09
    ],
    "note": "",
-   "yld_ttm_unified": 1.3224821973550356
+   "yld_ttm_unified": 1.3224821973550356,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601100.SH",
@@ -12062,7 +13034,10 @@
     1.0
    ],
    "note": "",
-   "yld_ttm_unified": 1.299137641393213
+   "yld_ttm_unified": 1.299137641393213,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002349.SZ",
@@ -12098,7 +13073,10 @@
     0.0785
    ],
    "note": "",
-   "yld_ttm_unified": 1.2658227848101267
+   "yld_ttm_unified": 1.2658227848101267,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002273.SZ",
@@ -12134,7 +13112,10 @@
     0.3
    ],
    "note": "",
-   "yld_ttm_unified": 1.2620950778291964
+   "yld_ttm_unified": 1.2620950778291964,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600444.SH",
@@ -12170,7 +13151,10 @@
     0.11
    ],
    "note": "",
-   "yld_ttm_unified": 1.2549019607843137
+   "yld_ttm_unified": 1.2549019607843137,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002080.SZ",
@@ -12207,7 +13191,10 @@
     0.225
    ],
    "note": "",
-   "yld_ttm_unified": 1.2489208633093525
+   "yld_ttm_unified": 1.2489208633093525,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600161.SH",
@@ -12244,7 +13231,10 @@
     0.25
    ],
    "note": "",
-   "yld_ttm_unified": 1.227495908346972
+   "yld_ttm_unified": 1.227495908346972,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600616.SH",
@@ -12280,7 +13270,10 @@
     0.05
    ],
    "note": "",
-   "yld_ttm_unified": 1.21654501216545
+   "yld_ttm_unified": 1.21654501216545,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600862.SH",
@@ -12317,7 +13310,10 @@
     0.249
    ],
    "note": "",
-   "yld_ttm_unified": 1.215258855585831
+   "yld_ttm_unified": 1.215258855585831,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600131.SH",
@@ -12353,7 +13349,10 @@
     0.1712
    ],
    "note": "",
-   "yld_ttm_unified": 1.2114537444933922
+   "yld_ttm_unified": 1.2114537444933922,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000756.SZ",
@@ -12389,7 +13388,10 @@
     0.25
    ],
    "note": "",
-   "yld_ttm_unified": 1.2028869286287087
+   "yld_ttm_unified": 1.2028869286287087,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000950.SZ",
@@ -12425,7 +13427,10 @@
     0.03
    ],
    "note": "",
-   "yld_ttm_unified": 1.1952191235059761
+   "yld_ttm_unified": 1.1952191235059761,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600839.SH",
@@ -12462,7 +13467,10 @@
     0.05
    ],
    "note": "",
-   "yld_ttm_unified": 1.1928429423459244
+   "yld_ttm_unified": 1.1928429423459244,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600523.SH",
@@ -12498,7 +13506,10 @@
     0.132
    ],
    "note": "",
-   "yld_ttm_unified": 1.188118811881188
+   "yld_ttm_unified": 1.188118811881188,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002017.SZ",
@@ -12534,7 +13545,10 @@
     0.164
    ],
    "note": "",
-   "yld_ttm_unified": 1.1807817589576548
+   "yld_ttm_unified": 1.1807817589576548,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300498.SZ",
@@ -12570,7 +13584,10 @@
     0.5
    ],
    "note": "",
-   "yld_ttm_unified": 1.1806375442739079
+   "yld_ttm_unified": 1.1806375442739079,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600378.SH",
@@ -12607,7 +13624,10 @@
     0.286
    ],
    "note": "",
-   "yld_ttm_unified": 1.1750599520383693
+   "yld_ttm_unified": 1.1750599520383693,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000507.SZ",
@@ -12643,7 +13663,10 @@
     0.065
    ],
    "note": "",
-   "yld_ttm_unified": 1.1587982832618025
+   "yld_ttm_unified": 1.1587982832618025,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601995.SH",
@@ -12679,7 +13702,10 @@
     0.18
    ],
    "note": "",
-   "yld_ttm_unified": 1.154817755322988
+   "yld_ttm_unified": 1.154817755322988,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000922.SZ",
@@ -12715,7 +13741,10 @@
     0.111
    ],
    "note": "",
-   "yld_ttm_unified": 1.132852729145211
+   "yld_ttm_unified": 1.132852729145211,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601188.SH",
@@ -12751,7 +13780,10 @@
     0.071
    ],
    "note": "",
-   "yld_ttm_unified": 1.1016949152542372
+   "yld_ttm_unified": 1.1016949152542372,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300797.SZ",
@@ -12787,7 +13819,10 @@
     0.12
    ],
    "note": "",
-   "yld_ttm_unified": 1.09229466553768
+   "yld_ttm_unified": 1.09229466553768,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600059.SH",
@@ -12823,7 +13858,10 @@
     0.08
    ],
    "note": "",
-   "yld_ttm_unified": 1.0895883777239708
+   "yld_ttm_unified": 1.0895883777239708,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000061.SZ",
@@ -12859,7 +13897,10 @@
     0.07
    ],
    "note": "",
-   "yld_ttm_unified": 1.0810810810810811
+   "yld_ttm_unified": 1.0810810810810811,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002344.SZ",
@@ -12895,7 +13936,10 @@
     0.038
    ],
    "note": "",
-   "yld_ttm_unified": 1.0723860589812333
+   "yld_ttm_unified": 1.0723860589812333,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601228.SH",
@@ -12932,7 +13976,10 @@
     0.039
    ],
    "note": "",
-   "yld_ttm_unified": 1.0679611650485439
+   "yld_ttm_unified": 1.0679611650485439,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000417.SZ",
@@ -12968,7 +14015,10 @@
     0.11
    ],
    "note": "",
-   "yld_ttm_unified": 1.0673234811165846
+   "yld_ttm_unified": 1.0673234811165846,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600183.SH",
@@ -13004,7 +14054,10 @@
     1.0
    ],
    "note": "",
-   "yld_ttm_unified": 1.0566635847312114
+   "yld_ttm_unified": 1.0566635847312114,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002125.SZ",
@@ -13040,7 +14093,10 @@
     0.16
    ],
    "note": "",
-   "yld_ttm_unified": 1.048313582497721
+   "yld_ttm_unified": 1.048313582497721,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300684.SZ",
@@ -13076,7 +14132,10 @@
     0.65
    ],
    "note": "",
-   "yld_ttm_unified": 1.043282109121669
+   "yld_ttm_unified": 1.043282109121669,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600885.SH",
@@ -13112,7 +14171,10 @@
     0.515
    ],
    "note": "",
-   "yld_ttm_unified": 1.0414165666266506
+   "yld_ttm_unified": 1.0414165666266506,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "688139.SH",
@@ -13148,7 +14210,10 @@
     0.47
    ],
    "note": "",
-   "yld_ttm_unified": 1.0299625468164795
+   "yld_ttm_unified": 1.0299625468164795,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002252.SZ",
@@ -13184,7 +14249,10 @@
     0.033
    ],
    "note": "",
-   "yld_ttm_unified": 1.0147058823529413
+   "yld_ttm_unified": 1.0147058823529413,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000777.SZ",
@@ -13220,7 +14288,10 @@
     0.195
    ],
    "note": "",
-   "yld_ttm_unified": 1.0094212651413188
+   "yld_ttm_unified": 1.0094212651413188,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002880.SZ",
@@ -13256,7 +14327,10 @@
     0.2
    ],
    "note": "",
-   "yld_ttm_unified": 1.0090817356205852
+   "yld_ttm_unified": 1.0090817356205852,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603236.SH",
@@ -13292,7 +14366,10 @@
     0.97
    ],
    "note": "",
-   "yld_ttm_unified": 0.9976525821596244
+   "yld_ttm_unified": 0.9976525821596244,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600109.SH",
@@ -13328,7 +14405,10 @@
     0.12
    ],
    "note": "",
-   "yld_ttm_unified": 0.9732360097323601
+   "yld_ttm_unified": 0.9732360097323601,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601689.SH",
@@ -13364,7 +14444,10 @@
     0.519
    ],
    "note": "",
-   "yld_ttm_unified": 0.9693372898120673
+   "yld_ttm_unified": 0.9693372898120673,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000532.SZ",
@@ -13400,7 +14483,10 @@
     0.06
    ],
    "note": "",
-   "yld_ttm_unified": 0.9433962264150945
+   "yld_ttm_unified": 0.9433962264150945,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300124.SZ",
@@ -13436,7 +14522,10 @@
     0.41
    ],
    "note": "",
-   "yld_ttm_unified": 0.9414422895876483
+   "yld_ttm_unified": 0.9414422895876483,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "605011.SH",
@@ -13472,7 +14561,10 @@
     0.22
    ],
    "note": "",
-   "yld_ttm_unified": 0.9322560596643877
+   "yld_ttm_unified": 0.9322560596643877,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300088.SZ",
@@ -13508,7 +14600,10 @@
     0.059
    ],
    "note": "",
-   "yld_ttm_unified": 0.929368029739777
+   "yld_ttm_unified": 0.929368029739777,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300450.SZ",
@@ -13544,7 +14639,10 @@
     0.056
    ],
    "note": "",
-   "yld_ttm_unified": 0.928201811125485
+   "yld_ttm_unified": 0.928201811125485,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002709.SZ",
@@ -13580,7 +14678,10 @@
     0.1
    ],
    "note": "",
-   "yld_ttm_unified": 0.9221689413500553
+   "yld_ttm_unified": 0.9221689413500553,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601375.SH",
@@ -13616,7 +14717,10 @@
     0.025
    ],
    "note": "",
-   "yld_ttm_unified": 0.9066666666666667
+   "yld_ttm_unified": 0.9066666666666667,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603999.SH",
@@ -13652,7 +14756,10 @@
     0.033
    ],
    "note": "",
-   "yld_ttm_unified": 0.8784773060029283
+   "yld_ttm_unified": 0.8784773060029283,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603888.SH",
@@ -13688,7 +14795,10 @@
     0.136
    ],
    "note": "",
-   "yld_ttm_unified": 0.878136200716846
+   "yld_ttm_unified": 0.878136200716846,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600038.SH",
@@ -13725,7 +14835,10 @@
     0.204
    ],
    "note": "",
-   "yld_ttm_unified": 0.8744968898646177
+   "yld_ttm_unified": 0.8744968898646177,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600784.SH",
@@ -13761,7 +14874,10 @@
     0.066
    ],
    "note": "",
-   "yld_ttm_unified": 0.8665511265164646
+   "yld_ttm_unified": 0.8665511265164646,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300722.SZ",
@@ -13797,7 +14913,10 @@
     0.18
    ],
    "note": "",
-   "yld_ttm_unified": 0.8542952064546747
+   "yld_ttm_unified": 0.8542952064546747,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300847.SZ",
@@ -13833,7 +14952,10 @@
     0.136
    ],
    "note": "",
-   "yld_ttm_unified": 0.8535688005886681
+   "yld_ttm_unified": 0.8535688005886681,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002821.SZ",
@@ -13869,7 +14991,10 @@
     1.1
    ],
    "note": "",
-   "yld_ttm_unified": 0.8514540214828399
+   "yld_ttm_unified": 0.8514540214828399,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600760.SH",
@@ -13906,7 +15031,10 @@
     0.4
    ],
    "note": "",
-   "yld_ttm_unified": 0.8497691984892993
+   "yld_ttm_unified": 0.8497691984892993,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600218.SH",
@@ -13942,7 +15070,10 @@
     0.06
    ],
    "note": "",
-   "yld_ttm_unified": 0.8450704225352114
+   "yld_ttm_unified": 0.8450704225352114,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000887.SZ",
@@ -13978,7 +15109,10 @@
     0.2
    ],
    "note": "",
-   "yld_ttm_unified": 0.8310249307479223
+   "yld_ttm_unified": 0.8310249307479223,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600834.SH",
@@ -14014,7 +15148,10 @@
     0.019
    ],
    "note": "",
-   "yld_ttm_unified": 0.8299319727891157
+   "yld_ttm_unified": 0.8299319727891157,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603000.SH",
@@ -14050,7 +15187,10 @@
     0.132
    ],
    "note": "",
-   "yld_ttm_unified": 0.8286604361370716
+   "yld_ttm_unified": 0.8286604361370716,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601999.SH",
@@ -14086,7 +15226,10 @@
     0.06
    ],
    "note": "",
-   "yld_ttm_unified": 0.8241758241758242
+   "yld_ttm_unified": 0.8241758241758242,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603228.SH",
@@ -14122,7 +15265,10 @@
     0.8
    ],
    "note": "",
-   "yld_ttm_unified": 0.8224914012262599
+   "yld_ttm_unified": 0.8224914012262599,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000021.SZ",
@@ -14159,7 +15305,10 @@
     0.19
    ],
    "note": "",
-   "yld_ttm_unified": 0.8035062089116144
+   "yld_ttm_unified": 0.8035062089116144,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603860.SH",
@@ -14195,7 +15344,10 @@
     0.1673
    ],
    "note": "",
-   "yld_ttm_unified": 0.7790432801822322
+   "yld_ttm_unified": 0.7790432801822322,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002317.SZ",
@@ -14231,7 +15383,10 @@
     0.2
    ],
    "note": "",
-   "yld_ttm_unified": 0.7776049766718507
+   "yld_ttm_unified": 0.7776049766718507,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600580.SH",
@@ -14267,7 +15422,10 @@
     0.15
    ],
    "note": "",
-   "yld_ttm_unified": 0.7643312101910827
+   "yld_ttm_unified": 0.7643312101910827,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600895.SH",
@@ -14304,7 +15462,10 @@
     0.22
    ],
    "note": "",
-   "yld_ttm_unified": 0.757396449704142
+   "yld_ttm_unified": 0.757396449704142,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600037.SH",
@@ -14340,7 +15501,10 @@
     0.027
    ],
    "note": "",
-   "yld_ttm_unified": 0.7564296520423601
+   "yld_ttm_unified": 0.7564296520423601,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002484.SZ",
@@ -14376,7 +15540,10 @@
     0.26
    ],
    "note": "",
-   "yld_ttm_unified": 0.7492795389048991
+   "yld_ttm_unified": 0.7492795389048991,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603817.SH",
@@ -14412,7 +15579,10 @@
     0.06
    ],
    "note": "",
-   "yld_ttm_unified": 0.7420494699646644
+   "yld_ttm_unified": 0.7420494699646644,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603698.SH",
@@ -14448,7 +15618,10 @@
     0.163
    ],
    "note": "",
-   "yld_ttm_unified": 0.7200000000000001
+   "yld_ttm_unified": 0.7200000000000001,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600789.SH",
@@ -14484,7 +15657,10 @@
     0.112
    ],
    "note": "",
-   "yld_ttm_unified": 0.7132667617689016
+   "yld_ttm_unified": 0.7132667617689016,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300458.SZ",
@@ -14520,7 +15696,10 @@
     0.25
    ],
    "note": "",
-   "yld_ttm_unified": 0.6920415224913495
+   "yld_ttm_unified": 0.6920415224913495,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600113.SH",
@@ -14556,7 +15735,10 @@
     0.12
    ],
    "note": "",
-   "yld_ttm_unified": 0.6751054852320675
+   "yld_ttm_unified": 0.6751054852320675,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300373.SZ",
@@ -14592,7 +15774,10 @@
     0.82
    ],
    "note": "",
-   "yld_ttm_unified": 0.663129973474801
+   "yld_ttm_unified": 0.663129973474801,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601611.SH",
@@ -14629,7 +15814,10 @@
     0.104
    ],
    "note": "",
-   "yld_ttm_unified": 0.6586169045005488
+   "yld_ttm_unified": 0.6586169045005488,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600560.SH",
@@ -14665,7 +15853,10 @@
     0.071
    ],
    "note": "",
-   "yld_ttm_unified": 0.6532110091743119
+   "yld_ttm_unified": 0.6532110091743119,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000768.SZ",
@@ -14702,7 +15893,10 @@
     0.12
    ],
    "note": "",
-   "yld_ttm_unified": 0.6437768240343348
+   "yld_ttm_unified": 0.6437768240343348,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603179.SH",
@@ -14738,7 +15932,10 @@
     0.3
    ],
    "note": "",
-   "yld_ttm_unified": 0.6253908692933083
+   "yld_ttm_unified": 0.6253908692933083,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600628.SH",
@@ -14774,7 +15971,10 @@
     0.04
    ],
    "note": "",
-   "yld_ttm_unified": 0.5979073243647235
+   "yld_ttm_unified": 0.5979073243647235,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600171.SH",
@@ -14810,7 +16010,10 @@
     0.17
    ],
    "note": "",
-   "yld_ttm_unified": 0.5946481665014867
+   "yld_ttm_unified": 0.5946481665014867,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002523.SZ",
@@ -14846,7 +16049,10 @@
     0.015
    ],
    "note": "",
-   "yld_ttm_unified": 0.5865102639296188
+   "yld_ttm_unified": 0.5865102639296188,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603501.SH",
@@ -14882,7 +16088,10 @@
     0.62
    ],
    "note": "",
-   "yld_ttm_unified": 0.583158385817588
+   "yld_ttm_unified": 0.583158385817588,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002276.SZ",
@@ -14918,7 +16127,10 @@
     0.05
    ],
    "note": "",
-   "yld_ttm_unified": 0.5795574288724973
+   "yld_ttm_unified": 0.5795574288724973,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300408.SZ",
@@ -14954,7 +16166,10 @@
     0.38
    ],
    "note": "",
-   "yld_ttm_unified": 0.5753739930955121
+   "yld_ttm_unified": 0.5753739930955121,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "688111.SH",
@@ -14990,7 +16205,10 @@
     0.8985
    ],
    "note": "",
-   "yld_ttm_unified": 0.574184657785944
+   "yld_ttm_unified": 0.574184657785944,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600379.SH",
@@ -15026,7 +16244,10 @@
     0.1013
    ],
    "note": "",
-   "yld_ttm_unified": 0.5693822739480752
+   "yld_ttm_unified": 0.5693822739480752,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300341.SZ",
@@ -15062,7 +16283,10 @@
     0.07
    ],
    "note": "",
-   "yld_ttm_unified": 0.5677210056772101
+   "yld_ttm_unified": 0.5677210056772101,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "688300.SH",
@@ -15098,7 +16322,10 @@
     0.5
    ],
    "note": "",
-   "yld_ttm_unified": 0.5598477214197738
+   "yld_ttm_unified": 0.5598477214197738,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002181.SZ",
@@ -15134,7 +16361,10 @@
     0.068
    ],
    "note": "",
-   "yld_ttm_unified": 0.5575221238938053
+   "yld_ttm_unified": 0.5575221238938053,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300623.SZ",
@@ -15170,7 +16400,10 @@
     0.15
    ],
    "note": "",
-   "yld_ttm_unified": 0.5567928730512248
+   "yld_ttm_unified": 0.5567928730512248,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000713.SZ",
@@ -15206,7 +16439,10 @@
     0.02
    ],
    "note": "",
-   "yld_ttm_unified": 0.551470588235294
+   "yld_ttm_unified": 0.551470588235294,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300059.SZ",
@@ -15242,7 +16478,10 @@
     0.06
    ],
    "note": "",
-   "yld_ttm_unified": 0.5485463521667581
+   "yld_ttm_unified": 0.5485463521667581,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000045.SZ",
@@ -15278,7 +16517,10 @@
     0.071
    ],
    "note": "",
-   "yld_ttm_unified": 0.5200433369447454
+   "yld_ttm_unified": 0.5200433369447454,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601177.SH",
@@ -15314,7 +16556,10 @@
     0.06
    ],
    "note": "",
-   "yld_ttm_unified": 0.5087209302325582
+   "yld_ttm_unified": 0.5087209302325582,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "001208.SZ",
@@ -15350,7 +16595,10 @@
     0.062
    ],
    "note": "",
-   "yld_ttm_unified": 0.5062305295950156
+   "yld_ttm_unified": 0.5062305295950156,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600959.SH",
@@ -15386,7 +16634,10 @@
     0.022
    ],
    "note": "",
-   "yld_ttm_unified": 0.5015673981191223
+   "yld_ttm_unified": 0.5015673981191223,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "688200.SH",
@@ -15422,7 +16673,10 @@
     0.75
    ],
    "note": "",
-   "yld_ttm_unified": 0.49628826424222205
+   "yld_ttm_unified": 0.49628826424222205,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603308.SH",
@@ -15458,7 +16712,10 @@
     0.07
    ],
    "note": "",
-   "yld_ttm_unified": 0.4942848316342292
+   "yld_ttm_unified": 0.4942848316342292,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300776.SZ",
@@ -15494,7 +16751,10 @@
     0.39
    ],
    "note": "",
-   "yld_ttm_unified": 0.4874390701162355
+   "yld_ttm_unified": 0.4874390701162355,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002046.SZ",
@@ -15531,7 +16791,10 @@
     0.21
    ],
    "note": "",
-   "yld_ttm_unified": 0.44303797468354433
+   "yld_ttm_unified": 0.44303797468354433,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "688456.SH",
@@ -15567,7 +16830,10 @@
     0.2
    ],
    "note": "",
-   "yld_ttm_unified": 0.44134078212290495
+   "yld_ttm_unified": 0.44134078212290495,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600495.SH",
@@ -15603,7 +16869,10 @@
     0.014
    ],
    "note": "",
-   "yld_ttm_unified": 0.4400977995110024
+   "yld_ttm_unified": 0.4400977995110024,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600776.SH",
@@ -15639,7 +16908,10 @@
     0.061
    ],
    "note": "",
-   "yld_ttm_unified": 0.4368546465448769
+   "yld_ttm_unified": 0.4368546465448769,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600276.SH",
@@ -15675,7 +16947,10 @@
     0.2
    ],
    "note": "",
-   "yld_ttm_unified": 0.4172751929897768
+   "yld_ttm_unified": 0.4172751929897768,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002837.SZ",
@@ -15711,7 +16986,10 @@
     0.2
    ],
    "note": "",
-   "yld_ttm_unified": 0.414836505612494
+   "yld_ttm_unified": 0.414836505612494,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002126.SZ",
@@ -15747,7 +17025,10 @@
     0.12
    ],
    "note": "",
-   "yld_ttm_unified": 0.3930560104814936
+   "yld_ttm_unified": 0.3930560104814936,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002827.SZ",
@@ -15783,7 +17064,10 @@
     0.22
    ],
    "note": "",
-   "yld_ttm_unified": 0.39252336448598135
+   "yld_ttm_unified": 0.39252336448598135,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002222.SZ",
@@ -15819,7 +17103,10 @@
     0.2
    ],
    "note": "",
-   "yld_ttm_unified": 0.3901677721420211
+   "yld_ttm_unified": 0.3901677721420211,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600552.SH",
@@ -15855,7 +17142,10 @@
     0.05
    ],
    "note": "",
-   "yld_ttm_unified": 0.3897116134060795
+   "yld_ttm_unified": 0.3897116134060795,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603881.SH",
@@ -15891,7 +17181,10 @@
     0.067
    ],
    "note": "",
-   "yld_ttm_unified": 0.3840472673559823
+   "yld_ttm_unified": 0.3840472673559823,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002149.SZ",
@@ -15927,7 +17220,10 @@
     0.3
    ],
    "note": "",
-   "yld_ttm_unified": 0.3821656050955414
+   "yld_ttm_unified": 0.3821656050955414,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300831.SZ",
@@ -15963,7 +17259,10 @@
     0.0457
    ],
    "note": "",
-   "yld_ttm_unified": 0.3806398687448728
+   "yld_ttm_unified": 0.3806398687448728,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "603078.SH",
@@ -15999,7 +17298,10 @@
     0.09
    ],
    "note": "",
-   "yld_ttm_unified": 0.37862852334875896
+   "yld_ttm_unified": 0.37862852334875896,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300285.SZ",
@@ -16035,7 +17337,10 @@
     0.2
    ],
    "note": "",
-   "yld_ttm_unified": 0.36372453928225024
+   "yld_ttm_unified": 0.36372453928225024,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002008.SZ",
@@ -16071,7 +17376,10 @@
     0.35
    ],
    "note": "",
-   "yld_ttm_unified": 0.36088054853843377
+   "yld_ttm_unified": 0.36088054853843377,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002945.SZ",
@@ -16107,7 +17415,10 @@
     0.04
    ],
    "note": "",
-   "yld_ttm_unified": 0.36030341340075855
+   "yld_ttm_unified": 0.36030341340075855,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600206.SH",
@@ -16144,7 +17455,10 @@
     0.109
    ],
    "note": "",
-   "yld_ttm_unified": 0.3601036269430052
+   "yld_ttm_unified": 0.3601036269430052,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600498.SH",
@@ -16181,7 +17495,10 @@
     0.179
    ],
    "note": "",
-   "yld_ttm_unified": 0.332533424751457
+   "yld_ttm_unified": 0.332533424751457,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000636.SZ",
@@ -16217,7 +17534,10 @@
     0.15
    ],
    "note": "",
-   "yld_ttm_unified": 0.3068425897514575
+   "yld_ttm_unified": 0.3068425897514575,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300811.SZ",
@@ -16253,7 +17573,10 @@
     0.2
    ],
    "note": "",
-   "yld_ttm_unified": 0.3054834275240568
+   "yld_ttm_unified": 0.3054834275240568,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002246.SZ",
@@ -16289,7 +17612,10 @@
     0.04
    ],
    "note": "",
-   "yld_ttm_unified": 0.3024193548387097
+   "yld_ttm_unified": 0.3024193548387097,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600602.SH",
@@ -16326,7 +17652,10 @@
     0.045
    ],
    "note": "",
-   "yld_ttm_unified": 0.2925170068027211
+   "yld_ttm_unified": 0.2925170068027211,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300678.SZ",
@@ -16362,7 +17691,10 @@
     0.05
    ],
    "note": "",
-   "yld_ttm_unified": 0.2828854314002828
+   "yld_ttm_unified": 0.2828854314002828,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600838.SH",
@@ -16398,7 +17730,10 @@
     0.032
    ],
    "note": "",
-   "yld_ttm_unified": 0.27891714520098443
+   "yld_ttm_unified": 0.27891714520098443,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002679.SZ",
@@ -16434,7 +17769,10 @@
     0.0366
    ],
    "note": "",
-   "yld_ttm_unified": 0.27488151658767773
+   "yld_ttm_unified": 0.27488151658767773,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002230.SZ",
@@ -16471,7 +17809,10 @@
     0.1
    ],
    "note": "",
-   "yld_ttm_unified": 0.2681684097613301
+   "yld_ttm_unified": 0.2681684097613301,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600505.SH",
@@ -16507,7 +17848,10 @@
     0.02
    ],
    "note": "",
-   "yld_ttm_unified": 0.2676659528907923
+   "yld_ttm_unified": 0.2676659528907923,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "000565.SZ",
@@ -16543,7 +17887,10 @@
     0.015
    ],
    "note": "",
-   "yld_ttm_unified": 0.2626970227670753
+   "yld_ttm_unified": 0.2626970227670753,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300395.SZ",
@@ -16579,7 +17926,10 @@
     0.13
    ],
    "note": "",
-   "yld_ttm_unified": 0.2382954864031399
+   "yld_ttm_unified": 0.2382954864031399,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "688019.SH",
@@ -16615,7 +17965,10 @@
     0.45
    ],
    "note": "",
-   "yld_ttm_unified": 0.23277467411545621
+   "yld_ttm_unified": 0.23277467411545621,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "688396.SH",
@@ -16651,7 +18004,10 @@
     0.084
    ],
    "note": "",
-   "yld_ttm_unified": 0.22176165803108808
+   "yld_ttm_unified": 0.22176165803108808,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600435.SH",
@@ -16687,7 +18043,10 @@
     0.02
    ],
    "note": "",
-   "yld_ttm_unified": 0.21258503401360546
+   "yld_ttm_unified": 0.21258503401360546,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "002185.SZ",
@@ -16723,7 +18082,10 @@
     0.058
    ],
    "note": "",
-   "yld_ttm_unified": 0.14874915483434753
+   "yld_ttm_unified": 0.14874915483434753,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "600367.SH",
@@ -16759,7 +18121,10 @@
     0.05
    ],
    "note": "",
-   "yld_ttm_unified": 0.14614541468761416
+   "yld_ttm_unified": 0.14614541468761416,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "601698.SH",
@@ -16796,7 +18161,10 @@
     0.0323
    ],
    "note": "",
-   "yld_ttm_unified": 0.14112359550561795
+   "yld_ttm_unified": 0.14112359550561795,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300136.SZ",
@@ -16832,7 +18200,10 @@
     0.05
    ],
    "note": "",
-   "yld_ttm_unified": 0.10358400662937642
+   "yld_ttm_unified": 0.10358400662937642,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   },
   {
    "symbol": "300620.SZ",
@@ -16868,7 +18239,10 @@
     0.1
    ],
    "note": "",
-   "yld_ttm_unified": 0.09463423866754993
+   "yld_ttm_unified": 0.09463423866754993,
+   "bp_dev": null,
+   "bp_buy": "未覆盖",
+   "bp_enter": "不适用"
   }
  ]
 }

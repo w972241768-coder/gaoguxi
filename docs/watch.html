@@ -142,11 +142,11 @@ function paintTables(){
 <h1>观察清单</h1><p>攒股本、让股息覆盖生活支出 —— 用真实分红/年报/周线数据构建的可审阅研究站</p>
 <div class="stamp"><span>数据截至 2026-11-12 收盘</span><span>分红窗口 2021–2026</span><span>周线 66 周</span><span>数据源 pandadata</span></div>
 </div></div>
-<nav><div class="wrap"><a href="index.html">总览</a><a href="research.html">研究框架</a><a href="pool.html">选定池子</a><a href="watch.html" class="on">观察清单</a><a href="backup.html">备用池</a><a href="all.html">全部池子</a><a href="score.html">确定性评分</a><span class="right">数据快照 · 非实时行情</span></div></nav>
+<nav><div class="wrap"><a href="index.html">总览</a><a href="research.html">研究框架</a><a href="pool.html">选定池子</a><a href="watch.html" class="on">观察清单</a><a href="backup.html">备用池</a><a href="all.html">全部池子</a><a href="score.html">确定性评分</a><a href="buy.html">买点看板</a><span class="right">数据快照 · 非实时行情</span></div></nav>
 <div class="wrap">
 <section class="card"><h2><span class="no">01</span>A 类 · 点名但未入池（9 只）</h2>
 <p class="lead">博主点名的 26 只里被真实分红数据拦下的 9 只。只跟踪、不建仓，核实年报分红方案后再决定进池或剔除。</p>
-<div id="wa"></div>
+<div class="co warn"><b>买点判定说明（2026-11-13 更新）：</b>按鳄鱼派「<b>先用分红质量定池，再用周 K 60 线定买点</b>」的顺序，本区 9 只分红质量<b>未通过</b>，因此<b>不适用买点判定</b>，即便旧口径显示「周 K 60 线下」也不构成进入依据。主池子 17 只的 TR 口径买点结论见 <a href="buy.html">买点看板</a>。</div><div id="wa"></div>
 <div class="co dan"><b>三个典型否决案例：</b><br>
 ① <b>大秦铁路</b>：2021–2024 年每股 0.48，2025 年 0.22、2026 年 0.2218；2025 年报 FCF 覆盖 −5.01，分红腰斩是现金流所迫。<br>
 ② <b>达仁堂</b>：2025 派息率 173.1%（分红超过当年净利）、FCF 覆盖 0.09，典型一次性/超额派发。<br>
@@ -157,7 +157,7 @@ function paintTables(){
 <p class="lead">企业性质（国企）∩ 分红质量 A 筛 ∩ 最新财年不偏离，且 TTM 股息率 ≥4%，剔除点名池已覆盖者。按股息率降序。</p>
 <div class="toolbar" id="tb"></div>
 <div class="toolbar"><input id="q" placeholder="搜代码 / 名称"><span class="small" id="cnt"></span></div>
-<div class="scroll" id="wb"></div>
+<div class="co warn"><b>口径说明：</b>本区 64 只为<b>池外观察</b>，未按分红质量定池，因此<b>不适用「买点是否成立 / 可否进入」判定</b>；下表偏离与线下标记均为<b>未复权周线旧口径</b>，仅供跟踪，不构成进入依据。主池子 17 只的 TR 口径结论见 <a href="buy.html">买点看板</a>。</div><div class="scroll" id="wb"></div>
 <div class="co warn"><b>不要直接把这批并入核心池。</b>它们没有经过「章程/承诺分红」核验，且集中在银行、基建、钢铁、白酒等顺周期板块；
 鳄鱼派强调「先熟面孔、央企国企背书、自由现金流稳定」，这批只是<b>数据驱动的第二层观察池</b>。
 若要纳入，应逐只补三件事：近 5 年分红公告与承诺、FCF 覆盖、最新财年分红是否含一次性。</div>
@@ -175,10 +175,10 @@ function n(v,d){return (v==null||v==='')?'—':Number(v).toFixed(d===undefined?2
 function tagPos(p){if(!p)return '<span class="tag">未计算</span>';
  return p.indexOf('线下')>=0?'<span class="tag t">'+esc(p)+'</span>':'<span class="tag">'+esc(p)+'</span>'}
 // A 类
-var h='<div class="scroll"><table><thead><tr><th>代码</th><th>名称</th><th>企业性质</th><th class="n">收盘价</th><th class="n">中位票息%</th><th class="n">TTM%</th><th class="n">偏离MA60%</th><th>买点</th><th>否决原因</th></tr></thead><tbody>';
+var h='<div class="scroll"><table><thead><tr><th>代码</th><th>名称</th><th>企业性质</th><th class="n">收盘价</th><th class="n">中位票息%</th><th class="n">TTM%</th><th class="n">旧口径偏离%</th><th>买点判定</th><th>否决原因</th></tr></thead><tbody>';
 D.watch.forEach(function(r){h+='<tr><td>'+esc(r['代码'])+'</td><td><b>'+esc(r['名称'])+'</b></td><td class="small">'+esc(r['企业性质'])+'</td>'+
 '<td class="n">'+n(r['收盘价'])+'</td><td class="n">'+n(r['中位票息'])+'</td><td class="n">'+n(r['TTM票息'])+'</td>'+
-'<td class="n">'+n(r['偏离'])+'</td><td>'+tagPos(r['买点'])+'</td><td class="small">'+esc(r['否决原因'])+'</td></tr>';});
+'<td class="n">'+n(r['偏离'])+'</td><td><span class="tag">未定池·不适用</span></td><td class="small">'+esc(r['否决原因'])+'</td></tr>';});
 document.getElementById('wa').innerHTML=h+'</tbody></table></div>';
 // B 类
 var f='all',q='';
@@ -188,7 +188,7 @@ function draw(){
   if(f==='ma'&&r['周MA60']==null)return false;
   if(q&&(r['代码']+r['名称']).toLowerCase().indexOf(q)<0)return false;
   return true;});
- var t='<table><thead><tr><th>代码</th><th>名称</th><th>企业性质</th><th class="n">收盘价</th><th class="n">TTM票息%</th><th class="n">中位票息%</th><th class="n">连续</th><th class="n">CV</th><th class="n">周MA60</th><th class="n">偏离%</th><th>买点</th></tr></thead><tbody>';
+ var t='<table><thead><tr><th>代码</th><th>名称</th><th>企业性质</th><th class="n">收盘价</th><th class="n">TTM票息%</th><th class="n">中位票息%</th><th class="n">连续</th><th class="n">CV</th><th class="n">旧口径周MA60</th><th class="n">旧口径偏离%</th><th>旧口径线下标记</th></tr></thead><tbody>';
  rows.forEach(function(r){t+='<tr'+(r['买点']&&r['买点'].indexOf('线下')>=0?' class="hl"':'')+'><td>'+esc(r['代码'])+'</td><td><b>'+esc(r['名称'])+'</b></td>'+
  '<td class="small">'+esc(r['企业性质'])+'</td><td class="n">'+n(r['收盘价'])+'</td><td class="n"><b>'+n(r['TTM票息'])+'</b></td>'+
  '<td class="n">'+n(r['中位票息'])+'</td><td class="n">'+esc(r['连续年数'])+'</td><td class="n">'+n(r['CV'])+'</td>'+
@@ -197,7 +197,7 @@ function draw(){
  document.getElementById('cnt').textContent='显示 '+rows.length+' / '+D.news.length+' 只';
  paintTables();
 }
-var items=[['all','全部池外 ≥4%'],['ma','已算周线买点'],['below','周K60线下']];
+var items=[['all','全部池外 ≥4%'],['ma','已算旧口径周线'],['below','旧口径线下']];
 var tb='';items.forEach(function(it,i){tb+='<button data-f="'+it[0]+'"'+(i===0?' class="on"':'')+'>'+it[1]+'</button>'});
 var el=document.getElementById('tb');el.innerHTML=tb;
 el.querySelectorAll('button').forEach(function(b){b.onclick=function(){
