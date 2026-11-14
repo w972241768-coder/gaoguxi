@@ -1,0 +1,3673 @@
+{
+ "asof": "20261113",
+ "report_date": "20260930",
+ "n": 458,
+ "covered": 458,
+ "note": "统一 20260930 三季报口径；前十大流通股东快照，不含全部 ETF 持仓",
+ "rows": {
+  "000021.SZ": {
+   "etf_n": 1,
+   "inst_n": 4,
+   "inst_pct": 1.17,
+   "holder_top": "中国电子有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000027.SZ": {
+   "etf_n": 1,
+   "inst_n": 1,
+   "inst_pct": 0.49,
+   "holder_top": "深圳市人民政府国有资产监督管理委员会",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000028.SZ": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 2.44,
+   "holder_top": "国药控股股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000045.SZ": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 0.28,
+   "holder_top": "深圳市投资控股有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000061.SZ": {
+   "etf_n": 0,
+   "inst_n": 6,
+   "inst_pct": 33.37,
+   "holder_top": "深圳农业与食品投资控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000062.SZ": {
+   "etf_n": 1,
+   "inst_n": 6,
+   "inst_pct": 17.78,
+   "holder_top": "深圳华强集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000063.SZ": {
+   "etf_n": 2,
+   "inst_n": 3,
+   "inst_pct": 3.68,
+   "holder_top": "中兴新通讯有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000065.SZ": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 5.75,
+   "holder_top": "中国北方工业有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000156.SZ": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "华数数字电视传媒集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000157.SZ": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 4.93,
+   "holder_top": "香港中央结算(代理人)有限公司(HKSCC NOMINEES LIMITED)",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000166.SZ": {
+   "etf_n": 1,
+   "inst_n": 2,
+   "inst_pct": 26.43,
+   "holder_top": "中国建银投资有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000333.SZ": {
+   "etf_n": 0,
+   "inst_n": 6,
+   "inst_pct": 9.39,
+   "holder_top": "美的控股有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000404.SZ": {
+   "etf_n": 1,
+   "inst_n": 3,
+   "inst_pct": 3.54,
+   "holder_top": "四川长虹电器股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000411.SZ": {
+   "etf_n": 1,
+   "inst_n": 1,
+   "inst_pct": 1.13,
+   "holder_top": "浙江省国际贸易集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000417.SZ": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "合肥市建设投资控股(集团)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000419.SZ": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "长沙通程实业(集团)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000425.SZ": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 3.39,
+   "holder_top": "天津茂信企业管理合伙企业(有限合伙)",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000429.SZ": {
+   "etf_n": 2,
+   "inst_n": 3,
+   "inst_pct": 10.67,
+   "holder_top": "广东省公路建设有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000498.SZ": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 8.32,
+   "holder_top": "山东高速集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000507.SZ": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 4.65,
+   "holder_top": "珠海港控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000529.SZ": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 0.56,
+   "holder_top": "广东省广弘资产经营有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000532.SZ": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 0.19,
+   "holder_top": "珠海华发科技产业集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000538.SZ": {
+   "etf_n": 1,
+   "inst_n": 4,
+   "inst_pct": 8.71,
+   "holder_top": "云南省国有股权运营管理有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000544.SZ": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 0.33,
+   "holder_top": "郑州公用事业投资发展集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000559.SZ": {
+   "etf_n": 1,
+   "inst_n": 1,
+   "inst_pct": 1.28,
+   "holder_top": "万向集团公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000565.SZ": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 0.64,
+   "holder_top": "重庆生命科技与新材料产业集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000568.SZ": {
+   "etf_n": 2,
+   "inst_n": 5,
+   "inst_pct": 11.87,
+   "holder_top": "泸州老窖集团有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000581.SZ": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 5.04,
+   "holder_top": "无锡产业发展集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000596.SZ": {
+   "etf_n": 1,
+   "inst_n": 4,
+   "inst_pct": 9.26,
+   "holder_top": "安徽古井集团有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000617.SZ": {
+   "etf_n": 2,
+   "inst_n": 1,
+   "inst_pct": 0.96,
+   "holder_top": "中国石油天然气集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000636.SZ": {
+   "etf_n": 0,
+   "inst_n": 8,
+   "inst_pct": 10.53,
+   "holder_top": "广东省广晟控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000651.SZ": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 3.93,
+   "holder_top": "珠海明骏投资合伙企业(有限合伙)",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000685.SZ": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 10.65,
+   "holder_top": "中山投资控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000708.SZ": {
+   "etf_n": 3,
+   "inst_n": 3,
+   "inst_pct": 2.65,
+   "holder_top": "中信泰富特钢投资有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000709.SZ": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "邯郸钢铁集团有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000713.SZ": {
+   "etf_n": 1,
+   "inst_n": 0,
+   "inst_pct": 1.03,
+   "holder_top": "国投种业科技有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000719.SZ": {
+   "etf_n": 0,
+   "inst_n": 7,
+   "inst_pct": 11.57,
+   "holder_top": "中原出版传媒投资控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000728.SZ": {
+   "etf_n": 2,
+   "inst_n": 1,
+   "inst_pct": 16.77,
+   "holder_top": "安徽国元金融控股集团有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000739.SZ": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 4.43,
+   "holder_top": "横店集团控股有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000756.SZ": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 0.37,
+   "holder_top": "华鲁控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000768.SZ": {
+   "etf_n": 3,
+   "inst_n": 4,
+   "inst_pct": 3.32,
+   "holder_top": "中国航空工业集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000776.SZ": {
+   "etf_n": 1,
+   "inst_n": 3,
+   "inst_pct": 6.49,
+   "holder_top": "香港中央结算(代理人)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000777.SZ": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "中核苏州阀门有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000786.SZ": {
+   "etf_n": 0,
+   "inst_n": 5,
+   "inst_pct": 2.41,
+   "holder_top": "中国建材股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000828.SZ": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 1.92,
+   "holder_top": "东莞市交通投资控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000850.SZ": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 0.27,
+   "holder_top": "安徽华茂集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000858.SZ": {
+   "etf_n": 2,
+   "inst_n": 5,
+   "inst_pct": 5.13,
+   "holder_top": "宜宾发展控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000878.SZ": {
+   "etf_n": 4,
+   "inst_n": 1,
+   "inst_pct": 2.34,
+   "holder_top": "云南铜业(集团)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000883.SZ": {
+   "etf_n": 1,
+   "inst_n": 2,
+   "inst_pct": 4.23,
+   "holder_top": "湖北宏泰集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000887.SZ": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 0.46,
+   "holder_top": "安徽中鼎控股(集团)股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000895.SZ": {
+   "etf_n": 2,
+   "inst_n": 6,
+   "inst_pct": 7.24,
+   "holder_top": "罗特克斯有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000900.SZ": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "湖南省高速公路集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000919.SZ": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 3.7,
+   "holder_top": "南京新工投资集团有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000922.SZ": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 3.3,
+   "holder_top": "哈尔滨电气集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000928.SZ": {
+   "etf_n": 3,
+   "inst_n": 1,
+   "inst_pct": 1.26,
+   "holder_top": "中钢资本控股有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000932.SZ": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 12.25,
+   "holder_top": "湖南钢铁集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000933.SZ": {
+   "etf_n": 1,
+   "inst_n": 3,
+   "inst_pct": 3.97,
+   "holder_top": "河南神火集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000950.SZ": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 3.25,
+   "holder_top": "重庆医药健康产业有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000951.SZ": {
+   "etf_n": 0,
+   "inst_n": 6,
+   "inst_pct": 6.16,
+   "holder_top": "中国重汽(香港)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000967.SZ": {
+   "etf_n": 2,
+   "inst_n": 0,
+   "inst_pct": 2.36,
+   "holder_top": "宁波盈峰资产管理有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000975.SZ": {
+   "etf_n": 2,
+   "inst_n": 5,
+   "inst_pct": 6.77,
+   "holder_top": "山东黄金矿业股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "000987.SZ": {
+   "etf_n": 1,
+   "inst_n": 1,
+   "inst_pct": 1.66,
+   "holder_top": "广州越秀集团股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "001208.SZ": {
+   "etf_n": 1,
+   "inst_n": 0,
+   "inst_pct": 1.62,
+   "holder_top": "湖南兴湘投资控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "001965.SZ": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 4.84,
+   "holder_top": "招商局集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002001.SZ": {
+   "etf_n": 1,
+   "inst_n": 5,
+   "inst_pct": 3.24,
+   "holder_top": "新和成控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002007.SZ": {
+   "etf_n": 1,
+   "inst_n": 2,
+   "inst_pct": 2.98,
+   "holder_top": "重庆市晟康生物科技开发有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002008.SZ": {
+   "etf_n": 1,
+   "inst_n": 2,
+   "inst_pct": 3.29,
+   "holder_top": "大族控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002014.SZ": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 2.0,
+   "holder_top": "黄山永佳投资有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002017.SZ": {
+   "etf_n": 3,
+   "inst_n": 0,
+   "inst_pct": 2.07,
+   "holder_top": "中电科东方通信集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002027.SZ": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 3.6,
+   "holder_top": "Media Management Hong Kong Limited",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002032.SZ": {
+   "etf_n": 3,
+   "inst_n": 5,
+   "inst_pct": 4.83,
+   "holder_top": "SEB INTERNATIONALE S.A.S",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002039.SZ": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 0.96,
+   "holder_top": "中国华电集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002040.SZ": {
+   "etf_n": 1,
+   "inst_n": 1,
+   "inst_pct": 0.34,
+   "holder_top": "南京港(集团)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002046.SZ": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 1.77,
+   "holder_top": "中国机械工业集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002057.SZ": {
+   "etf_n": 1,
+   "inst_n": 0,
+   "inst_pct": 0.66,
+   "holder_top": "中钢资本控股有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002060.SZ": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 9.98,
+   "holder_top": "广东省建筑工程集团控股有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002061.SZ": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 7.3,
+   "holder_top": "浙江省交通投资集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002064.SZ": {
+   "etf_n": 1,
+   "inst_n": 4,
+   "inst_pct": 3.03,
+   "holder_top": "华峰集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002078.SZ": {
+   "etf_n": 0,
+   "inst_n": 7,
+   "inst_pct": 6.02,
+   "holder_top": "山东太阳控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002080.SZ": {
+   "etf_n": 0,
+   "inst_n": 7,
+   "inst_pct": 2.79,
+   "holder_top": "中国建材股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002116.SZ": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 0.31,
+   "holder_top": "中国轻工集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002125.SZ": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 0.37,
+   "holder_top": "湘潭电化集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002126.SZ": {
+   "etf_n": 0,
+   "inst_n": 5,
+   "inst_pct": 7.4,
+   "holder_top": "宁波正晟企业管理合伙企业(有限合伙)",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002149.SZ": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 2.81,
+   "holder_top": "西北有色金属研究院",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002179.SZ": {
+   "etf_n": 1,
+   "inst_n": 4,
+   "inst_pct": 4.25,
+   "holder_top": "中国航空科技工业股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002181.SZ": {
+   "etf_n": 1,
+   "inst_n": 2,
+   "inst_pct": 0.31,
+   "holder_top": "广州传媒控股有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002185.SZ": {
+   "etf_n": 2,
+   "inst_n": 2,
+   "inst_pct": 3.3,
+   "holder_top": "天水华天电子集团股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002202.SZ": {
+   "etf_n": 2,
+   "inst_n": 1,
+   "inst_pct": 1.04,
+   "holder_top": "香港中央结算(代理人)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002222.SZ": {
+   "etf_n": 0,
+   "inst_n": 6,
+   "inst_pct": 3.17,
+   "holder_top": "中国科学院福建物质结构研究所",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002226.SZ": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 1.21,
+   "holder_top": "北方特种能源集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002230.SZ": {
+   "etf_n": 3,
+   "inst_n": 0,
+   "inst_pct": 3.45,
+   "holder_top": "中国移动通信有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002236.SZ": {
+   "etf_n": 1,
+   "inst_n": 2,
+   "inst_pct": 3.98,
+   "holder_top": "中国移动通信集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002241.SZ": {
+   "etf_n": 1,
+   "inst_n": 2,
+   "inst_pct": 1.52,
+   "holder_top": "歌尔集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002246.SZ": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 11.1,
+   "holder_top": "山西新华防护器材有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002252.SZ": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 9.18,
+   "holder_top": "海盈康(青岛)医疗科技有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002273.SZ": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 4.18,
+   "holder_top": "星星集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002276.SZ": {
+   "etf_n": 2,
+   "inst_n": 1,
+   "inst_pct": 1.98,
+   "holder_top": "青岛海控投资控股有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002293.SZ": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 5.5,
+   "holder_top": "伟佳国际企业有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002317.SZ": {
+   "etf_n": 1,
+   "inst_n": 6,
+   "inst_pct": 12.47,
+   "holder_top": "张玉立",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002332.SZ": {
+   "etf_n": 2,
+   "inst_n": 3,
+   "inst_pct": 6.13,
+   "holder_top": "仙居县产业投资发展集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002344.SZ": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 1.34,
+   "holder_top": "海宁市潮升科技产业投资集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002349.SZ": {
+   "etf_n": 2,
+   "inst_n": 0,
+   "inst_pct": 0.63,
+   "holder_top": "南通产业控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002415.SZ": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 2.94,
+   "holder_top": "中电海康集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002422.SZ": {
+   "etf_n": 2,
+   "inst_n": 3,
+   "inst_pct": 9.02,
+   "holder_top": "刘革新",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002423.SZ": {
+   "etf_n": 1,
+   "inst_n": 1,
+   "inst_pct": 4.95,
+   "holder_top": "中粮集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002430.SZ": {
+   "etf_n": 1,
+   "inst_n": 5,
+   "inst_pct": 4.44,
+   "holder_top": "杭州杭氧控股有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002461.SZ": {
+   "etf_n": 2,
+   "inst_n": 3,
+   "inst_pct": 2.26,
+   "holder_top": "广州产业投资控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002479.SZ": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 2.44,
+   "holder_top": "南昌市政公用集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002484.SZ": {
+   "etf_n": 0,
+   "inst_n": 5,
+   "inst_pct": 3.54,
+   "holder_top": "浙江省经济建设投资有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002500.SZ": {
+   "etf_n": 3,
+   "inst_n": 1,
+   "inst_pct": 4.19,
+   "holder_top": "山西金融投资控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002507.SZ": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 0.4,
+   "holder_top": "重庆市涪陵国有资产投资经营集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002523.SZ": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "株洲市国有资产投资控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002555.SZ": {
+   "etf_n": 2,
+   "inst_n": 0,
+   "inst_pct": 3.61,
+   "holder_top": "李卫伟",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002673.SZ": {
+   "etf_n": 5,
+   "inst_n": 1,
+   "inst_pct": 5.27,
+   "holder_top": "陕西投资集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002679.SZ": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 0.26,
+   "holder_top": "福建金森集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002709.SZ": {
+   "etf_n": 2,
+   "inst_n": 2,
+   "inst_pct": 2.19,
+   "holder_top": "徐金富",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002722.SZ": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 0.47,
+   "holder_top": "物产中大元通实业集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002758.SZ": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 1.06,
+   "holder_top": "浙农控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002820.SZ": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 2.23,
+   "holder_top": "天津市桂发祥麻花饮食集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002821.SZ": {
+   "etf_n": 2,
+   "inst_n": 3,
+   "inst_pct": 8.83,
+   "holder_top": "ASYMCHEM LABORATORIES, INCORPORATED",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002827.SZ": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "西藏地质矿产集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002831.SZ": {
+   "etf_n": 0,
+   "inst_n": 5,
+   "inst_pct": 7.76,
+   "holder_top": "吴兰兰",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002837.SZ": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 2.0,
+   "holder_top": "深圳市英维克投资有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002841.SZ": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "孙永辉",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002880.SZ": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "深圳市光明区国有资产监督管理局",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002911.SZ": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 2.28,
+   "holder_top": "佛山市投资控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002939.SZ": {
+   "etf_n": 3,
+   "inst_n": 0,
+   "inst_pct": 2.67,
+   "holder_top": "华能资本服务有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002945.SZ": {
+   "etf_n": 3,
+   "inst_n": 0,
+   "inst_pct": 0.6,
+   "holder_top": "深圳市立业集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002948.SZ": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 1.94,
+   "holder_top": "香港中央结算(代理人)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "002966.SZ": {
+   "etf_n": 1,
+   "inst_n": 2,
+   "inst_pct": 6.91,
+   "holder_top": "苏州国际发展集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "003816.SZ": {
+   "etf_n": 1,
+   "inst_n": 4,
+   "inst_pct": 4.05,
+   "holder_top": "中国广核集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300003.SZ": {
+   "etf_n": 3,
+   "inst_n": 2,
+   "inst_pct": 10.26,
+   "holder_top": "中国船舶重工集团公司第七二五研究所(洛阳船舶材料研究所)",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300015.SZ": {
+   "etf_n": 5,
+   "inst_n": 1,
+   "inst_pct": 3.87,
+   "holder_top": "爱尔医疗投资集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300037.SZ": {
+   "etf_n": 1,
+   "inst_n": 1,
+   "inst_pct": 2.06,
+   "holder_top": "覃九三",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300059.SZ": {
+   "etf_n": 5,
+   "inst_n": 0,
+   "inst_pct": 7.36,
+   "holder_top": "其实",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300088.SZ": {
+   "etf_n": 0,
+   "inst_n": 6,
+   "inst_pct": 2.23,
+   "holder_top": "芜湖铁元投资有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300124.SZ": {
+   "etf_n": 2,
+   "inst_n": 1,
+   "inst_pct": 3.52,
+   "holder_top": "深圳市汇川投资有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300136.SZ": {
+   "etf_n": 4,
+   "inst_n": 2,
+   "inst_pct": 8.03,
+   "holder_top": "彭浩",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300284.SZ": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 3.76,
+   "holder_top": "广州珠江实业集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300285.SZ": {
+   "etf_n": 1,
+   "inst_n": 1,
+   "inst_pct": 2.11,
+   "holder_top": "张曦",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300341.SZ": {
+   "etf_n": 1,
+   "inst_n": 1,
+   "inst_pct": 1.51,
+   "holder_top": "北京亦庄投资控股有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300373.SZ": {
+   "etf_n": 1,
+   "inst_n": 2,
+   "inst_pct": 2.27,
+   "holder_top": "江苏扬杰投资有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300388.SZ": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 12.34,
+   "holder_top": "中国节能环保集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300395.SZ": {
+   "etf_n": 1,
+   "inst_n": 3,
+   "inst_pct": 8.97,
+   "holder_top": "邓家贵",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300408.SZ": {
+   "etf_n": 1,
+   "inst_n": 1,
+   "inst_pct": 1.47,
+   "holder_top": "潮州市三江投资有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300450.SZ": {
+   "etf_n": 3,
+   "inst_n": 1,
+   "inst_pct": 1.9,
+   "holder_top": "拉萨欣导创业投资有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300458.SZ": {
+   "etf_n": 1,
+   "inst_n": 1,
+   "inst_pct": 2.23,
+   "holder_top": "龚晖",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300498.SZ": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "梁焕珍",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300620.SZ": {
+   "etf_n": 2,
+   "inst_n": 1,
+   "inst_pct": 2.6,
+   "holder_top": "珠海华发科技产业集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300623.SZ": {
+   "etf_n": 0,
+   "inst_n": 5,
+   "inst_pct": 12.8,
+   "holder_top": "江苏捷捷投资有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300628.SZ": {
+   "etf_n": 2,
+   "inst_n": 4,
+   "inst_pct": 11.42,
+   "holder_top": "香港中央结算有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300678.SZ": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 0.46,
+   "holder_top": "中国科学院控股有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300684.SZ": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 7.66,
+   "holder_top": "中际旭创股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300722.SZ": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 2.15,
+   "holder_top": "江西省军工控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300770.SZ": {
+   "etf_n": 2,
+   "inst_n": 4,
+   "inst_pct": 3.51,
+   "holder_top": "广东南方广播影视传媒集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300776.SZ": {
+   "etf_n": 0,
+   "inst_n": 5,
+   "inst_pct": 5.98,
+   "holder_top": "李志刚",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300797.SZ": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 0.9,
+   "holder_top": "中国钢研科技集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300811.SZ": {
+   "etf_n": 2,
+   "inst_n": 0,
+   "inst_pct": 1.53,
+   "holder_top": "周后强",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300831.SZ": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "杜景玉",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300832.SZ": {
+   "etf_n": 1,
+   "inst_n": 4,
+   "inst_pct": 37.08,
+   "holder_top": "西藏新产业投资管理有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "300847.SZ": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "河北汉光重工有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600000.SH": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 19.74,
+   "holder_top": "上海国际集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600007.SH": {
+   "etf_n": 2,
+   "inst_n": 2,
+   "inst_pct": 5.93,
+   "holder_top": "中国国际贸易中心有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600008.SH": {
+   "etf_n": 2,
+   "inst_n": 1,
+   "inst_pct": 1.43,
+   "holder_top": "北京首都创业集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600012.SH": {
+   "etf_n": 1,
+   "inst_n": 5,
+   "inst_pct": 4.93,
+   "holder_top": "HKSCC NOMINEES LIMITED",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600015.SH": {
+   "etf_n": 1,
+   "inst_n": 2,
+   "inst_pct": 18.36,
+   "holder_top": "首钢集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600016.SH": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 20.73,
+   "holder_top": "香港中央结算(代理人)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600018.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "上海国有资本投资有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600019.SH": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 2.13,
+   "holder_top": "中国宝武钢铁集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600025.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "中国华能集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600028.SH": {
+   "etf_n": 1,
+   "inst_n": 4,
+   "inst_pct": 1.33,
+   "holder_top": "中国石油化工集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600030.SH": {
+   "etf_n": 2,
+   "inst_n": 0,
+   "inst_pct": 4.27,
+   "holder_top": "中国中信金融控股有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600035.SH": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 2.26,
+   "holder_top": "湖北交通投资集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600036.SH": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 5.48,
+   "holder_top": "香港中央结算(代理人)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600037.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "中国广电网络股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600038.SH": {
+   "etf_n": 1,
+   "inst_n": 4,
+   "inst_pct": 5.73,
+   "holder_top": "中国航空科技工业股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600039.SH": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 11.61,
+   "holder_top": "蜀道投资集团有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600059.SH": {
+   "etf_n": 1,
+   "inst_n": 0,
+   "inst_pct": 2.22,
+   "holder_top": "中国绍兴黄酒集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600060.SH": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 5.03,
+   "holder_top": "海信集团控股股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600061.SH": {
+   "etf_n": 2,
+   "inst_n": 3,
+   "inst_pct": 21.82,
+   "holder_top": "国家开发投资集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600062.SH": {
+   "etf_n": 1,
+   "inst_n": 0,
+   "inst_pct": 0.18,
+   "holder_top": "北京医药集团有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600064.SH": {
+   "etf_n": 3,
+   "inst_n": 1,
+   "inst_pct": 3.32,
+   "holder_top": "南京新港开发有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600085.SH": {
+   "etf_n": 3,
+   "inst_n": 3,
+   "inst_pct": 3.14,
+   "holder_top": "中国北京同仁堂(集团)有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600098.SH": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 2.87,
+   "holder_top": "广州产业投资控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600101.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "国网四川省电力公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600104.SH": {
+   "etf_n": 2,
+   "inst_n": 2,
+   "inst_pct": 2.68,
+   "holder_top": "上海汽车工业(集团)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600109.SH": {
+   "etf_n": 2,
+   "inst_n": 1,
+   "inst_pct": 4.26,
+   "holder_top": "长沙涌金(集团)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600113.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "温州东方集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600116.SH": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 2.39,
+   "holder_top": "中国长江电力股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600120.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "浙江省国际贸易集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600125.SH": {
+   "etf_n": 1,
+   "inst_n": 3,
+   "inst_pct": 4.26,
+   "holder_top": "中铁集装箱运输有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600128.SH": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 4.27,
+   "holder_top": "江苏省苏豪控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600131.SH": {
+   "etf_n": 1,
+   "inst_n": 3,
+   "inst_pct": 3.4,
+   "holder_top": "国网信息通信产业集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600133.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "湖北省建设投资集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600141.SH": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 3.71,
+   "holder_top": "宜昌兴发集团有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600153.SH": {
+   "etf_n": 2,
+   "inst_n": 6,
+   "inst_pct": 10.57,
+   "holder_top": "厦门建发集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600161.SH": {
+   "etf_n": 1,
+   "inst_n": 1,
+   "inst_pct": 1.12,
+   "holder_top": "中国生物技术股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600171.SH": {
+   "etf_n": 2,
+   "inst_n": 0,
+   "inst_pct": 0.69,
+   "holder_top": "华大半导体有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600176.SH": {
+   "etf_n": 1,
+   "inst_n": 2,
+   "inst_pct": 0.92,
+   "holder_top": "中国建材股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600177.SH": {
+   "etf_n": 3,
+   "inst_n": 3,
+   "inst_pct": 18.75,
+   "holder_top": "宁波雅戈尔控股有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600183.SH": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 2.2,
+   "holder_top": "广东省广新控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600196.SH": {
+   "etf_n": 4,
+   "inst_n": 2,
+   "inst_pct": 4.25,
+   "holder_top": "上海复星高科技(集团)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600197.SH": {
+   "etf_n": 1,
+   "inst_n": 1,
+   "inst_pct": 0.49,
+   "holder_top": "新疆伊力特集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600206.SH": {
+   "etf_n": 5,
+   "inst_n": 1,
+   "inst_pct": 5.96,
+   "holder_top": "中国有研科技集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600218.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "安徽全柴集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600233.SH": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 3.07,
+   "holder_top": "上海圆通蛟龙投资发展(集团)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600269.SH": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 8.08,
+   "holder_top": "江西省交通投资集团有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600276.SH": {
+   "etf_n": 2,
+   "inst_n": 1,
+   "inst_pct": 2.04,
+   "holder_top": "江苏恒瑞医药集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600282.SH": {
+   "etf_n": 2,
+   "inst_n": 4,
+   "inst_pct": 6.0,
+   "holder_top": "南京南钢钢铁联合有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600283.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "中国水务投资集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600295.SH": {
+   "etf_n": 3,
+   "inst_n": 1,
+   "inst_pct": 4.08,
+   "holder_top": "内蒙古鄂尔多斯羊绒集团有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600298.SH": {
+   "etf_n": 1,
+   "inst_n": 6,
+   "inst_pct": 12.77,
+   "holder_top": "湖北安琪生物集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600299.SH": {
+   "etf_n": 1,
+   "inst_n": 5,
+   "inst_pct": 3.57,
+   "holder_top": "中国蓝星(集团)股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600305.SH": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 1.99,
+   "holder_top": "江苏恒顺集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600309.SH": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 3.4,
+   "holder_top": "烟台国丰投资控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600329.SH": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 0.0,
+   "holder_top": "天津市医药集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600332.SH": {
+   "etf_n": 2,
+   "inst_n": 0,
+   "inst_pct": 0.59,
+   "holder_top": "广州医药集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600335.SH": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 0.15,
+   "holder_top": "中国机械工业集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600350.SH": {
+   "etf_n": 5,
+   "inst_n": 2,
+   "inst_pct": 4.54,
+   "holder_top": "山东高速集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600352.SH": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 7.15,
+   "holder_top": "阮伟祥",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600356.SH": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 4.0,
+   "holder_top": "牡丹江恒丰纸业集团有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600367.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "青岛红星化工集团有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600368.SH": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 0.27,
+   "holder_top": "广西交通投资集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600369.SH": {
+   "etf_n": 2,
+   "inst_n": 0,
+   "inst_pct": 3.19,
+   "holder_top": "重庆渝富资本运营集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600377.SH": {
+   "etf_n": 2,
+   "inst_n": 2,
+   "inst_pct": 1.59,
+   "holder_top": "江苏交通控股有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600378.SH": {
+   "etf_n": 1,
+   "inst_n": 4,
+   "inst_pct": 4.76,
+   "holder_top": "中国昊华化工集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600379.SH": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 4.61,
+   "holder_top": "中国西电集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600398.SH": {
+   "etf_n": 3,
+   "inst_n": 3,
+   "inst_pct": 4.02,
+   "holder_top": "海澜集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600406.SH": {
+   "etf_n": 1,
+   "inst_n": 2,
+   "inst_pct": 1.77,
+   "holder_top": "国网电力科学研究院有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600435.SH": {
+   "etf_n": 3,
+   "inst_n": 5,
+   "inst_pct": 21.14,
+   "holder_top": "北方导航科技集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600444.SH": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 1.59,
+   "holder_top": "合肥通用机械研究院有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600459.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "云南省投资控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600461.SH": {
+   "etf_n": 3,
+   "inst_n": 4,
+   "inst_pct": 12.13,
+   "holder_top": "南昌水业集团有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600475.SH": {
+   "etf_n": 0,
+   "inst_n": 5,
+   "inst_pct": 21.26,
+   "holder_top": "无锡市国联发展(集团)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600483.SH": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 11.71,
+   "holder_top": "福建省能源集团有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600486.SH": {
+   "etf_n": 0,
+   "inst_n": 5,
+   "inst_pct": 7.5,
+   "holder_top": "先正达集团股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600489.SH": {
+   "etf_n": 3,
+   "inst_n": 4,
+   "inst_pct": 6.98,
+   "holder_top": "中国黄金集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600495.SH": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 1.22,
+   "holder_top": "晋西工业集团有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600498.SH": {
+   "etf_n": 3,
+   "inst_n": 0,
+   "inst_pct": 1.8,
+   "holder_top": "烽火科技集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600502.SH": {
+   "etf_n": 4,
+   "inst_n": 1,
+   "inst_pct": 10.71,
+   "holder_top": "安徽建工集团控股有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600505.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "国网四川省电力公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600511.SH": {
+   "etf_n": 0,
+   "inst_n": 5,
+   "inst_pct": 14.92,
+   "holder_top": "国药控股股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600519.SH": {
+   "etf_n": 0,
+   "inst_n": 5,
+   "inst_pct": 1.75,
+   "holder_top": "中国贵州茅台酒厂(集团)有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600523.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "中国航空汽车系统控股有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600529.SH": {
+   "etf_n": 2,
+   "inst_n": 0,
+   "inst_pct": 3.34,
+   "holder_top": "山东鲁中投资有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600535.SH": {
+   "etf_n": 2,
+   "inst_n": 0,
+   "inst_pct": 1.3,
+   "holder_top": "华润三九医药股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600551.SH": {
+   "etf_n": 1,
+   "inst_n": 2,
+   "inst_pct": 1.72,
+   "holder_top": "安徽出版集团有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600552.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "凯盛科技集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600560.SH": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 0.95,
+   "holder_top": "冶金自动化研究设计院有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600563.SH": {
+   "etf_n": 0,
+   "inst_n": 7,
+   "inst_pct": 4.49,
+   "holder_top": "厦门市法拉发展有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600566.SH": {
+   "etf_n": 2,
+   "inst_n": 3,
+   "inst_pct": 7.98,
+   "holder_top": "江苏济川控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600580.SH": {
+   "etf_n": 2,
+   "inst_n": 0,
+   "inst_pct": 0.75,
+   "holder_top": "浙江卧龙舜禹投资有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600582.SH": {
+   "etf_n": 3,
+   "inst_n": 1,
+   "inst_pct": 1.82,
+   "holder_top": "中国煤炭科工集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600598.SH": {
+   "etf_n": 2,
+   "inst_n": 5,
+   "inst_pct": 2.97,
+   "holder_top": "北大荒农垦集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600602.SH": {
+   "etf_n": 3,
+   "inst_n": 1,
+   "inst_pct": 0.77,
+   "holder_top": "上海仪电(集团)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600612.SH": {
+   "etf_n": 1,
+   "inst_n": 1,
+   "inst_pct": 0.0,
+   "holder_top": "上海市黄浦区国有资产监督管理委员会",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600616.SH": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 0.52,
+   "holder_top": "上海市糖业烟酒(集团)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600618.SH": {
+   "etf_n": 3,
+   "inst_n": 0,
+   "inst_pct": 0.0,
+   "holder_top": "上海华谊控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600621.SH": {
+   "etf_n": 3,
+   "inst_n": 1,
+   "inst_pct": 4.99,
+   "holder_top": "上海仪电(集团)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600628.SH": {
+   "etf_n": 1,
+   "inst_n": 0,
+   "inst_pct": 0.41,
+   "holder_top": "上海市黄浦区国有资产监督管理委员会",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600637.SH": {
+   "etf_n": 3,
+   "inst_n": 0,
+   "inst_pct": 1.01,
+   "holder_top": "上海文化广播影视集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600639.SH": {
+   "etf_n": 1,
+   "inst_n": 0,
+   "inst_pct": 0.48,
+   "holder_top": "上海金桥(集团)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600642.SH": {
+   "etf_n": 1,
+   "inst_n": 5,
+   "inst_pct": 6.98,
+   "holder_top": "申能(集团)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600648.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "上海外高桥资产管理有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600660.SH": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 10.65,
+   "holder_top": "HKSCC NOMINEES LIMITED",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600674.SH": {
+   "etf_n": 1,
+   "inst_n": 2,
+   "inst_pct": 1.38,
+   "holder_top": "四川省投资集团有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600690.SH": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 3.07,
+   "holder_top": "HKSCC NOMINEES LIMITED",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600704.SH": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 1.49,
+   "holder_top": "浙江省国有资本运营有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600710.SH": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 2.38,
+   "holder_top": "中国机械工业集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600717.SH": {
+   "etf_n": 1,
+   "inst_n": 2,
+   "inst_pct": 1.08,
+   "holder_top": "显创投资有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600724.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "宁波城建投资集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600739.SH": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 1.16,
+   "holder_top": "韶关市高腾企业管理有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600741.SH": {
+   "etf_n": 1,
+   "inst_n": 6,
+   "inst_pct": 4.82,
+   "holder_top": "上海汽车集团股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600742.SH": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 1.02,
+   "holder_top": "吉林省亚东国有资本投资有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600750.SH": {
+   "etf_n": 2,
+   "inst_n": 6,
+   "inst_pct": 17.05,
+   "holder_top": "华润江中制药集团有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600757.SH": {
+   "etf_n": 8,
+   "inst_n": 1,
+   "inst_pct": 12.72,
+   "holder_top": "湖北长江出版传媒集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600760.SH": {
+   "etf_n": 1,
+   "inst_n": 3,
+   "inst_pct": 2.13,
+   "holder_top": "中国航空工业集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600761.SH": {
+   "etf_n": 0,
+   "inst_n": 8,
+   "inst_pct": 12.26,
+   "holder_top": "安徽叉车集团有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600776.SH": {
+   "etf_n": 1,
+   "inst_n": 1,
+   "inst_pct": 0.96,
+   "holder_top": "中电科东方通信集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600784.SH": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 4.2,
+   "holder_top": "山东发展投资控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600787.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "中国物资储运集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600789.SH": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 3.09,
+   "holder_top": "华鲁控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600790.SH": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 1.36,
+   "holder_top": "绍兴市柯桥区开发经营集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600795.SH": {
+   "etf_n": 0,
+   "inst_n": 6,
+   "inst_pct": 12.08,
+   "holder_top": "国家能源投资集团有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600803.SH": {
+   "etf_n": 1,
+   "inst_n": 3,
+   "inst_pct": 6.17,
+   "holder_top": "ENN GROUP INTERNATIONAL INVESTMENT LIMITED",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600814.SH": {
+   "etf_n": 1,
+   "inst_n": 2,
+   "inst_pct": 0.9,
+   "holder_top": "杭州市商贸旅游集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600827.SH": {
+   "etf_n": 1,
+   "inst_n": 0,
+   "inst_pct": 0.29,
+   "holder_top": "百联集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600834.SH": {
+   "etf_n": 1,
+   "inst_n": 1,
+   "inst_pct": 0.74,
+   "holder_top": "上海申通地铁集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600838.SH": {
+   "etf_n": 1,
+   "inst_n": 0,
+   "inst_pct": 0.84,
+   "holder_top": "上海新南西(集团)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600839.SH": {
+   "etf_n": 1,
+   "inst_n": 1,
+   "inst_pct": 0.53,
+   "holder_top": "四川长虹电子控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600848.SH": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 5.61,
+   "holder_top": "上海市漕河泾新兴技术开发区发展总公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600862.SH": {
+   "etf_n": 3,
+   "inst_n": 2,
+   "inst_pct": 2.55,
+   "holder_top": "中国航空工业集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600863.SH": {
+   "etf_n": 1,
+   "inst_n": 4,
+   "inst_pct": 7.58,
+   "holder_top": "北方联合电力有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600875.SH": {
+   "etf_n": 0,
+   "inst_n": 5,
+   "inst_pct": 3.06,
+   "holder_top": "中国东方电气集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600885.SH": {
+   "etf_n": 1,
+   "inst_n": 2,
+   "inst_pct": 3.84,
+   "holder_top": "有格创业投资有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600887.SH": {
+   "etf_n": 1,
+   "inst_n": 4,
+   "inst_pct": 9.01,
+   "holder_top": "香港中央结算有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600895.SH": {
+   "etf_n": 2,
+   "inst_n": 0,
+   "inst_pct": 1.04,
+   "holder_top": "上海张江(集团)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600900.SH": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 5.54,
+   "holder_top": "中国长江三峡集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600901.SH": {
+   "etf_n": 1,
+   "inst_n": 4,
+   "inst_pct": 5.18,
+   "holder_top": "江苏交通控股有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600906.SH": {
+   "etf_n": 2,
+   "inst_n": 1,
+   "inst_pct": 4.66,
+   "holder_top": "河北港口集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600909.SH": {
+   "etf_n": 2,
+   "inst_n": 1,
+   "inst_pct": 6.41,
+   "holder_top": "安徽省国有资本运营控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600916.SH": {
+   "etf_n": 2,
+   "inst_n": 0,
+   "inst_pct": 0.95,
+   "holder_top": "中国黄金集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600919.SH": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 17.12,
+   "holder_top": "江苏省国际信托有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600941.SH": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 5.05,
+   "holder_top": "中国移动香港(BVI)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600956.SH": {
+   "etf_n": 1,
+   "inst_n": 2,
+   "inst_pct": 0.41,
+   "holder_top": "河北建设投资集团有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600958.SH": {
+   "etf_n": 1,
+   "inst_n": 2,
+   "inst_pct": 9.53,
+   "holder_top": "申能(集团)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600959.SH": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 0.73,
+   "holder_top": "江苏省文化科技控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600968.SH": {
+   "etf_n": 0,
+   "inst_n": 7,
+   "inst_pct": 3.93,
+   "holder_top": "中国海洋石油集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600970.SH": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 3.28,
+   "holder_top": "中国建材股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600982.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "宁波开投能源集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600987.SH": {
+   "etf_n": 1,
+   "inst_n": 2,
+   "inst_pct": 2.37,
+   "holder_top": "浙江航民实业集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "600999.SH": {
+   "etf_n": 2,
+   "inst_n": 0,
+   "inst_pct": 2.66,
+   "holder_top": "招商局金融控股有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601000.SH": {
+   "etf_n": 2,
+   "inst_n": 5,
+   "inst_pct": 12.69,
+   "holder_top": "唐山港口实业集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601006.SH": {
+   "etf_n": 1,
+   "inst_n": 4,
+   "inst_pct": 5.1,
+   "holder_top": "中国铁路太原局集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601007.SH": {
+   "etf_n": 1,
+   "inst_n": 2,
+   "inst_pct": 1.97,
+   "holder_top": "南京金陵饭店集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601008.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "连云港港口集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601009.SH": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 8.74,
+   "holder_top": "法国巴黎银行(含QFII)",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601018.SH": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 0.36,
+   "holder_top": "宁波舟山港集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601019.SH": {
+   "etf_n": 3,
+   "inst_n": 3,
+   "inst_pct": 2.37,
+   "holder_top": "山东出版集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601038.SH": {
+   "etf_n": 0,
+   "inst_n": 7,
+   "inst_pct": 2.09,
+   "holder_top": "中国一拖集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601066.SH": {
+   "etf_n": 2,
+   "inst_n": 2,
+   "inst_pct": 43.69,
+   "holder_top": "北京金融控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601077.SH": {
+   "etf_n": 1,
+   "inst_n": 0,
+   "inst_pct": 1.13,
+   "holder_top": "香港中央结算(代理人)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601088.SH": {
+   "etf_n": 0,
+   "inst_n": 5,
+   "inst_pct": 4.78,
+   "holder_top": "国家能源投资集团有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601098.SH": {
+   "etf_n": 2,
+   "inst_n": 5,
+   "inst_pct": 5.76,
+   "holder_top": "湖南出版投资控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601100.SH": {
+   "etf_n": 2,
+   "inst_n": 2,
+   "inst_pct": 1.57,
+   "holder_top": "江苏恒立控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601101.SH": {
+   "etf_n": 3,
+   "inst_n": 4,
+   "inst_pct": 7.19,
+   "holder_top": "北京能源集团有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601107.SH": {
+   "etf_n": 0,
+   "inst_n": 6,
+   "inst_pct": 4.49,
+   "holder_top": "蜀道投资集团有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601117.SH": {
+   "etf_n": 2,
+   "inst_n": 2,
+   "inst_pct": 4.29,
+   "holder_top": "中国化学工程集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601138.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "China Galaxy Enterprise Limited",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601139.SH": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 0.54,
+   "holder_top": "深圳市人民政府国有资产监督管理委员会",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601166.SH": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 14.4,
+   "holder_top": "福建省金融投资有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601169.SH": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 4.7,
+   "holder_top": "ING BANK N.V.",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601177.SH": {
+   "etf_n": 1,
+   "inst_n": 0,
+   "inst_pct": 0.88,
+   "holder_top": "杭州萧山产业发展集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601186.SH": {
+   "etf_n": 6,
+   "inst_n": 1,
+   "inst_pct": 2.71,
+   "holder_top": "中国铁道建筑集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601188.SH": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 0.81,
+   "holder_top": "黑龙江省交投数智物流集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601199.SH": {
+   "etf_n": 0,
+   "inst_n": 5,
+   "inst_pct": 11.07,
+   "holder_top": "江阴公用事业集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601200.SH": {
+   "etf_n": 1,
+   "inst_n": 0,
+   "inst_pct": 0.33,
+   "holder_top": "上海城投(集团)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601211.SH": {
+   "etf_n": 1,
+   "inst_n": 1,
+   "inst_pct": 5.72,
+   "holder_top": "香港中央结算(代理人)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601225.SH": {
+   "etf_n": 0,
+   "inst_n": 5,
+   "inst_pct": 5.21,
+   "holder_top": "陕西煤业化工集团有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601228.SH": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 0.14,
+   "holder_top": "广州港集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601229.SH": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 3.02,
+   "holder_top": "上海联和投资有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601231.SH": {
+   "etf_n": 0,
+   "inst_n": 5,
+   "inst_pct": 2.56,
+   "holder_top": "环诚科技有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601288.SH": {
+   "etf_n": 0,
+   "inst_n": 6,
+   "inst_pct": 54.57,
+   "holder_top": "中央汇金投资有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601318.SH": {
+   "etf_n": 0,
+   "inst_n": 5,
+   "inst_pct": 15.17,
+   "holder_top": "香港中央结算(代理人)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601326.SH": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 2.35,
+   "holder_top": "河北港口集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601328.SH": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 24.73,
+   "holder_top": "香港上海汇丰银行有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601330.SH": {
+   "etf_n": 1,
+   "inst_n": 2,
+   "inst_pct": 15.09,
+   "holder_top": "北京市国有资产经营有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601369.SH": {
+   "etf_n": 2,
+   "inst_n": 0,
+   "inst_pct": 6.33,
+   "holder_top": "陕西鼓风机(集团)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601375.SH": {
+   "etf_n": 2,
+   "inst_n": 0,
+   "inst_pct": 4.25,
+   "holder_top": "香港中央结算(代理人)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601377.SH": {
+   "etf_n": 2,
+   "inst_n": 1,
+   "inst_pct": 6.47,
+   "holder_top": "福建省财政厅",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601390.SH": {
+   "etf_n": 1,
+   "inst_n": 2,
+   "inst_pct": 5.0,
+   "holder_top": "中国铁路工程集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601398.SH": {
+   "etf_n": 0,
+   "inst_n": 7,
+   "inst_pct": 52.64,
+   "holder_top": "中央汇金投资有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601512.SH": {
+   "etf_n": 2,
+   "inst_n": 1,
+   "inst_pct": 0.97,
+   "holder_top": "苏州中方财团控股股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601555.SH": {
+   "etf_n": 1,
+   "inst_n": 1,
+   "inst_pct": 4.48,
+   "holder_top": "苏州国际发展集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601577.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "长沙市财政局",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601598.SH": {
+   "etf_n": 1,
+   "inst_n": 3,
+   "inst_pct": 3.75,
+   "holder_top": "中国外运长航集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601601.SH": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 8.91,
+   "holder_top": "香港中央结算(代理人)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601607.SH": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 5.42,
+   "holder_top": "HKSCC NOMINEES LIMITED",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601611.SH": {
+   "etf_n": 1,
+   "inst_n": 1,
+   "inst_pct": 2.0,
+   "holder_top": "中国核工业集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601628.SH": {
+   "etf_n": 1,
+   "inst_n": 6,
+   "inst_pct": 96.0,
+   "holder_top": "中国人寿保险(集团)公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601633.SH": {
+   "etf_n": 4,
+   "inst_n": 3,
+   "inst_pct": 3.88,
+   "holder_top": "保定创新长城资产管理有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601658.SH": {
+   "etf_n": 1,
+   "inst_n": 4,
+   "inst_pct": 4.03,
+   "holder_top": "中国邮政集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601668.SH": {
+   "etf_n": 3,
+   "inst_n": 4,
+   "inst_pct": 3.25,
+   "holder_top": "中国建筑集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601669.SH": {
+   "etf_n": 1,
+   "inst_n": 2,
+   "inst_pct": 3.61,
+   "holder_top": "中国电力建设集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601688.SH": {
+   "etf_n": 2,
+   "inst_n": 1,
+   "inst_pct": 5.41,
+   "holder_top": "江苏省国信集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601689.SH": {
+   "etf_n": 3,
+   "inst_n": 2,
+   "inst_pct": 2.42,
+   "holder_top": "迈科国际控股(香港)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601698.SH": {
+   "etf_n": 3,
+   "inst_n": 3,
+   "inst_pct": 2.43,
+   "holder_top": "中国航天科技集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601728.SH": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 2.05,
+   "holder_top": "中国电信集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601766.SH": {
+   "etf_n": 1,
+   "inst_n": 4,
+   "inst_pct": 3.0,
+   "holder_top": "中国中车集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601788.SH": {
+   "etf_n": 5,
+   "inst_n": 0,
+   "inst_pct": 3.53,
+   "holder_top": "中国光大集团股份公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601800.SH": {
+   "etf_n": 4,
+   "inst_n": 0,
+   "inst_pct": 0.43,
+   "holder_top": "中国交通建设集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601808.SH": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 1.12,
+   "holder_top": "中国海洋石油集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601811.SH": {
+   "etf_n": 1,
+   "inst_n": 2,
+   "inst_pct": 0.48,
+   "holder_top": "四川新华出版发行集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601818.SH": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 2.45,
+   "holder_top": "中国光大集团股份公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601825.SH": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 13.4,
+   "holder_top": "上海国有资产经营有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601827.SH": {
+   "etf_n": 2,
+   "inst_n": 2,
+   "inst_pct": 1.26,
+   "holder_top": "重庆德润环境有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601857.SH": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 0.5,
+   "holder_top": "中国石油天然气集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601858.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "中国科技出版传媒集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601860.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "南京紫金投资集团有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601877.SH": {
+   "etf_n": 2,
+   "inst_n": 2,
+   "inst_pct": 3.64,
+   "holder_top": "正泰集团股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601878.SH": {
+   "etf_n": 5,
+   "inst_n": 0,
+   "inst_pct": 4.27,
+   "holder_top": "浙江上三高速公路有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601880.SH": {
+   "etf_n": 2,
+   "inst_n": 0,
+   "inst_pct": 0.55,
+   "holder_top": "营口港务集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601881.SH": {
+   "etf_n": 4,
+   "inst_n": 0,
+   "inst_pct": 1.97,
+   "holder_top": "中国银河金融控股有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601898.SH": {
+   "etf_n": 1,
+   "inst_n": 4,
+   "inst_pct": 3.85,
+   "holder_top": "中国中煤能源集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601900.SH": {
+   "etf_n": 1,
+   "inst_n": 5,
+   "inst_pct": 5.56,
+   "holder_top": "广东省出版集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601918.SH": {
+   "etf_n": 1,
+   "inst_n": 4,
+   "inst_pct": 5.03,
+   "holder_top": "中国中煤能源集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601928.SH": {
+   "etf_n": 3,
+   "inst_n": 4,
+   "inst_pct": 5.59,
+   "holder_top": "江苏凤凰出版传媒集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601939.SH": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 36.69,
+   "holder_top": "中央汇金投资有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601949.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "中国出版集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601952.SH": {
+   "etf_n": 2,
+   "inst_n": 4,
+   "inst_pct": 3.42,
+   "holder_top": "江苏省农垦集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601958.SH": {
+   "etf_n": 4,
+   "inst_n": 2,
+   "inst_pct": 1.15,
+   "holder_top": "金堆城钼业集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601963.SH": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 0.0,
+   "holder_top": "香港中央结算(代理人)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601965.SH": {
+   "etf_n": 0,
+   "inst_n": 6,
+   "inst_pct": 3.43,
+   "holder_top": "中国检验认证(集团)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601968.SH": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 5.0,
+   "holder_top": "宝钢金属有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601985.SH": {
+   "etf_n": 1,
+   "inst_n": 4,
+   "inst_pct": 7.03,
+   "holder_top": "国新产业资本管理有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601988.SH": {
+   "etf_n": 0,
+   "inst_n": 7,
+   "inst_pct": 94.92,
+   "holder_top": "中央汇金投资有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601990.SH": {
+   "etf_n": 1,
+   "inst_n": 0,
+   "inst_pct": 1.73,
+   "holder_top": "南京紫金投资集团有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601992.SH": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 0.52,
+   "holder_top": "北京国有资本运营管理有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601995.SH": {
+   "etf_n": 2,
+   "inst_n": 4,
+   "inst_pct": 69.32,
+   "holder_top": "中央汇金投资有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601997.SH": {
+   "etf_n": 1,
+   "inst_n": 1,
+   "inst_pct": 13.59,
+   "holder_top": "贵阳市国有资产投资管理公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601998.SH": {
+   "etf_n": 1,
+   "inst_n": 4,
+   "inst_pct": 5.84,
+   "holder_top": "中国中信金融控股有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "601999.SH": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 0.2,
+   "holder_top": "辽宁出版集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603000.SH": {
+   "etf_n": 1,
+   "inst_n": 1,
+   "inst_pct": 0.97,
+   "holder_top": "人民日报社",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603013.SH": {
+   "etf_n": 1,
+   "inst_n": 2,
+   "inst_pct": 0.89,
+   "holder_top": "国投高科技投资有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603025.SH": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 0.2,
+   "holder_top": "北京一轻控股有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603043.SH": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 0.67,
+   "holder_top": "广州市城市建设投资集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603078.SH": {
+   "etf_n": 2,
+   "inst_n": 0,
+   "inst_pct": 2.27,
+   "holder_top": "上海福迅科技有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603100.SH": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 1.45,
+   "holder_top": "中国机械工业仪器仪表集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603128.SH": {
+   "etf_n": 4,
+   "inst_n": 2,
+   "inst_pct": 4.38,
+   "holder_top": "中国物流集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603156.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "姚奎章",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603179.SH": {
+   "etf_n": 0,
+   "inst_n": 6,
+   "inst_pct": 7.62,
+   "holder_top": "江苏新泉志和投资有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603195.SH": {
+   "etf_n": 1,
+   "inst_n": 4,
+   "inst_pct": 2.2,
+   "holder_top": "宁波良机实业有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603198.SH": {
+   "etf_n": 1,
+   "inst_n": 7,
+   "inst_pct": 11.07,
+   "holder_top": "安徽迎驾集团股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603227.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "广东宏大控股集团股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603228.SH": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 0.46,
+   "holder_top": "深圳市景鸿永泰投资控股有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603233.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "柯云峰",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603236.SH": {
+   "etf_n": 2,
+   "inst_n": 2,
+   "inst_pct": 7.16,
+   "holder_top": "钱鹏鹤",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603298.SH": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 1.98,
+   "holder_top": "浙江杭叉控股股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603299.SH": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 7.77,
+   "holder_top": "江苏省盐业集团有限责任公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603308.SH": {
+   "etf_n": 0,
+   "inst_n": 6,
+   "inst_pct": 33.25,
+   "holder_top": "霍山应流投资管理有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603345.SH": {
+   "etf_n": 0,
+   "inst_n": 5,
+   "inst_pct": 6.81,
+   "holder_top": "福建国力民生科技发展有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603369.SH": {
+   "etf_n": 1,
+   "inst_n": 1,
+   "inst_pct": 6.87,
+   "holder_top": "今世缘集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603501.SH": {
+   "etf_n": 1,
+   "inst_n": 4,
+   "inst_pct": 13.84,
+   "holder_top": "虞仁荣",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603596.SH": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 6.35,
+   "holder_top": "YUAN,YONGBIN",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603606.SH": {
+   "etf_n": 1,
+   "inst_n": 2,
+   "inst_pct": 2.32,
+   "holder_top": "宁波东方集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603648.SH": {
+   "etf_n": 1,
+   "inst_n": 0,
+   "inst_pct": 0.5,
+   "holder_top": "上海浦东资本投资运营有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603658.SH": {
+   "etf_n": 2,
+   "inst_n": 5,
+   "inst_pct": 4.85,
+   "holder_top": "郑州安图实业集团股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603677.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "宁波工业投资集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603689.SH": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 2.6,
+   "holder_top": "安徽省能源集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603693.SH": {
+   "etf_n": 1,
+   "inst_n": 0,
+   "inst_pct": 0.2,
+   "holder_top": "江苏省国信集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603697.SH": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 0.9,
+   "holder_top": "鹿有忠",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603698.SH": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 9.31,
+   "holder_top": "中国运载火箭技术研究院",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603806.SH": {
+   "etf_n": 0,
+   "inst_n": 7,
+   "inst_pct": 2.41,
+   "holder_top": "杭州福斯特科技集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603816.SH": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 37.79,
+   "holder_top": "宁波盈峰睿和投资管理有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603817.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "福州水务集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603860.SH": {
+   "etf_n": 0,
+   "inst_n": 5,
+   "inst_pct": 3.05,
+   "holder_top": "中路高科交通科技集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603881.SH": {
+   "etf_n": 4,
+   "inst_n": 0,
+   "inst_pct": 0.88,
+   "holder_top": "上海市北高新(集团)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603888.SH": {
+   "etf_n": 1,
+   "inst_n": 0,
+   "inst_pct": 0.27,
+   "holder_top": "新华社投资控股有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603899.SH": {
+   "etf_n": 0,
+   "inst_n": 5,
+   "inst_pct": 7.41,
+   "holder_top": "晨光控股(集团)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603920.SH": {
+   "etf_n": 0,
+   "inst_n": 5,
+   "inst_pct": 4.66,
+   "holder_top": "广东顺德控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603939.SH": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 1.43,
+   "holder_top": "宁波梅山保税港区厚信创业投资合伙企业(有限合伙)",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603970.SH": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 1.64,
+   "holder_top": "中国农业生产资料集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603977.SH": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 0.31,
+   "holder_top": "江西省军工控股集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "603999.SH": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 0.98,
+   "holder_top": "读者出版集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "605011.SH": {
+   "etf_n": 0,
+   "inst_n": 0,
+   "inst_pct": 0,
+   "holder_top": "杭州市能源集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "688009.SH": {
+   "etf_n": 2,
+   "inst_n": 0,
+   "inst_pct": 1.47,
+   "holder_top": "中国铁路通信信号集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "688019.SH": {
+   "etf_n": 6,
+   "inst_n": 1,
+   "inst_pct": 12.96,
+   "holder_top": "Anji Microelectronics Co. Ltd.",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "688036.SH": {
+   "etf_n": 3,
+   "inst_n": 3,
+   "inst_pct": 11.6,
+   "holder_top": "深圳市传音投资有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "688111.SH": {
+   "etf_n": 3,
+   "inst_n": 2,
+   "inst_pct": 4.08,
+   "holder_top": "Kingsoft WPS Corporation Limited",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "688122.SH": {
+   "etf_n": 3,
+   "inst_n": 2,
+   "inst_pct": 6.48,
+   "holder_top": "西北有色金属研究院",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "688139.SH": {
+   "etf_n": 0,
+   "inst_n": 4,
+   "inst_pct": 17.69,
+   "holder_top": "青岛海尔生物医疗控股有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "688188.SH": {
+   "etf_n": 1,
+   "inst_n": 1,
+   "inst_pct": 2.69,
+   "holder_top": "唐晔",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "688200.SH": {
+   "etf_n": 3,
+   "inst_n": 1,
+   "inst_pct": 7.66,
+   "holder_top": "天津芯华投资控股有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "688300.SH": {
+   "etf_n": 0,
+   "inst_n": 2,
+   "inst_pct": 1.34,
+   "holder_top": "广东生益科技股份有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "688396.SH": {
+   "etf_n": 4,
+   "inst_n": 1,
+   "inst_pct": 3.55,
+   "holder_top": "华润集团(微电子)有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "688456.SH": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 4.58,
+   "holder_top": "中国有研科技集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "688569.SH": {
+   "etf_n": 0,
+   "inst_n": 3,
+   "inst_pct": 30.65,
+   "holder_top": "中国铁道科学研究院集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  },
+  "688571.SH": {
+   "etf_n": 0,
+   "inst_n": 1,
+   "inst_pct": 1.35,
+   "holder_top": "杭州市实业投资集团有限公司",
+   "end_date": "20260930",
+   "no_data": false
+  }
+ }
+}
